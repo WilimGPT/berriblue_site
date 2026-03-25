@@ -1,0 +1,214 @@
+---
+layout: layouts/base.njk
+title: BerriBlue | Fine Art
+---
+
+{% from "components/sections.njk" import twoColSection %}
+{% from "components/carousel.njk" import carousel, slide %}
+
+
+
+{% call carousel(6000, 600) %}
+
+  {% call slide(
+    bgImage="https://res.cloudinary.com/dn56nm273/image/upload/c_crop,h_1100,g_center/v1767104681/map.jpg"
+  ) %}
+    <div class="overlay-card" style="--overlay-padding: 1.5rem 4rem;">
+      <h2 class="overlay-card__title">Street Art Map</h2>
+      <center><a href="/map/" class="button-outline">See more</a></center>
+    </div>
+  {% endcall %}
+
+
+  {% call slide(bgColor="#f6f6f6") %}
+    <div class="triptych">
+      <div class="triptych__image">
+        <img
+          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767105828/main.jpg"
+          alt="Awake – artwork"
+        >
+      </div>
+
+      <div class="triptych__center">
+        <div class="overlay-card" style="--overlay-padding: 2rem 3rem;"><center>
+          <h2 class="overlay-card__title">“Awake”</h2>
+
+          <p class="overlay-card__text">
+            Limited edition of 15<br>
+            digital prints
+          </p>
+
+          <p class="overlay-card__text">
+            Free shipping within EU</center>
+          </p>
+
+          <a class="button-outline">LINK NEEDED</a>
+        </div>
+      </div>
+
+      <div class="triptych__image triptych__image--right">
+        <img
+          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767105828/main.jpg"
+          alt="Awake – artwork"
+        >
+      </div>
+    </div>
+  {% endcall %}
+
+
+  {% call slide(bgColor="#f6f6f6") %}
+    <div class="carousel-two-col">
+
+      <div class="carousel-two-col__image">
+        <img
+          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767785101/sur-les-murs_berriblue.png"
+          alt="Sur Les Murs – BerriBlue"
+        >
+      </div>
+
+      <div class="carousel-two-col__content">
+       <center>
+        <img
+          class="carousel-two-col__logo"
+          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767785846/sur-les-murs_logo2.png"
+          alt="Sur Les Murs logo"
+        >
+        <br>
+
+        <p class="carousel-two-col__text"> 
+          Season 3 - Porto 1.<br>
+          BerriBlue &amp; Hazul 
+        </p>
+        <br>
+
+        <a
+          href="https://www.tv5mondeplus.com/en/documentaires/culture/sur-les-murs-s-3-e19/play"
+          target="_blank"
+          rel="noopener"
+          class="button-outline"
+        >
+          Watch the full <br>episode here.
+        </a>
+       </center>
+      </div>
+
+    </div>
+  {% endcall %}
+
+
+
+{% endcall %}
+
+
+
+
+
+{# Section 2 – Work slideshow #}
+<section class="section section--white">
+  <div class="section-inner">
+
+    <h2 class="work-heading">Work</h2>
+
+    <div class="work-slideshow" data-autoplay="3500" data-speed="500">
+      <div class="work-slideshow__track">
+        {% for key in home_work_slideshow %}
+          {% if artworks[key] %}
+            <div class="work-slideshow__item">
+              <img src="{{ artworks[key].Media.main }}" alt="{{ artworks[key].Title }}" draggable="false">
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <button class="work-slideshow__arrow work-slideshow__arrow--left" aria-label="Previous">&#8592;</button>
+      <button class="work-slideshow__arrow work-slideshow__arrow--right" aria-label="Next">&#8594;</button>
+    </div>
+
+    <div class="section-cta">
+      <a href="/work/" class="button-outline">See More</a>
+    </div>
+
+  </div>
+</section>
+
+
+{# Section 3 – Grey #}
+<section class="section section--gray">
+  <div class="section-inner">
+
+    {% call twoColSection(
+      bg="transparent",
+      ratio="image-narrow",
+      image="https://res.cloudinary.com/dn56nm273/image/upload/v1766397035/soft-tissue-detail-1.jpg",
+      imageAlt="BerriBlue exhibition artwork detail",
+      imageSide="left",
+      imageStyle="shadow"
+    ) %}
+      <h2 class="section-heading">Exhibitions</h2>
+
+      <ul class="exhibition-list">
+        <li><strong>2025</strong> <em>Jedna Trzecia</em>, MCK, Bydgoszcz</li>
+        <li><strong>2024</strong> <em>Canvas</em> (group show), Vietri sul Mare, Amalfi</li>
+        <li><strong>2024</strong> <em>Culminations</em>, 2regards Atelier, Porto</li>
+        <li><strong>2023</strong> <em>XIV Florence Biennale</em>, Fortezza da Basso, Florence</li>
+        <li><strong>2022</strong> <em>Se As Paredes Falassem</em> (group show), Ap'arte, Porto</li>
+        <li><strong>2021</strong> <em>Sztuka Ulicy</em>, DESA unicum, Warsaw</li>
+        <li><strong>2020</strong> <em>Miłość w Czasach Zarazy</em>, Urtiga, Porto</li>
+        <li><strong>2019</strong> <em>The Horse &amp; The Fish</em>, theLAB, Porto</li>
+      </ul>
+    {% endcall %}
+
+    <div class="section-cta">
+      <a href="/exhibitions/" class="button-outline">Learn More</a>
+    </div>
+
+  </div>
+</section>
+
+
+{# Section 4 – White #}
+<section class="section section--white">
+  <div class="section-inner">
+
+    {% call twoColSection(
+      bg="transparent",
+      ratio="equal",
+      image="https://res.cloudinary.com/dn56nm273/image/upload/v1766397237/BerriBlue-in-studio.jpg",
+      imageAlt="BerriBlue - artist in studio",
+      imageSide="right",
+      imageStyle="shadow"
+    ) %}
+      <h2 class="section-heading">About BerriBlue</h2>
+
+      <p>Berriblue is a Polish / Irish artist & designer based in Porto, Portugal.</p>
+      <p>Her work explores mental health, sexuality, mortality, and cultural identity.</p>
+      <p>Her pieces are held in private collections internationally and her street-art pieces can be found in cities across Europe, including Paris, London, Lisbon, Warsaw, and Athens.</p>
+    <br><br>
+    <div class="section-cta">
+      <a href="/about/" class="button-outline">Learn More</a>
+    </div>
+    {% endcall %}
+
+  </div>
+</section>
+
+{# Section 5 – Grey #}
+<section class="section section--gray">
+  <div class="section-inner">
+
+    {% call twoColSection(
+      bg="transparent",
+      image="https://res.cloudinary.com/dn56nm273/image/upload/v1766397303/Muszka-with-scarf.jpg",
+      imageAlt="BerriBlue exhibition artwork detail",
+      imageSide="left",
+      imageStyle="shadow"
+    ) %}
+      <h2 class="section-heading">Scarves</h2>
+
+      <p>Berriblue's silk scarves feature unique imagery based on her work. The designs are laid out to show off different aspects of the illustration depending on how they are folded.</p>
+      <p>Each scarf is printed on pure silk, with hand rolled hems, and comes in a simple gift box.</p>
+    <br><br>
+    <div class="section-cta">
+      <a href="/scarves/" class="button-outline">Learn More</a>
+    </div>
+    {% endcall %}
+

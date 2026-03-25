@@ -1,0 +1,65 @@
+---
+layout: layouts/base.njk
+title: About BerriBlue
+---
+
+{% from "components/sections.njk" import twoColSection %}
+
+{% call twoColSection(
+  bg="white",
+  stack="text-first",
+  image="https://res.cloudinary.com/dn56nm273/image/upload/q_auto,f_auto,w_900/berriblue/misc/profiles/About-Image.jpg",
+  imageAlt="BerriBlue street art portrait"
+) %}
+  <h1 class="section-title">About BerriBlue</h1>
+
+  <p>BerriBlue is a Polish / Irish painter and street artist.</p>
+
+  <p>
+    After moving to Portugal in 2015, BerriBlue started working
+    prolifically. Her large pasteups, painted on brown paper and
+    newsprint, became a common sight in Porto and Lisboa.
+  </p>
+
+  <p>
+    In 2019, BerriBlue began working in azulejos, and quickly
+    developed a love for painting in glazes. As a newcomer to
+    Portuguese culture, she was able to interpret the traditional
+    medium and approach it from her own unique angle.
+  </p>
+
+  <p>
+    Her work is now held in private collections internationally and
+    her azulejo street-art pieces can be found in many major European
+    cities, including Porto, Paris, London, Lisbon, Warsaw, and Athens.
+  </p>
+{% endcall %}
+
+{% call twoColSection(
+  bg="gray",
+  imageSide="right",
+  image="https://res.cloudinary.com/dn56nm273/image/upload/q_auto,f_auto,w_900/berriblue/artworks/studio/embrace/main.jpg",
+  imageAlt="Embrace - BerriBlue Azulejo Artwork"
+) %}
+  <p>
+    Berriblue's work is very personal, with imagery surrounding
+    mental health, personal identity, sexuality, and mortality.
+  </p>
+
+  <p>
+    She works with raw, unfinished materials such as plywood,
+    newsprint, packing paper, and bare ceramic, allowing the
+    sensuality of the material to shine through.
+  </p>
+
+  <p>
+    Though often quizzed on the meaning or inspiration behind
+    specific imagery in her street art, she prefers to leave it
+    open to the interpretation of the viewer.
+  </p>
+
+  <p class="section-quote">
+    “Once I’ve put it out there, it no longer belongs to me.
+    Whatever it means to you is correct.”
+  </p>
+{% endcall %}

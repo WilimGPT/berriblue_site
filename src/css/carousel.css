@@ -1,0 +1,170 @@
+/* --- CAROUSEL WRAPPER --- */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 550px; /* adjust as needed */
+}
+
+/* --- SLIDE TRACK --- */
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease;
+  height: 100%;
+}
+
+/* --- SINGLE SLIDE --- */
+.carousel-slide {
+  flex: 0 0 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff; /* default */
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* --- CONTENT OVERLAY --- */
+.carousel-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* --- ARROWS --- */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 45;
+  color: #000;
+  opacity: 0.8;
+}
+
+.carousel-arrow--left {
+  left: 15px;
+}
+
+.carousel-arrow--right {
+  right: 15px;
+}
+
+/* --- DOTS --- */
+.carousel-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  z-index: 50;
+  pointer-events: auto;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.carousel-dot.active {
+  background: #000;
+  opacity: 1;
+}
+
+
+/* MOBILE VIEW */
+
+@media (max-width: 768px) {
+  .carousel-arrow {
+    display: none;
+  }
+}
+
+
+/* --- TWO COLUMN CAROUSEL CARD --- */
+
+.carousel-two-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* LEFT IMAGE */
+.carousel-two-col__image {
+  flex: 1;
+}
+
+.carousel-two-col__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* RIGHT CONTENT */
+.carousel-two-col__content {
+  flex: 0 0 240px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.75rem;
+}
+
+.carousel-two-col__logo {
+  max-width: 100%;
+}
+
+.carousel-two-col__text {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .carousel-two-col {
+    justify-content: center;
+  }
+
+  .carousel-two-col__image {
+    display: none;
+  }
+
+  .carousel-two-col__content {
+    flex: 1 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .carousel-two-col__logo {
+    max-width: 220px;
+  }
+}
+

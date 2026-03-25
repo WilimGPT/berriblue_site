@@ -1,0 +1,30 @@
+{% macro carousel(autoplay=6000, duration=600) %}
+<div class="carousel"
+     data-autoplay="{{ autoplay }}"
+     data-speed="{{ duration }}">
+
+  <div class="carousel-track">
+    {{ caller() }}
+  </div>
+
+  <button class="carousel-arrow carousel-arrow--left">&#8592;</button>
+  <button class="carousel-arrow carousel-arrow--right">&#8594;</button>
+
+  <div class="carousel-dots"></div>
+</div>
+{% endmacro %}
+
+
+{% macro slide(bgImage="", bgColor="") %}
+<div class="carousel-slide"
+     style="
+       {% if bgImage %}background-image:url('{{ bgImage }}');{% endif %}
+       {% if bgColor %}background-color:{{ bgColor }};{% endif %}
+     ">
+  <div class="carousel-content">
+    <div class="carousel-inner">
+      {{ caller() }}
+    </div>
+  </div>
+</div>
+{% endmacro %}

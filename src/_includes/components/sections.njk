@@ -1,0 +1,36 @@
+{% macro twoColSection(
+  bg = "white",
+  stack = "",
+  image = "",
+  imageAlt = "",
+  imageSide = "left",
+  ratio = "equal",
+  imageStyle = ""
+) %}
+
+<section class="section section--{{ bg }}{% if stack %} section--stack-{{ stack }}{% endif %}">
+  <div class="section-inner">
+    <div class="two-col two-col--{{ ratio }}">
+
+      {% if image and imageSide == "left" %}
+      <div class="col section-image{% if imageStyle %} section-image--{{ imageStyle }}{% endif %}">
+        <img src="{{ image }}" alt="{{ imageAlt }}">
+      </div>
+      {% endif %}
+
+      <div class="col section-text">
+        {{ caller() }}
+      </div>
+
+      {% if image and imageSide == "right" %}
+      <div class="col section-image{% if imageStyle %} section-image--{{ imageStyle }}{% endif %}">
+
+        <img src="{{ image }}" alt="{{ imageAlt }}">
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+
+{% endmacro %}
