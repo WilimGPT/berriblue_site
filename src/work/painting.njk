@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: Work – Painting | BerriBlue
+---
+
+{% from "components/work-nav.njk" import workNav %}
+
+<div class="section section--white">
+  <div class="section-inner">
+    {{ workNav("painting") }}
+
+    <div class="work-gallery">
+      {% for col in ["column1", "column2", "column3"] %}
+        <div class="work-gallery__col">
+          {% for key in work_gallery_painting[col] %}
+            {% if artworks[key] %}
+              <div class="work-gallery__item">
+                <a href="/work/{{ key }}/">
+                  <img src="{{ artworks[key].Media.main | replace('/upload/', '/upload/w_800,q_auto,f_auto/') }}" alt="{{ artworks[key].Title }}" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}" fetchpriority="{{ 'high' if loop.index <= 2 else 'auto' }}" decoding="async">
+                </a>
+                {% if artworks[key].Sold == "TRUE" %}<div class="work-gallery__sold-dot"></div>{% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+{% macro workNav(current) %}
+<div class="work-subnav-wrapper">
+  <nav class="work-subnav">
+    <ul>
+      <li>
+        {% if current == "azulejos" %}
+          <span class="work-subnav__active">Azulejos</span>
+        {% else %}
+          <a href="/work/">Azulejos</a>
+        {% endif %}
+      </li>
+      <li>
+        {% if current == "street-art" %}
+          <span class="work-subnav__active">Street Art</span>
+        {% else %}
+          <a href="/work/street-art/">Street Art</a>
+        {% endif %}
+      </li>
+      <li>
+        {% if current == "painting" %}
+          <span class="work-subnav__active">Painting</span>
+        {% else %}
+          <a href="/work/painting/">Painting</a>
+        {% endif %}
+      </li>
+      <li>
+        {% if current == "for-sale" %}
+          <span class="work-subnav__active">For Sale</span>
+        {% else %}
+          <a href="/for-sale/">For Sale</a>
+        {% endif %}
+      </li>
+    </ul>
+  </nav>
+  {% if current == "street-art" %}
+    <p class="work-commission">You can find locations of BerriBlue street art pieces on <a href="/map/">this map</a>.</p>
+  {% endif %}
+  <p class="work-commission">
+    For enquiries about commissions, please <a href="mailto:info@berriblue.com">contact me</a> – info@berriblue.com
+  </p>
+</div>
+{% endmacro %}

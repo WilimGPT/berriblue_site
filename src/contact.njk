@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+title: Contact | BerriBlue
+---
+
+<div class="section section--white">
+<div class="section-inner">
+<div class="contact-hero" id="contact-hero">
+
+  <div class="contact-hero__bg-image"></div>
+
+  <video class="contact-hero__bg-video" id="contact-video" loop muted playsinline controlsList="nodownload">
+    <source src="https://res.cloudinary.com/dn56nm273/video/upload/v1774594711/mix_paint.mp4" type="video/mp4">
+  </video>
+
+  <div class="contact-hero__card">
+
+    <div class="contact-card__info">
+      <h1 class="contact-card__heading">Contact BerriBlue</h1>
+      <p class="contact-card__message">
+        You can contact BerriBlue<br>
+        through instagram,<br>
+        or info@berriblue.com
+      </p>
+    </div>
+
+    <div class="contact-card__form">
+      <h1 class="contact-card__heading">Contact BerriBlue</h1>
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="contact-honeypot"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+        <div class="contact-field">
+          <input type="text" name="name" placeholder="Name *" required>
+        </div>
+        <div class="contact-field">
+          <input type="email" name="email" placeholder="Email *" required>
+        </div>
+        <div class="contact-field">
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+        <div class="contact-field">
+          <textarea name="message" placeholder="Message" rows="4"></textarea>
+        </div>
+        <div class="contact-field contact-field--submit">
+          <button type="submit" class="contact-send-btn">Send</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="contact-hero__aside">
+    <p class="contact-aside__email">info@berriblue.com</p>
+    <a href="https://www.instagram.com/berri.blue/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="contact-aside__icon">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+
+</div>
+</div>
+</div>
+
+<script>
+  const hero = document.getElementById('contact-hero');
+  const video = document.getElementById('contact-video');
+
+  hero.addEventListener('mouseenter', () => {
+    hero.classList.add('is-hovered');
+    video.play();
+  });
+
+  hero.addEventListener('mouseleave', () => {
+    hero.classList.remove('is-hovered');
+    video.pause();
+    video.currentTime = 0;
+  });
+</script>

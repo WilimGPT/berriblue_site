@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+title: Scarves | BerriBlue
+---
+
+<div class="section section--white">
+  <div class="section-inner">
+
+    <div class="scarves-toolbar">
+      <a href="/scarves/" class="scarves-close" id="scarves-close" aria-label="Back to Scarves">&times;</a>
+    </div>
+
+    <div class="scarves-intro">
+      <p>Berriblue's silk scarves feature unique imagery based on her work. The designs are laid out to show off different aspects of the illustration depending on how they are folded.</p>
+      <p>Each scarf is printed on pure silk, with hand rolled hems, and comes in a simple gift box.</p>
+    </div>
+    <br>
+
+    <div class="scarves-store">
+      <div id="my-store-9877387"></div>
+      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?9877387&data_platform=code&data_date=2025-12-30" charset="utf-8"></script>
+      <script type="text/javascript">
+        xProductBrowser(
+          "id=my-store-9877387",
+          "views=grid(20,3) list(60) table(60)",
+          "categoryView=grid",
+          "productListColumns=3",
+          "defaultCategoryId=20430544"
+        );
+
+        function updateCloseButton() {
+          var btn = document.getElementById('scarves-close');
+          if (btn) {
+            btn.style.display = window.location.hash ? 'inline-block' : 'none';
+          }
+        }
+
+        updateCloseButton();
+        window.addEventListener('hashchange', updateCloseButton);
+      </script>
+    </div>
+  </div>
+</div>

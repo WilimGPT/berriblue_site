@@ -1,0 +1,194 @@
+---
+layout: layouts/base.njk
+title: Work | BerriBlue
+pagination:
+  data: artworks
+  size: 1
+  resolve: keys
+  alias: key
+permalink: "/work/{{ key }}/"
+---
+
+{% set artwork = artworks[key] %}
+{% set backUrl = "/work/" %}
+{% if artwork.Category == "Street" %}{% set backUrl = "/work/street-art/" %}{% endif %}
+{% if artwork["Sub Category"] == "Painting" %}{% set backUrl = "/work/painting/" %}{% endif %}
+
+<div class="section section--white">
+  <div class="section-inner">
+    <div class="artwork-detail">
+
+      <div class="artwork-detail__header">
+        <h1 class="artwork-detail__title">{{ artwork["Display Name"] }}</h1>
+        <a href="{{ backUrl }}" class="artwork-detail__close" aria-label="Back to gallery">&#10005;</a>
+      </div>
+
+      <div class="artwork-slideshow">
+        <div class="artwork-slideshow__container">
+          <div class="artwork-slideshow__track" id="slide-track"></div>
+          <button class="artwork-slideshow__btn artwork-slideshow__btn--prev" id="slide-prev" aria-label="Previous">&#8249;</button>
+          <button class="artwork-slideshow__btn artwork-slideshow__btn--next" id="slide-next" aria-label="Next">&#8250;</button>
+        </div>
+      </div>
+
+      <div class="artwork-detail__meta">
+        <span class="artwork-detail__meta-left">{{ artwork.Year }}&nbsp;&nbsp;{{ artwork.Medium }}</span>
+        {% if artwork.Category == "Street" %}
+          <span class="artwork-detail__meta-right">{{ artwork.Street }}{% if artwork.City %}, {{ artwork.City }}{% endif %}</span>
+        {% elif artwork.Size %}
+          <span class="artwork-detail__meta-right">{{ artwork.Size }}</span>
+        {% endif %}
+      </div>
+
+      {% if artwork.Description %}
+        <div class="artwork-detail__description">
+          <p>{{ artwork.Description }}</p>
+        </div>
+      {% endif %}
+
+      {% if artwork.Sold == "TRUE" %}
+        <div class="artwork-detail__purchase">
+          <span class="artwork-detail__sold">(sold)</span>
+        </div>
+      {% elif artwork["For Sale"] == "TRUE" %}
+        <div class="artwork-detail__purchase">
+          {% if artwork.Price %}<span class="artwork-detail__price">€{{ artwork.Price }}</span>{% endif %}
+          <a href="{{ artwork['Buy link'] if artwork['Buy link'] else 'mailto:info@berriblue.com?subject=Enquiry%20about%20artwork%20-%20' + artwork['Display Name'] | urlencode }}" class="artwork-detail__buy-btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+        </div>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="artwork-modal" id="artwork-modal" hidden>
+  <div class="artwork-modal__overlay" id="modal-overlay"></div>
+  <button class="artwork-modal__close" id="modal-close" aria-label="Close">&#10005;</button>
+  <button class="artwork-modal__btn artwork-modal__btn--prev" id="modal-prev" aria-label="Previous">&#8249;</button>
+  <div class="artwork-modal__stage" id="modal-stage"></div>
+  <button class="artwork-modal__btn artwork-modal__btn--next" id="modal-next" aria-label="Next">&#8250;</button>
+  <div class="artwork-modal__counter" id="modal-counter"></div>
+</div>
+
+<script>
+  const mainImage = {{ artwork.Media.main | dump | safe }};
+  const galleryImages = {{ artwork.Media.gallery | dump | safe }};
+  const videos = {{ artwork.Media.videos | dump | safe }};
+  const media = [mainImage, ...galleryImages, ...(videos || [])].filter(Boolean);
+
+  let modalIndex = 0;
+
+  function isVideo(url) {
+    return /\.(mp4|webm|ogg)$/i.test(url) || url.includes('/video/upload/');
+  }
+
+  function makeModalMedia(url) {
+    if (isVideo(url)) {
+      const v = document.createElement('video');
+      v.src = url;
+      v.controls = true;
+      v.setAttribute('playsinline', '');
+      v.setAttribute('controlsList', 'nodownload');
+      return v;
+    } else {
+      const img = document.createElement('img');
+      img.src = url;
+      img.alt = '';
+      return img;
+    }
+  }
+
+  // — Slideshow strip —
+
+  const track = document.getElementById('slide-track');
+  const slidePrev = document.getElementById('slide-prev');
+  const slideNext = document.getElementById('slide-next');
+
+  media.forEach((url, i) => {
+    let el;
+    if (isVideo(url)) {
+      el = document.createElement('video');
+      el.src = url;
+      el.controls = true;
+      el.setAttribute('playsinline', '');
+      el.setAttribute('controlsList', 'nodownload');
+      el.className = 'artwork-slideshow__item';
+    } else {
+      el = document.createElement('img');
+      el.src = url;
+      el.alt = '';
+      el.className = 'artwork-slideshow__item';
+      el.addEventListener('click', () => openModal(i));
+    }
+    track.appendChild(el);
+  });
+
+  slidePrev.addEventListener('click', () => {
+    track.scrollBy({ left: -track.clientWidth * 0.8, behavior: 'smooth' });
+  });
+
+  slideNext.addEventListener('click', () => {
+    track.scrollBy({ left: track.clientWidth * 0.8, behavior: 'smooth' });
+  });
+
+  if (media.length <= 1) {
+    slidePrev.hidden = true;
+    slideNext.hidden = true;
+  }
+
+  // — Modal —
+
+  const modal = document.getElementById('artwork-modal');
+  const modalStage = document.getElementById('modal-stage');
+  const modalCounter = document.getElementById('modal-counter');
+  const modalPrev = document.getElementById('modal-prev');
+  const modalNext = document.getElementById('modal-next');
+  const modalClose = document.getElementById('modal-close');
+  const modalOverlay = document.getElementById('modal-overlay');
+
+  function renderModal() {
+    modalStage.innerHTML = '';
+    const el = makeModalMedia(media[modalIndex]);
+    modalStage.appendChild(el);
+    modalCounter.textContent = media.length > 1 ? (modalIndex + 1) + ' / ' + media.length : '';
+  }
+
+  function openModal(index) {
+    modalIndex = index;
+    renderModal();
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    modal.hidden = true;
+    modalStage.innerHTML = '';
+    document.body.style.overflow = '';
+  }
+
+  modalPrev.addEventListener('click', () => {
+    modalIndex = (modalIndex - 1 + media.length) % media.length;
+    renderModal();
+  });
+
+  modalNext.addEventListener('click', () => {
+    modalIndex = (modalIndex + 1) % media.length;
+    renderModal();
+  });
+
+  modalClose.addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', closeModal);
+
+  if (media.length <= 1) {
+    modalPrev.hidden = true;
+    modalNext.hidden = true;
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (modal.hidden) return;
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowLeft') { modalIndex = (modalIndex - 1 + media.length) % media.length; renderModal(); }
+    if (e.key === 'ArrowRight') { modalIndex = (modalIndex + 1) % media.length; renderModal(); }
+  });
+</script>

@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+title: Press | BerriBlue
+---
+
+<div class="section section--white">
+  <div class="section-inner">
+
+    <p class="press-enquiries">Press Enquiries or Interviews<br>please contact <a href="mailto:info@berriblue.com">info@berriblue.com</a></p>
+
+    <div class="press-grid">
+      {% for item in press_list %}
+        <div class="press-card">
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank" rel="noopener" class="press-card__image-link">
+              <img src="{{ item.image }}" alt="{{ item.title }}" class="press-card__image">
+            </a>
+          {% else %}
+            <div class="press-card__image-link press-card__image-link--no-link">
+              <img src="{{ item.image }}" alt="{{ item.title }}" class="press-card__image">
+            </div>
+          {% endif %}
+
+          <div class="press-card__body">
+            {% if item.link %}
+              <a href="{{ item.link }}" target="_blank" rel="noopener" class="press-card__title">{{ item.title }}</a>
+            {% else %}
+              <span class="press-card__title press-card__title--no-link">{{ item.title }}</span>
+            {% endif %}
+            <p class="press-card__date">{{ item.date }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

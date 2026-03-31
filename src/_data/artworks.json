@@ -427,6 +427,7 @@
     "Private Notes": "This piece was originally exhibited in Porto, in the 2018 exhibition \"Tension\". It is now in a private collection.\n\nThe piece explores mortality, and the sharp divide that people seem to see between the living and the dead. Here they are shown as one continuous stream, no different from one another, except in state. Those who have departed depicted as skulls, and the phallic motif representing the carnality of the living.",
     "Media": {
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402070/berriblue/artworks/studio/2018-My_Relationship_with_Time-Studio-Azulejo-main.jpg",
+
       "gallery": [],
       "videos": []
     }
@@ -2075,7 +2076,7 @@
     "For Sale": "FALSE",
     "Buy link": null,
     "Price": null,
-    "Sold": "FALSE",
+    "Sold": "TRUE",
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
@@ -4051,29 +4052,6 @@
       "videos": []
     }
   },
-  "2023-Słońce-Studio-Azulejo": {
-    "Category": "Studio",
-    "Sub Category": "Azulejo",
-    "Title": "Słońce",
-    "Display Name": "Słońce",
-    "Medium": "Azulejo",
-    "Size": "45 x 30cm",
-    "Street": null,
-    "City": null,
-    "Year": "2023",
-    "Description": null,
-    "For Sale": "FALSE",
-    "Buy link": null,
-    "Price": null,
-    "Sold": "FALSE",
-    "Pricelog-Private": null,
-    "Private Notes": null,
-    "Media": {
-      "main": null,
-      "gallery": [],
-      "videos": []
-    }
-  },
   "2023-Small_Kot_WWA-Street-Azulejo-Warszawa": {
     "Category": "Street",
     "Sub Category": "Azulejo",
@@ -5069,7 +5047,7 @@
     "Pricelog-Private": "900",
     "Private Notes": null,
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768466547/berriblue/artworks/studio/2025-Ska%C5%82a-Studio-Azulejo-main.jpg",
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768466547/berriblue/artworks/studio/2025-Skala-Studio-Azulejo-main.jpg",
       "gallery": [
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768466548/berriblue/artworks/studio/2025-Ska%C5%82a-Studio-Azulejo-detail_1.jpg"
       ],

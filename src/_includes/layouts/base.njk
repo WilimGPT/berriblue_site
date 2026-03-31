@@ -38,6 +38,28 @@
 
 <script src="/js/carousel.js"></script>
 <script src="/js/slideshow.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('img, video').forEach(el => {
+      el.addEventListener('contextmenu', e => e.preventDefault());
+      el.setAttribute('draggable', 'false');
+    });
+
+    // Re-apply to any images injected dynamically (slideshow, modal)
+    const observer = new MutationObserver(mutations => {
+      mutations.forEach(m => m.addedNodes.forEach(node => {
+        if (node.nodeType !== 1) return;
+        const els = node.matches('img, video') ? [node] : [...node.querySelectorAll('img, video')];
+        els.forEach(el => {
+          el.addEventListener('contextmenu', e => e.preventDefault());
+          el.setAttribute('draggable', 'false');
+          if (el.tagName === 'VIDEO') el.setAttribute('controlsList', 'nodownload');
+        });
+      }));
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  });
+</script>
 
     </body>
 
