@@ -8,6 +8,9 @@ title: BerriBlue | Fine Art
 
 
 
+{% set interviewNum = 1 %}
+{% set interview = press_list[interviewNum - 1] %}
+
 {% call carousel(6000, 600) %}
 
   {% call slide(
@@ -16,6 +19,39 @@ title: BerriBlue | Fine Art
     <div class="overlay-card" style="--overlay-padding: 1.5rem 4rem;">
       <h2 class="overlay-card__title">Street Art Map</h2>
       <center><a href="/map/" class="button-outline">See more</a></center>
+    </div>
+  {% endcall %}
+
+
+  {% call slide(bgColor="#f6f6f6") %}
+    <div class="interview-slide">
+
+      <div class="interview-slide__content">
+        <h2 class="interview-slide__pub-title">{{ interview.title }}</h2>
+        <p class="interview-slide__text">{{ interview.text | truncate(160) }}</p>
+
+        <div class="overlay-card interview-slide__card">
+          <p class="interview-slide__card-label">Latest interview</p>
+          {% if interview.link %}
+            <a
+              href="{{ interview.link }}"
+              target="_blank"
+              rel="noopener"
+              class="button-outline"
+            >
+              Read more
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="interview-slide__image">
+        <img
+          src="{{ interview.image }}"
+          alt="{{ interview.title }}"
+        >
+      </div>
+
     </div>
   {% endcall %}
 

@@ -105,6 +105,69 @@
 }
 
 
+/* --- INTERVIEW SLIDE --- */
+
+.interview-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.interview-slide__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.interview-slide__pub-title {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.interview-slide__text {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.interview-slide__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.interview-slide__card-label {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.interview-slide__image {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.interview-slide__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .interview-slide__image {
+    display: none;
+  }
+}
+
+
 /* --- TWO COLUMN CAROUSEL CARD --- */
 
 .carousel-two-col {

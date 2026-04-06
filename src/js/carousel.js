@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
     track.style.transition = `transform ${transitionSpeed}ms ease`;
 
     function goTo(i) {
-      index = Math.max(0, i);
+      index = i;
       track.style.transform = `translateX(-${index * 100}%)`;
-      const dotIndex = index % slides.length;
+      const dotIndex = ((index % slides.length) + slides.length) % slides.length;
       dots.forEach((d, n) => d.classList.toggle("active", n === dotIndex));
     }
 
@@ -60,7 +60,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     prev.addEventListener("click", () => {
       clearInterval(interval);
-      goTo(Math.max(0, index - 1));
+      if (index === 0) {
+        // Jump instantly to clone of last slide (positioned at -1), then snap to real last
+        track.style.transition = "none";
+        track.style.transform = `translateX(${100}%)`;
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+          track.style.transition = `transform ${transitionSpeed}ms ease`;
+          goTo(slides.length - 1);
+        }));
+      } else {
+        goTo(index - 1);
+      }
       autoplay();
     });
 
@@ -100,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const diff = startX - currentX;
       if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) goTo(index + 1);
-        else goTo(Math.max(0, index - 1));
+        else goTo(index - 1 < 0 ? slides.length - 1 : index - 1);
       }
       isDragging = false;
       autoplay();
@@ -129,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const diff = mouseStartX - mouseCurrentX;
       if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) goTo(index + 1);
-        else goTo(Math.max(0, index - 1));
+        else goTo(index - 1 < 0 ? slides.length - 1 : index - 1);
       }
       isMouseDragging = false;
       carousel.classList.remove("is-dragging");
