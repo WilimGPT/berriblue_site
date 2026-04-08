@@ -26,7 +26,7 @@ title: Contact | BerriBlue
 
     <div class="contact-card__form">
       <h1 class="contact-card__heading">Contact BerriBlue</h1>
-      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
         <p class="contact-honeypot"><label>Don't fill this out: <input name="bot-field"></label></p>
 
@@ -46,6 +46,14 @@ title: Contact | BerriBlue
           <button type="submit" class="contact-send-btn">Send</button>
         </div>
       </form>
+    </div>
+
+    <!-- Success modal -->
+    <div id="contactSuccessModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:9999; align-items:center; justify-content:center;">
+      <div style="background:#fff; padding:2.5rem 3rem; border-radius:10px; text-align:center; max-width:400px;">
+        <p style="font-size:1.2rem; margin:0 0 1.5rem;">Thank you for contacting BerriBlue.</p>
+        <button onclick="document.getElementById('contactSuccessModal').style.display='none'" class="contact-send-btn">Close</button>
+      </div>
     </div>
 
   </div>
@@ -74,5 +82,15 @@ title: Contact | BerriBlue
     hero.classList.remove('is-hovered');
     video.pause();
     video.currentTime = 0;
+  });
+
+  document.getElementById('contactForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const form = e.target;
+    const data = new FormData(form);
+    await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(data).toString() });
+    form.reset();
+    const modal = document.getElementById('contactSuccessModal');
+    modal.style.display = 'flex';
   });
 </script>
