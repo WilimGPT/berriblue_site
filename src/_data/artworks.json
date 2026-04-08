@@ -427,7 +427,6 @@
     "Private Notes": "This piece was originally exhibited in Porto, in the 2018 exhibition \"Tension\". It is now in a private collection.\n\nThe piece explores mortality, and the sharp divide that people seem to see between the living and the dead. Here they are shown as one continuous stream, no different from one another, except in state. Those who have departed depicted as skulls, and the phallic motif representing the carnality of the living.",
     "Media": {
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402070/berriblue/artworks/studio/2018-My_Relationship_with_Time-Studio-Azulejo-main.jpg",
-
       "gallery": [],
       "videos": []
     }
@@ -702,8 +701,10 @@
     "Pricelog-Private": "935",
     "Private Notes": "2005 was the year of BerriBlue's emigration from Poland to Ireland. It was a very important year, and a difficult one, marking the end of her childhood. Being uprooted so abruptly, and cutting off the life she had enjoyed had a profound effect on her.\n\nThe piece was featured in Attitude Interior Design Magazine's 2018 Nov/Dec edition. It is now in a private collection in The Netherlands.",
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402140/berriblue/artworks/studio/2018-Two_Thousand_Five-Studio-Azulejo-main.jpg",
-      "gallery": [],
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775650277/berriblue/artworks/studio/2018-Two_Thousand_Five-Studio-Painting-main.png",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1768402140/berriblue/artworks/studio/2018-Two_Thousand_Five-Studio-Azulejo-main.jpg"
+      ],
       "videos": []
     }
   },
@@ -2137,10 +2138,9 @@
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768398134/berriblue/artworks/street/2022-Brick_Lane_1-Street-Azulejo-London-main.jpg",
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768463985/berriblue/artworks/street/2022-Brick_Lane_1-Street-Azulejo-London-detail_2.jpg",
       "gallery": [
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768463982/berriblue/artworks/street/2022-Brick_Lane_1-Street-Azulejo-London-detail_1.jpg",
-        "https://res.cloudinary.com/dn56nm273/image/upload/v1768463985/berriblue/artworks/street/2022-Brick_Lane_1-Street-Azulejo-London-detail_2.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768463987/berriblue/artworks/street/2022-Brick_Lane_1-Street-Azulejo-London-detail_3.jpg"
       ],
       "videos": []
@@ -2164,9 +2164,8 @@
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768398140/berriblue/artworks/street/2022-Brick_Lane_Hand-Street-Azulejo-London-main.jpg",
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768463992/berriblue/artworks/street/2022-Brick_Lane_Hand-Street-Azulejo-London-detail_1.jpg",
       "gallery": [
-        "https://res.cloudinary.com/dn56nm273/image/upload/v1768463992/berriblue/artworks/street/2022-Brick_Lane_Hand-Street-Azulejo-London-detail_1.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768463994/berriblue/artworks/street/2022-Brick_Lane_Hand-Street-Azulejo-London-detail_2.jpg"
       ],
       "videos": []
@@ -2393,7 +2392,6 @@
       ]
     }
   },
-  
   "2022-Fish_III-Studio-Azulejo": {
     "Category": "Studio",
     "Sub Category": "Azulejo",
@@ -2848,8 +2846,6 @@
       "videos": []
     }
   },
-
-
   "2022-Skulls_and_Thistles-Street-Azulejo-Lisboa": {
     "Category": "Street",
     "Sub Category": "Azulejo",
@@ -3427,7 +3423,7 @@
     "For Sale": "TRUE",
     "Buy link": null,
     "Price": "400",
-    "Sold": "FALSE",
+    "Sold": "TRUE",
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
@@ -3715,15 +3711,21 @@
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768400718/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-main.jpg",
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775648232/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-main.jpg",
       "gallery": [
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400719/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775648267/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_6.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775648271/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_9.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400720/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_2.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400722/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_3.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400726/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_4.jpg",
-        "https://res.cloudinary.com/dn56nm273/image/upload/v1768400728/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_5.jpg"
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1768400728/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_5.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775648269/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_8.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775648268/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-detail_7.jpg"
       ],
-      "videos": []
+      "videos": [
+        "https://res.cloudinary.com/dn56nm273/video/upload/v1775648431/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-video_1.mp4"
+      ]
     }
   },
   "2023-Paris_Gone-Street-Azulejo-Paris": {
@@ -3830,14 +3832,17 @@
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768400790/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-main.jpg",
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775644607/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-main.jpg",
       "gallery": [
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400792/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-detail_1.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400798/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-detail_2.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400806/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-detail_3.jpg",
-        "https://res.cloudinary.com/dn56nm273/image/upload/v1768400808/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-detail_4.jpg"
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1768400808/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-detail_4.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775644498/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-detail_5.jpg"
       ],
-      "videos": []
+      "videos": [
+        "https://res.cloudinary.com/dn56nm273/video/upload/v1775644524/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-video_1.mp4"
+      ]
     }
   },
   "2023-Paris_Sword-Street-Azulejo-Paris": {
@@ -3964,9 +3969,9 @@
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
-      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768400833/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-main.jpg",
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768400834/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-detail_1.jpg",
       "gallery": [
-        "https://res.cloudinary.com/dn56nm273/image/upload/v1768400834/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1768400833/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-main.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400836/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-detail_2.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400838/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-detail_3.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400840/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-detail_4.jpg",
@@ -4317,7 +4322,7 @@
     "For Sale": "TRUE",
     "Buy link": null,
     "Price": "2400",
-    "Sold": "FALSE",
+    "Sold": "TRUE",
     "Pricelog-Private": null,
     "Private Notes": "This piece has a sister piece executed on canvas",
     "Media": {
@@ -4863,7 +4868,7 @@
     "For Sale": "TRUE",
     "Buy link": null,
     "Price": "550",
-    "Sold": "FALSE",
+    "Sold": "TRUE",
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
@@ -5123,7 +5128,7 @@
     "For Sale": "FALSE",
     "Buy link": null,
     "Price": null,
-    "Sold": "FALSE",
+    "Sold": "TRUE",
     "Pricelog-Private": null,
     "Private Notes": null,
     "Media": {
@@ -5131,6 +5136,455 @@
       "gallery": [
         "https://res.cloudinary.com/dn56nm273/image/upload/v1773219821/berriblue/artworks/studio/2025-Figure_5-Studio-Azulejo-detail_1.jpg",
         "https://res.cloudinary.com/dn56nm273/image/upload/v1773219822/berriblue/artworks/studio/2025-Figure_5-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Faces-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Faces",
+    "Display Name": "Faces",
+    "Medium": "Azulejo",
+    "Size": "30x15cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "TRUE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775558549/berriblue/artworks/studio/2025-Faces-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775558564/berriblue/artworks/studio/2025-Faces-Studio-Azulejo-detail_1.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Dove-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Dove",
+    "Display Name": "Dove",
+    "Medium": "Azulejo",
+    "Size": "30x15cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "TRUE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775558628/berriblue/artworks/studio/2025-Dove-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775558676/berriblue/artworks/studio/2025-Dove-Studio-Azulejo-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775558688/berriblue/artworks/studio/2025-Dove-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Dog-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Dog",
+    "Display Name": "Dog",
+    "Medium": "Azulejo",
+    "Size": "30x15cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "TRUE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775558805/berriblue/artworks/studio/2025-Dog-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775558891/berriblue/artworks/studio/2025-Dog-Studio-Azulejo-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775558893/berriblue/artworks/studio/2025-Dog-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Figure_1-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Figure 1",
+    "Display Name": "Figure 1",
+    "Medium": "Azulejo",
+    "Size": "30x15cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "TRUE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775560126/berriblue/artworks/studio/2025-Figure_1-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560139/berriblue/artworks/studio/2025-Figure_1-Studio-Azulejo-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560143/berriblue/artworks/studio/2025-Figure_1-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Figure_2-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Figure 2",
+    "Display Name": "Figure 2",
+    "Medium": "Azulejo",
+    "Size": "30x15cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "TRUE",
+    "Buy link": "mailto:info@berriblue.com",
+    "Price": "€300",
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775560209/berriblue/artworks/studio/2025-Figure_2-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560232/berriblue/artworks/studio/2025-Figure_2-Studio-Azulejo-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560233/berriblue/artworks/studio/2025-Figure_2-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Figure_6-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Figure 6",
+    "Display Name": "Figure 6",
+    "Medium": "Azulejo",
+    "Size": "30x15cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "TRUE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775560327/berriblue/artworks/studio/2025-Figure_6-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560343/berriblue/artworks/studio/2025-Figure_6-Studio-Azulejo-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560345/berriblue/artworks/studio/2025-Figure_6-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2024-Bloom-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Bloom",
+    "Display Name": "Bloom",
+    "Medium": "Azulejo",
+    "Size": "45x30cm",
+    "Street": null,
+    "City": null,
+    "Year": "2024",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "TRUE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775560481/berriblue/artworks/studio/2024-Bloom-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560492/berriblue/artworks/studio/2024-Bloom-Studio-Azulejo-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775560493/berriblue/artworks/studio/2024-Bloom-Studio-Azulejo-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Sloncy-Street-Azulejo-Bydgoszcz": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Sloncy",
+    "Display Name": "Słoncy",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "ul Długa",
+    "City": "Bydgoszcz",
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775560647/berriblue/artworks/street/2025-Sloncy-Street-Azulejo-Bydgoszcz-main.jpg",
+      "gallery": [],
+      "videos": []
+    }
+  },
+  "2025-Zaloba-Street-Azulejo-Warszawa": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Zaloba",
+    "Display Name": "Żałoba",
+    "Medium": "Azulejo",
+    "Size": "240x200cm",
+    "Street": "Schodki",
+    "City": "Warszawa",
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775561185/berriblue/artworks/street/2025-Zaloba-Street-Azulejo-Warszawa-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775561198/berriblue/artworks/street/2025-Zaloba-Street-Azulejo-Warszawa-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775561199/berriblue/artworks/street/2025-Zaloba-Street-Azulejo-Warszawa-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2025-Pazdziernik-Street-Azulejo-Warszawa": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Pazdziernik",
+    "Display Name": "Październik",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Dolina Szwajcarska",
+    "City": "Warszawa",
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775561360/berriblue/artworks/street/2025-Pazdziernik-Street-Azulejo-Warszawa-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775561375/berriblue/artworks/street/2025-Pazdziernik-Street-Azulejo-Warszawa-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775561376/berriblue/artworks/street/2025-Pazdziernik-Street-Azulejo-Warszawa-detail_2.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775561379/berriblue/artworks/street/2025-Pazdziernik-Street-Azulejo-Warszawa-detail_3.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2026-Figure_Paris-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Figure Paris",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Rue Sainte-Croix de la Bretonnerie",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775644900/berriblue/artworks/street/2026-Figure_Paris-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775644918/berriblue/artworks/street/2026-Figure_Paris-Street-Azulejo-Paris-detail_1.jpg"
+      ],
+      "videos": [
+        "https://res.cloudinary.com/dn56nm273/video/upload/v1775644969/berriblue/artworks/street/2026-Figure_Paris-Street-Azulejo-Paris-video_1.mp4"
+      ]
+    }
+  },
+  "2026-Green_Mask-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Green Mask",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Rue du Temple",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775645112/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645131/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645132/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-detail_2.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645137/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-detail_6.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645133/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-detail_3.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645135/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-detail_4.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645136/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-detail_5.jpg"
+      ],
+      "videos": [
+        "https://res.cloudinary.com/dn56nm273/video/upload/v1775645179/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-video_1.mp4"
+      ]
+    }
+  },
+  "2026-Bats_and_Hand-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Bats and Hand",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Rue du Temple",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775645231/berriblue/artworks/street/2026-Bats_and_Hand-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645279/berriblue/artworks/street/2026-Bats_and_Hand-Street-Azulejo-Paris-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645280/berriblue/artworks/street/2026-Bats_and_Hand-Street-Azulejo-Paris-detail_2.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645282/berriblue/artworks/street/2026-Bats_and_Hand-Street-Azulejo-Paris-detail_3.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2026-Ciete_Kwiaty-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Ciete Kwiaty",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Place des Vosges",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775645344/berriblue/artworks/street/2026-Ciete_Kwiaty-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645364/berriblue/artworks/street/2026-Ciete_Kwiaty-Street-Azulejo-Paris-detail_1.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2026-Corner_Bat-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Corner Bat",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Rue du Plâtre",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775645432/berriblue/artworks/street/2026-Corner_Bat-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645447/berriblue/artworks/street/2026-Corner_Bat-Street-Azulejo-Paris-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645450/berriblue/artworks/street/2026-Corner_Bat-Street-Azulejo-Paris-detail_2.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775645452/berriblue/artworks/street/2026-Corner_Bat-Street-Azulejo-Paris-detail_3.jpg"
+      ],
+      "videos": [
+        "https://res.cloudinary.com/dn56nm273/video/upload/v1775645471/berriblue/artworks/street/2026-Corner_Bat-Street-Azulejo-Paris-video_1.mp4"
+      ]
+    }
+  },
+  "2026-Dog-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Dog",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Rue de Poitou",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775646028/berriblue/artworks/street/2026-Dog-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775646055/berriblue/artworks/street/2026-Dog-Street-Azulejo-Paris-detail_1.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775646056/berriblue/artworks/street/2026-Dog-Street-Azulejo-Paris-detail_2.jpg"
+      ],
+      "videos": []
+    }
+  },
+  "2026-Red_Mask-Street-Azulejo-Paris": {
+    "Category": "Street",
+    "Sub Category": "Azulejo",
+    "Title": "Red Mask",
+    "Display Name": "Azulejo Piece, Paris",
+    "Medium": "Azulejo",
+    "Size": null,
+    "Street": "Rue de Montmorency",
+    "City": "Paris",
+    "Year": "2026",
+    "Description": null,
+    "For Sale": "FALSE",
+    "Buy link": null,
+    "Price": null,
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Media": {
+      "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775646111/berriblue/artworks/street/2026-Red_Mask-Street-Azulejo-Paris-main.jpg",
+      "gallery": [
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775646126/berriblue/artworks/street/2026-Red_Mask-Street-Azulejo-Paris-detail_2.jpg",
+        "https://res.cloudinary.com/dn56nm273/image/upload/v1775646125/berriblue/artworks/street/2026-Red_Mask-Street-Azulejo-Paris-detail_1.jpg"
       ],
       "videos": []
     }
