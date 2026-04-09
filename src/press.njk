@@ -3,6 +3,39 @@ layout: layouts/base.njk
 title: Press | BerriBlue
 ---
 
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% set ns = {"pos": 1, "first": true} %}
+    {% for item in press_list %}
+      {% if item.headline and item.link %}
+        {% if not ns.first %},{% endif %}
+        {
+          "@type": "ListItem",
+          "position": {{ ns.pos }},
+          "item": {
+            "@type": "Article",
+            "headline": {{ item.headline | dump }},
+            "datePublished": {{ item.date | dump }},
+            "url": {{ item.link | dump }},
+            "image": {{ item.image | dump }},
+            "publisher": {
+              "@type": "Organization",
+              "name": {{ item.publication | dump }}
+            }
+          }
+        }
+        {% set ns = {"pos": ns.pos + 1, "first": false} %}
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endblock %}
+
 <div class="section section--white">
   <div class="section-inner">
 
