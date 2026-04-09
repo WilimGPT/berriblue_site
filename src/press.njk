@@ -13,19 +13,19 @@ title: Press | BerriBlue
         <div class="press-card">
           {% if item.link %}
             <a href="{{ item.link }}" target="_blank" rel="noopener" class="press-card__image-link">
-              <img src="{{ item.image }}" alt="{{ item.title }}" class="press-card__image">
+              <img src="{{ item.image }}" alt="{{ item.publication }}" class="press-card__image">
             </a>
           {% else %}
             <div class="press-card__image-link press-card__image-link--no-link">
-              <img src="{{ item.image }}" alt="{{ item.title }}" class="press-card__image">
+              <img src="{{ item.image }}" alt="{{ item.publication }}" class="press-card__image">
             </div>
           {% endif %}
 
           <div class="press-card__body">
             {% if item.link %}
-              <a href="{{ item.link }}" target="_blank" rel="noopener" class="press-card__title">{{ item.title }}</a>
+              <a href="{{ item.link }}" target="_blank" rel="noopener" class="press-card__title">{{ item.publication }}</a>
             {% else %}
-              <span class="press-card__title press-card__title--no-link">{{ item.title }}</span>
+              <span class="press-card__title press-card__title--no-link">{{ item.publication }}</span>
             {% endif %}
             <p class="press-card__date">{{ item.date }}</p>
           </div>

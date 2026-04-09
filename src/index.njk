@@ -27,7 +27,7 @@ title: BerriBlue | Fine Art
     <div class="interview-slide">
 
       <div class="interview-slide__content">
-        <h2 class="interview-slide__pub-title">{{ interview.title }}</h2>
+        <h2 class="interview-slide__pub-title">{{ interview.publication }}</h2>
         <p class="interview-slide__text">{{ interview.text | truncate(160) }}</p>
 
         <div class="overlay-card interview-slide__card">
@@ -48,7 +48,7 @@ title: BerriBlue | Fine Art
       <div class="interview-slide__image">
         <img
           src="{{ interview.image }}"
-          alt="{{ interview.title }}"
+          alt="{{ interview.publication }}"
         >
       </div>
 
