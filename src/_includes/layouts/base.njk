@@ -18,6 +18,31 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="/BerriBlue_favicon.png">
+
+    {%- set _seoPage = seo.pages[seoKey] if seoKey else null -%}
+    {%- set _seoTitle = _seoPage.title if _seoPage else title -%}
+    {%- set _seoDesc = _seoPage.description if (_seoPage and _seoPage.description) else seo.site.default_description -%}
+    {%- set _ogDesc = _seoPage.og_description if (_seoPage and _seoPage.og_description) else _seoDesc -%}
+    {%- set _ogImageRaw = _seoPage.og_image if (_seoPage and _seoPage.og_image) else seo.site.default_og_image -%}
+    {%- set _ogGravity = _seoPage.image_gravity if (_seoPage and _seoPage.image_gravity) else "center" -%}
+    {%- set _ogImage = _ogImageRaw | replace("/upload/", "/upload/w_1200,h_630,c_fill,g_" + _ogGravity + "/") -%}
+    {%- set _ogUrl = seo.site.site_url + page.url -%}
+
+    <meta name="description" content="{{ _seoDesc }}">
+    {% if _seoPage and _seoPage.noindex %}<meta name="robots" content="noindex">{% endif %}
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BerriBlue">
+    <meta property="og:title" content="{{ _seoTitle }}">
+    <meta property="og:description" content="{{ _ogDesc }}">
+    <meta property="og:url" content="{{ _ogUrl }}">
+    <meta property="og:image" content="{{ _ogImage }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ _seoTitle }}">
+    <meta name="twitter:description" content="{{ _ogDesc }}">
+    <meta name="twitter:image" content="{{ _ogImage }}">
+
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/carousel.css">
     {% block head %}{% endblock %}
