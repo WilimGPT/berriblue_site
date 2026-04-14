@@ -74,7 +74,7 @@ permalink: "/work/{{ key }}/"
       {% elif artwork["For Sale"] == "TRUE" %}
         <div class="artwork-detail__purchase">
           {% if artwork.Price %}<span class="artwork-detail__price">€{{ artwork.Price }}</span>{% endif %}
-          <a href="{{ artwork['Buy link'] if artwork['Buy link'] else 'mailto:info@berriblue.com?subject=Enquiry%20about%20artwork%20-%20' + artwork['Display Name'] | urlencode }}" class="artwork-detail__buy-btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+          <a href="{{ artwork['Buy link'] if artwork['Buy link'] else 'mailto:info@berriblue.com?subject=Enquiry%20about%20artwork%20-%20' + artwork['Display Name'] | urlencode }}" class="artwork-detail__buy-btn" Buy Now</a>
         </div>
       {% endif %}
 
@@ -154,6 +154,24 @@ permalink: "/work/{{ key }}/"
     }
     track.appendChild(el);
   });
+
+  // — Mobile height: size container to fit first image at 80vw width —
+
+  if (window.innerWidth <= 768) {
+    const container = document.querySelector('.artwork-slideshow__container');
+    const firstItem = track.querySelector('.artwork-slideshow__item');
+    if (firstItem && firstItem.tagName === 'IMG') {
+      function applyMobileHeight() {
+        const height = Math.round((window.innerWidth * 0.8) * (firstItem.naturalHeight / firstItem.naturalWidth));
+        container.style.height = height + 'px';
+      }
+      if (firstItem.complete && firstItem.naturalWidth) {
+        applyMobileHeight();
+      } else {
+        firstItem.addEventListener('load', applyMobileHeight);
+      }
+    }
+  }
 
   slidePrev.addEventListener('click', () => {
     track.scrollBy({ left: -track.clientWidth * 0.8, behavior: 'smooth' });

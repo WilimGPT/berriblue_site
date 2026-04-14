@@ -129,3 +129,23 @@ document.addEventListener("DOMContentLoaded", () => {
     startAutoplay();
   });
 });
+
+// — Work gallery: interleave columns on mobile —
+document.addEventListener("DOMContentLoaded", () => {
+  const gallery = document.querySelector('.work-gallery');
+  if (!gallery || window.innerWidth > 600) return;
+
+  const cols = Array.from(gallery.querySelectorAll('.work-gallery__col'));
+  const colItems = cols.map(col => Array.from(col.querySelectorAll('.work-gallery__item')));
+  const maxLen = Math.max(...colItems.map(c => c.length));
+
+  // Build interleaved list: row by row across columns
+  const interleaved = [];
+  for (let i = 0; i < maxLen; i++) {
+    colItems.forEach(items => { if (items[i]) interleaved.push(items[i]); });
+  }
+
+  // Replace column structure with flat interleaved items
+  gallery.innerHTML = '';
+  interleaved.forEach(item => gallery.appendChild(item));
+});

@@ -63,6 +63,12 @@ img, video {
   font-weight: 400;
 }
 
+@media (max-width: 800px) {
+  .section-text h1 {
+    text-align: center;
+  }
+}
+
 .section-text p {
   margin-bottom: 1.2rem;
   margin-top: 0;
@@ -402,7 +408,7 @@ img, video {
   .site-social {
     position: static;
     transform: none;
-    margin-top: 1rem;
+    align-self: flex-start;
   }
 }
 
@@ -605,6 +611,12 @@ img, video {
 .artwork-slideshow__btn:hover { opacity: 1; }
 .artwork-slideshow__btn--prev { left: 0; }
 .artwork-slideshow__btn--next { right: 0; }
+
+@media (max-width: 768px) {
+  .artwork-slideshow__container {
+    height: 80vw; /* fallback until JS calculates from first image ratio */
+  }
+}
 
 /* Artwork modal */
 
@@ -908,6 +920,11 @@ img, video {
 
 
 /* SCARVES PAGE */
+
+.scarves-intro p {
+  text-align: justify;
+  text-align-last: left;
+}
 
 .scarves-toolbar {
   display: flex;
@@ -1220,23 +1237,13 @@ img, video {
   max-width: 100% !important;
 }
 
-.scarves-store .grid-product {
-  flex: 0 0 33.333% !important;
-  max-width: 33.333% !important;
-  width: 33.333% !important;
-}
 
-.forsale-store .grid-product {
-  flex: 0 0 20% !important;
-  max-width: 20% !important;
-  width: 20% !important;
-}
 
 
 /* EXHIBITIONS PAGE */
 
 .exhibitions-heading {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 200;
   margin: 1.5rem 0 2.5rem;
 }

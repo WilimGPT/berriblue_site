@@ -74,16 +74,18 @@ title: Contact | BerriBlue
   const hero = document.getElementById('contact-hero');
   const video = document.getElementById('contact-video');
 
-  hero.addEventListener('mouseenter', () => {
-    hero.classList.add('is-hovered');
-    video.play();
-  });
+  if (window.matchMedia('(hover: hover)').matches) {
+    hero.addEventListener('mouseenter', () => {
+      hero.classList.add('is-hovered');
+      video.play();
+    });
 
-  hero.addEventListener('mouseleave', () => {
-    hero.classList.remove('is-hovered');
-    video.pause();
-    video.currentTime = 0;
-  });
+    hero.addEventListener('mouseleave', () => {
+      hero.classList.remove('is-hovered');
+      video.pause();
+      video.currentTime = 0;
+    });
+  }
 
   document.getElementById('contactForm').addEventListener('submit', async function(e) {
     e.preventDefault();
