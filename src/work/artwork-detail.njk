@@ -34,22 +34,6 @@ permalink: "/work/{{ key }}/"
   {% set _galleryAltBase %}{{ artwork["Display Name"] }} - BerriBlue artwork{% endset %}
 {% endif %}
 
-{% set _metaDesc = artwork["Meta Description"] if artwork["Meta Description"] else seo.site.default_description %}
-{% set _ogImage = artwork.Media.main | replace("/upload/", "/upload/w_1200,h_630,c_fill,g_center/") if artwork.Media.main else seo.site.default_og_image %}
-
-{% block head %}
-<meta name="description" content="{{ _metaDesc }}">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="BerriBlue">
-<meta property="og:title" content="{{ artwork['Display Name'] }} — BerriBlue">
-<meta property="og:description" content="{{ _metaDesc }}">
-<meta property="og:url" content="{{ seo.site.site_url }}{{ page.url }}">
-<meta property="og:image" content="{{ _ogImage }}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ artwork['Display Name'] }} — BerriBlue">
-<meta name="twitter:description" content="{{ _metaDesc }}">
-<meta name="twitter:image" content="{{ _ogImage }}">
-{% endblock %}
 
 <div class="section section--white">
   <div class="section-inner">

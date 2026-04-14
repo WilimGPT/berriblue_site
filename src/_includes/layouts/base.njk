@@ -3,7 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ title }}</title>
+    {%- set _seoPage = seo.pages[seoKey] if seoKey else null -%}
+
+    {%- if key and artworks and artworks[key] -%}
+      {# Artwork detail page — use artwork-specific values #}
+      {%- set _artworkSeo = artworks[key] -%}
+      {%- set _seoTitle = "BerriBlue | Work | " + _artworkSeo["Display Name"] -%}
+      {%- set _seoDesc = _artworkSeo["Meta Description"] if _artworkSeo["Meta Description"] else seo.site.default_description -%}
+      {%- set _ogDesc = _seoDesc -%}
+      {%- set _ogImage = _artworkSeo.Media.main | replace("/upload/", "/upload/w_1200,h_630,c_fill,g_center/") if _artworkSeo.Media.main else seo.site.default_og_image -%}
+    {%- else -%}
+      {# Regular page — use seo.json values #}
+      {%- set _seoTitle = _seoPage.title if _seoPage else title -%}
+      {%- set _seoDesc = _seoPage.description if (_seoPage and _seoPage.description) else seo.site.default_description -%}
+      {%- set _ogDesc = _seoPage.og_description if (_seoPage and _seoPage.og_description) else _seoDesc -%}
+      {%- set _ogImageRaw = _seoPage.og_image if (_seoPage and _seoPage.og_image) else seo.site.default_og_image -%}
+      {%- set _ogGravity = _seoPage.image_gravity if (_seoPage and _seoPage.image_gravity) else "center" -%}
+      {%- set _ogImage = _ogImageRaw | replace("/upload/", "/upload/w_1200,h_630,c_fill,g_" + _ogGravity + "/") -%}
+    {%- endif -%}
+    {%- set _ogUrl = seo.site.site_url + page.url -%}
+
+    <title>{{ _seoTitle }}</title>
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -18,15 +38,6 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="/BerriBlue_favicon.png">
-
-    {%- set _seoPage = seo.pages[seoKey] if seoKey else null -%}
-    {%- set _seoTitle = _seoPage.title if _seoPage else title -%}
-    {%- set _seoDesc = _seoPage.description if (_seoPage and _seoPage.description) else seo.site.default_description -%}
-    {%- set _ogDesc = _seoPage.og_description if (_seoPage and _seoPage.og_description) else _seoDesc -%}
-    {%- set _ogImageRaw = _seoPage.og_image if (_seoPage and _seoPage.og_image) else seo.site.default_og_image -%}
-    {%- set _ogGravity = _seoPage.image_gravity if (_seoPage and _seoPage.image_gravity) else "center" -%}
-    {%- set _ogImage = _ogImageRaw | replace("/upload/", "/upload/w_1200,h_630,c_fill,g_" + _ogGravity + "/") -%}
-    {%- set _ogUrl = seo.site.site_url + page.url -%}
 
     <meta name="description" content="{{ _seoDesc }}">
     {% if _seoPage and _seoPage.noindex %}<meta name="robots" content="noindex">{% endif %}
