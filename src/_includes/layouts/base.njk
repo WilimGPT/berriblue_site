@@ -49,11 +49,6 @@
     <meta property="og:url" content="{{ _ogUrl }}">
     <meta property="og:image" content="{{ _ogImage }}">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ _seoTitle }}">
-    <meta name="twitter:description" content="{{ _ogDesc }}">
-    <meta name="twitter:image" content="{{ _ogImage }}">
-
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/carousel.css">
     {% block head %}{% endblock %}
@@ -72,16 +67,6 @@
 
 
         {% include "footer.njk" %}
-
-        <!-- Netlify form detection -->
-        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
-          <input type="hidden" name="form-name" value="contact">
-          <input type="text" name="name">
-          <input type="email" name="email">
-          <input type="text" name="subject">
-          <textarea name="message"></textarea>
-        </form>
-
 
 <script src="/js/carousel.js"></script>
 <script src="/js/slideshow.js"></script>
