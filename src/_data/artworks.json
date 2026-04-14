@@ -16,6 +16,7 @@
     "Sold": "FALSE",
     "Pricelog-Private": null,
     "Private Notes": "Old description: \"After a while I started to devote a little more time to the Profiles pieces, adding frames and other embellishments.\"",
+    "Meta Description": "Paste-ups by BerriBlue, various locations, Porto, 2016.",
     "Media": {
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1771778737/berriblue/artworks/street/2016-Profiles_II-Street-Paste_up-Porto-main.jpg",
       "gallery": [
@@ -74,7 +75,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768308730/berriblue/artworks/street/2016-Profiles-Street-Paste_up-Porto-detail_18.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, various locations, Porto, 2016."
   },
   "2016-Satans_Mascara-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -105,7 +107,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768308752/berriblue/artworks/street/2016-Satan%27s_Mascara-Street-Paste_up-Porto-detail_7.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, various locations, Porto, 2016."
   },
   "2016-So_Hot_Right_Now-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -136,7 +139,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768308770/berriblue/artworks/street/2016-So_Hot_Right_Now-Street-Paste_up-Porto-detail_7.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, various locations, Porto, 2016."
   },
   "2016-Untitled_Paste-up_1-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -163,7 +167,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768308781/berriblue/artworks/street/2016-Untitled_Paste-up_1-Street-Paste_up-Porto-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, R. da Galeria de Paris, Porto, 2016."
   },
   "2016-Untitled_Paste-up_2-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -186,7 +191,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768393767/berriblue/artworks/street/2016-Untitled_Paste-up_2-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, R. de Santa Teresa, Porto, 2016."
   },
   "2017-Ladies-Street-Paste_up-Various": {
     "Category": "Street",
@@ -218,7 +224,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768393782/berriblue/artworks/street/2017-Ladies-Street-Paste_up-Various-detail_8.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, various locations, Various, 2017."
   },
   "2017-Skin_Deep-Studio-Painting": {
     "Category": "Studio",
@@ -252,7 +259,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402044/berriblue/artworks/studio/2017-Skin_Deep-Studio-Azulejo-detail_10.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Skin Deep — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2017."
   },
   "2017-The_Cats-Studio-Painting": {
     "Category": "Studio",
@@ -278,7 +286,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402048/berriblue/artworks/studio/2017-The_Cats-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "The Cats — artwork by BerriBlue. Paint on Plywood, 120 x 60 x 4cm, 2017."
   },
   "2017-Untitled_Paste-up_3-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -303,7 +312,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768393787/berriblue/artworks/street/2017-Untitled_Paste-up_3-Street-Paste_up-Porto-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, R. da Galeria de Paris, Porto, 2017."
   },
   "2018-A_Family_Portrait-Studio-Painting": {
     "Category": "Studio",
@@ -330,7 +340,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402055/berriblue/artworks/studio/2018-A_Family_Portrait-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "A Family Portrait — artwork by BerriBlue. Paint & Pastel on Plywood, 63 x 46 x 4cm, 2018."
   },
   "2018-A_Letter_to_my_Mother-Studio-Painting": {
     "Category": "Studio",
@@ -358,7 +369,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402064/berriblue/artworks/studio/2018-A_Letter_to_my_Mother-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "A Letter to my Mother — artwork by BerriBlue. Paint, Pastel, & Charcoal on Plywood, 122 x 80 x 3cm, 2018."
   },
   "2018-How_It_Feels-Studio-Painting": {
     "Category": "Studio",
@@ -381,7 +393,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402065/berriblue/artworks/studio/2018-How_It_Feels-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "How It Feels — artwork by BerriBlue. Paint on Plywood, 63 x 46 x 4cm, 2018."
   },
   "2018-My_Golden_Girl-Studio-Painting": {
     "Category": "Studio",
@@ -406,7 +419,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402068/berriblue/artworks/studio/2018-My_Golden_Girl-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "My Golden Girl — artwork by BerriBlue. Paint & Pastel on Plywood, 120 x 80 x 4cm, 2018."
   },
   "2018-My_Relationship_with_Time-Studio-Painting": {
     "Category": "Studio",
@@ -429,7 +443,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402070/berriblue/artworks/studio/2018-My_Relationship_with_Time-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "My Relationship with Time — artwork by BerriBlue. Paint & Pastel on Plywood, 63 x 63 x 4cm, 2018."
   },
   "2018-Painting_Through_Psychosis-Studio-Painting": {
     "Category": "Studio",
@@ -456,7 +471,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402079/berriblue/artworks/studio/2018-Painting_Through_Psychosis-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Painting Through Psychosis — artwork by BerriBlue. Paint & Pastel on Plywood, 125 x 92cm, 2018."
   },
   "2018-Remains-Studio-Painting": {
     "Category": "Studio",
@@ -487,7 +503,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402103/berriblue/artworks/studio/2018-Remains-Studio-Azulejo-detail_7.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Remains — artwork by BerriBlue. Paint, Pastel, & Charcoal on Plywood, 125 x 185 x 5cm, 2018."
   },
   "2018-Retrospect-Studio-Painting": {
     "Category": "Studio",
@@ -514,7 +531,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402115/berriblue/artworks/studio/2018-Retrospect-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Retrospect — artwork by BerriBlue. Paint, Pastel, & Charcoal on Plywood, 60 x 40 x 3cm, 2018."
   },
   "2018-Scoliosis-Studio-Painting": {
     "Category": "Studio",
@@ -540,7 +558,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402124/berriblue/artworks/studio/2018-Scoliosis-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Scoliosis — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2018."
   },
   "2018-Self_Portrait_(Psychosis)-Studio-Painting": {
     "Category": "Studio",
@@ -567,7 +586,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402135/berriblue/artworks/studio/2018-Self_Portrait_%28Psychosis%29-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Self Portrait (Psychosis) — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2018."
   },
   "2018-Tension_1_of_3-Studio-Painting": {
     "Category": "Studio",
@@ -597,7 +617,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768466687/berriblue/artworks/studio/2018-Tension_1_of_3-Studio-Azulejo-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Tension 1 of 3 — artwork by BerriBlue. Paint on Plywood, 80 x 60 x 4cm, 2018."
   },
   "2018-Tension_2_of_3-Studio-Painting": {
     "Category": "Studio",
@@ -627,7 +648,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768466701/berriblue/artworks/studio/2018-Tension_2_of_3-Studio-Azulejo-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Tension 2 of 3 — artwork by BerriBlue. Paint on Plywood, 80 x 60 x 4cm, 2018."
   },
   "2018-Tension_3_of_3-Studio-Painting": {
     "Category": "Studio",
@@ -656,7 +678,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768466713/berriblue/artworks/studio/2018-Tension_3_of_3-Studio-Azulejo-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Tension 3 of 3 — artwork by BerriBlue. Paint on Plywood, 80 x 60 x 4cm, 2018."
   },
   "2018-The_Duchess-Studio-Painting": {
     "Category": "Studio",
@@ -681,7 +704,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402139/berriblue/artworks/studio/2018-The_Duchess-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "The Duchess — artwork by BerriBlue. Paint on Plywood, 120 x 80cm, 2018."
   },
   "2018-Two_Thousand_Five-Studio-Painting": {
     "Category": "Studio",
@@ -706,7 +730,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402140/berriblue/artworks/studio/2018-Two_Thousand_Five-Studio-Azulejo-main.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Two Thousand Five — artwork by BerriBlue. Paint on Plywood, 63 x 46 x 4cm, 2018."
   },
   "2018-You_and_Me-Studio-Painting": {
     "Category": "Studio",
@@ -735,7 +760,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402151/berriblue/artworks/studio/2018-You_and_Me-Studio-Azulejo-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "You and Me — artwork by BerriBlue. Mixed Media on Plywood, 63 x 63 x 4cm, 2018."
   },
   "2018-You,_Me,_and_the_Dog-Studio-Painting": {
     "Category": "Studio",
@@ -765,7 +791,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402164/berriblue/artworks/studio/2018-You%2C_Me%2C_and_the_Dog-Studio-Azulejo-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "You, Me, and the Dog — artwork by BerriBlue. Mixed Media on Plywood, 63 x 63 x 4cm, 2018."
   },
   "2018-You,_Me,_the_Dog,_and_the_Bird-Studio-Painting": {
     "Category": "Studio",
@@ -795,7 +822,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402174/berriblue/artworks/studio/2018-You%2C_Me%2C_the_Dog%2C_and_the_Bird-Studio-Azulejo-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "You, Me, the Dog, and the Bird — artwork by BerriBlue. Mixed Media on Plywood, 63 x 63 x 4cm, 2018."
   },
   "2019-Death-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -825,7 +853,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768393801/berriblue/artworks/street/2019-Death-Street-Azulejo-Porto-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua de Sá de Noronha, Porto, 2019."
   },
   "2019-Disjointed-Studio-Painting": {
     "Category": "Studio",
@@ -850,7 +879,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402180/berriblue/artworks/studio/2019-Disjointed-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Disjointed — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2019."
   },
   "2019-Dog_1-Studio-Painting": {
     "Category": "Studio",
@@ -873,7 +903,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402184/berriblue/artworks/studio/2019-Dog_1-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Dog 1 — artwork by BerriBlue. Paint & Pastel on Packing Paper, 69 x 49cm, 2019."
   },
   "2019-Dog_2-Studio-Painting": {
     "Category": "Studio",
@@ -896,7 +927,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402187/berriblue/artworks/studio/2019-Dog_2-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Dog 2 — artwork by BerriBlue. Paint & Pastel on Packing Paper, 69 x 49cm, 2019."
   },
   "2019-dogs-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -925,7 +957,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768393816/berriblue/artworks/street/2019-dogs-Street-Paste_up--detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, various locations, Porto, 2019."
   },
   "2019-Flowerbed-Studio-Painting": {
     "Category": "Studio",
@@ -950,7 +983,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402192/berriblue/artworks/studio/2019-Flowerbed-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Flowerbed — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2019."
   },
   "2019-Grey-Studio-Painting": {
     "Category": "Studio",
@@ -973,7 +1007,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402196/berriblue/artworks/studio/2019-Grey-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Grey — artwork by BerriBlue. Paint on Newsprint, 2019."
   },
   "2019-Gutted-Studio-Painting": {
     "Category": "Studio",
@@ -998,7 +1033,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402203/berriblue/artworks/studio/2019-Gutted-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Gutted — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2019."
   },
   "2019-how_it_feels_mural-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1021,7 +1057,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768393817/berriblue/artworks/street/2019-how_it_feels_mural-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua das Oliveiras, Porto, 2019."
   },
   "2019-Motyl-Studio-Painting": {
     "Category": "Studio",
@@ -1046,7 +1083,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402208/berriblue/artworks/studio/2019-Motyl-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Motyl — artwork by BerriBlue. Paint on Plywood, 60 x 40 x 3cm, 2019."
   },
   "2019-Muszka_Dreaming-Studio-Painting": {
     "Category": "Studio",
@@ -1080,7 +1118,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402228/berriblue/artworks/studio/2019-Muszka_Dreaming-Studio-Azulejo-detail_10.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Muszka Dreaming — artwork by BerriBlue. Paint & Pastel on Plywood, 2019."
   },
   "2019-Solitary-Studio-Painting": {
     "Category": "Studio",
@@ -1107,7 +1146,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768467708/berriblue/artworks/studio/2019-Solitary-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Solitary — artwork by BerriBlue. Paint & Pastel on Packing Paper, 69 x 49cm, 2019."
   },
   "2019-The_Horse-Studio-Painting": {
     "Category": "Studio",
@@ -1130,7 +1170,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402242/berriblue/artworks/studio/2019-The_Horse-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "The Horse — artwork by BerriBlue. Paint & Pastel on Packing Paper, 280 x 280cm, 2019."
   },
   "2019-Untitled_Mural_1-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1163,7 +1204,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768393835/berriblue/artworks/street/2019-Untitled_Mural_1-Street-Paste_up-Porto-video_2.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768393837/berriblue/artworks/street/2019-Untitled_Mural_1-Street-Paste_up-Porto-video_3.mp4"
       ]
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Escadas do Pinheiro, Porto, 2019."
   },
   "2019-Untitled_Paste-up_4-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1186,7 +1228,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768393840/berriblue/artworks/street/2019-Untitled_Paste-up_4-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Praça de Carlos Alberto, Porto, 2019."
   },
   "2019-Untitled_Paste-up_5-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1209,7 +1252,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768393842/berriblue/artworks/street/2019-Untitled_Paste-up_5-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, R. de Passos Manuel, Porto, 2019."
   },
   "2019-Untitled_Paste-up_6-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1237,7 +1281,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768393853/berriblue/artworks/street/2019-Untitled_Paste-up_6-Street-Paste_up-Porto-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Largo de Mompilher, Porto, 2019."
   },
   "2019-Untitled_Paste-up_7-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1264,7 +1309,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768393862/berriblue/artworks/street/2019-Untitled_Paste-up_7-Street-Paste_up-Porto-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Praça dos Poveiros, Porto, 2019."
   },
   "2020-Fishes_1_and_2-Studio-Azulejo": {
     "Category": "Studio",
@@ -1291,7 +1337,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768466663/berriblue/artworks/studio/2020-Fishes_1_and_2-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Fishes 1 and 2 — artwork by BerriBlue. Azulejo, 15 x 30cm, 2020."
   },
   "2020-flowerbed_mural-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1314,7 +1361,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768393865/berriblue/artworks/street/2020-flowerbed_mural-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua das Oliveiras, Porto, 2020."
   },
   "2020-Knife_and_Sea_Cucumbers-Studio-Azulejo": {
     "Category": "Studio",
@@ -1341,7 +1389,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768467467/2020-Knife_and_Sea_Cucumbers-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Knife and Sea Cucumbers — artwork by BerriBlue. Azulejo, 60 x 30cm, 2020."
   },
   "2020-Lisboa_1-Street-Azulejo-Lisbon": {
     "Category": "Street",
@@ -1379,7 +1428,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768468466/berriblue/artworks/street/2020-Lisboa_1-Street-Azulejo-Lisbon_2-main.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua Dom Pedro V, Lisbon, 2020."
   },
   "2020-Miłość_w_Czasach_Zarazy-Studio-Painting": {
     "Category": "Studio",
@@ -1408,7 +1458,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402255/berriblue/artworks/studio/2020-Mi%C5%82os%CC%81c%CC%81_w_Czasach_Zarazy-Studio-Azulejo-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Miłość w Czasach Zarazy — artwork by BerriBlue. Paint & Pastel on Packing Paper, 2020."
   },
   "2020-Penises-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -1452,7 +1503,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768468480/berriblue/artworks/street/2020-Penises-Street-Azulejo-Porto_2-video_3.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768468487/berriblue/artworks/street/2020-Penises-Street-Azulejo-Porto_2-video_4.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua do Passos Manual, Porto, 2020."
   },
   "2020-Strajk_Kobiet-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1478,7 +1530,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768397555/berriblue/artworks/street/2020-Strajk_Kobiet-Street-Paste_up-Porto-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua do Pinheiro, Porto, 2020."
   },
   "2020-Untitled_Mural_2-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1501,7 +1554,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397557/berriblue/artworks/street/2020-Untitled_Mural_2-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Escadas do Pinheiro, Porto, 2020."
   },
   "2020-Untitled_Mural_3-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1524,7 +1578,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397560/berriblue/artworks/street/2020-Untitled_Mural_3-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, R. do Morgado de Mateus, Porto, 2020."
   },
   "2020-Untitled_Mural_4-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1547,7 +1602,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397563/berriblue/artworks/street/2020-Untitled_Mural_4-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Escadas do Pinheiro, Porto, 2020."
   },
   "2020-Untitled_Paste-up_8-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1573,7 +1629,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768397569/berriblue/artworks/street/2020-Untitled_Paste-up_8-Street-Paste_up-Porto-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, R. de Passos Manuel, Porto, 2020."
   },
   "2020-Untitled_Paste-up_9-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -1596,7 +1653,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397572/berriblue/artworks/street/2020-Untitled_Paste-up_9-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Tv. de Cedofeita, Porto, 2020."
   },
   "2021-Coming_Home-Studio-Painting": {
     "Category": "Studio",
@@ -1619,7 +1677,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402257/berriblue/artworks/studio/2021-Coming_Home-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Coming Home — artwork by BerriBlue. Paint & Pastel on Plywood, 60 x 42 x 3cm, 2021."
   },
   "2021-Death_1-Street-Painting-Porto": {
     "Category": "Street",
@@ -1642,7 +1701,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397574/berriblue/artworks/street/2021-Death_1-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua dos Mártires da Liberdade, Porto, 2021."
   },
   "2021-Death_2-Street-Painting-Porto": {
     "Category": "Street",
@@ -1665,7 +1725,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397576/berriblue/artworks/street/2021-Death_2-Street-Painting-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua da Firmeza, Porto, 2021."
   },
   "2021-Death_3-Street-Painting-Porto": {
     "Category": "Street",
@@ -1688,7 +1749,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768397578/berriblue/artworks/street/2021-Death_3-Street-Painting-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Tv. das Almas, Porto, 2021."
   },
   "2021-Fish_II-Studio-Azulejo": {
     "Category": "Studio",
@@ -1721,7 +1783,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768467431/2021-Fish_II-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Fish II — artwork by BerriBlue. Azulejo, 30 x 60cm, 2021."
   },
   "2021-Flores_piece-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -1749,7 +1812,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768397922/berriblue/artworks/street/2021-Flores_piece-Street-Azulejo-Porto-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua das Flores, Porto, 2021."
   },
   "2021-Heart-Studio-Azulejo": {
     "Category": "Studio",
@@ -1778,7 +1842,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402279/berriblue/artworks/studio/2021-Heart-Studio-Azulejo-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Heart — artwork by BerriBlue. Azulejo, 45 x 45 cm, 2021."
   },
   "2021-Kochanie_w_Czasach_Zarazy-Studio-Painting": {
     "Category": "Studio",
@@ -1801,7 +1866,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402283/berriblue/artworks/studio/2021-Kochanie_w_Czasach_Zarazy-Studio-Azulejo-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Kochanie w Czasach Zarazy — artwork by BerriBlue. Paint & Pastel on Packing Paper, 240 x 172cm, 2021."
   },
   "2021-Kot-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -1829,7 +1895,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768397594/berriblue/artworks/street/2021-Kot-Street-Azulejo-Porto-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua Ferreira Cardoso, Porto, 2021."
   },
   "2021-Lisboa_2-Street-Azulejo-Lisbon": {
     "Category": "Street",
@@ -1871,7 +1938,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768468497/berriblue/artworks/street/2021-Lisboa_2-Street-Azulejo-Lisbon_2-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua Dom Pedro V, Lisbon, 2021."
   },
   "2021-Lisboa_3-Street-Azulejo-Lisbon": {
     "Category": "Street",
@@ -1897,7 +1965,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768398053/berriblue/artworks/street/2021-Lisboa_3-Street-Azulejo-Lisbon-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Calçada da Glória, Lisbon, 2021."
   },
   "2021-Porto_Pharmacy-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -1925,7 +1994,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768397644/berriblue/artworks/street/2021-Porto_Pharmacy-Street-Azulejo-Porto-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Campo dos martires da Patria, Porto, 2021."
   },
   "2021-Poveiros-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -1955,7 +2025,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768398058/berriblue/artworks/street/2021-Poveiros-Street-Azulejos-Porto-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Praça dos Poveiros, Porto, 2021."
   },
   "2021-Przenikanie-Studio-Azulejo": {
     "Category": "Studio",
@@ -1984,7 +2055,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768467301/2021-Przenikanie-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Przenikanie — artwork by BerriBlue. Azulejo, 60 x 45 x 3cm, 2021."
   },
   "2021-Santa_Catarina-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -2013,7 +2085,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768397658/berriblue/artworks/street/2021-Santa_Catarina-Street-Azulejo-Porto-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua da Santa Catarina, Porto, 2021."
   },
   "2021-Solidarity-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -2036,7 +2109,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768398123/berriblue/artworks/street/2021-Solidarity-Street-Paste_up-Porto-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Rua do Pinheiro, Porto, 2021."
   },
   "2021-Untitled_Mural_5-Street-Paste_up-Porto": {
     "Category": "Street",
@@ -2061,7 +2135,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768398128/berriblue/artworks/street/2021-Untitled_Mural_5-Street-Paste_up-Porto-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Street art piece by BerriBlue, Escadas do Pinheiro, Porto, 2021."
   },
   "2022-Awake-Studio-Azulejo": {
     "Category": "Studio",
@@ -2089,7 +2164,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402300/berriblue/artworks/studio/2022-Awake-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Awake — artwork by BerriBlue. Azulejo, 60 x 30cm, 2022."
   },
   "2022-Battle_Flag-Studio-Azulejo": {
     "Category": "Studio",
@@ -2118,7 +2194,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768420795/2022-Battle_Flag-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Battle Flag — artwork by BerriBlue. Azulejo, 45cm x 45cm, 2022."
   },
   "2022-Brick_Lane_1-Street-Azulejo-London": {
     "Category": "Street",
@@ -2144,7 +2221,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768463987/berriblue/artworks/street/2022-Brick_Lane_1-Street-Azulejo-London-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Brick Lane, London, 2022."
   },
   "2022-Brick_Lane_Hand-Street-Azulejo-London": {
     "Category": "Street",
@@ -2169,7 +2247,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768463994/berriblue/artworks/street/2022-Brick_Lane_Hand-Street-Azulejo-London-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Brick Lane, London, 2022."
   },
   "2022-Brick_Lane_Kot-Street-Azulejo-London": {
     "Category": "Street",
@@ -2192,7 +2271,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768398144/berriblue/artworks/street/2022-Brick_Lane_Kot-Street-Azulejo-London-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Brick Lane, London, 2022."
   },
   "2022-Choices-Studio-Azulejo": {
     "Category": "Studio",
@@ -2221,7 +2301,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402329/berriblue/artworks/studio/2022-Choices-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Choices — artwork by BerriBlue. Azulejo, 60cm x 45cm, 2022."
   },
   "2022-Details_of_a_Lifetime_(Shrine_to_Self)-Studio-Painting": {
     "Category": "Studio",
@@ -2249,7 +2330,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402347/berriblue/artworks/studio/2022-Details_of_a_Lifetime_%28Shrine_to_Self%29-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Details of a Lifetime (Shrine to Self) — artwork by BerriBlue. paint & pastel on packing paper, 370 x 260cm, 2022."
   },
   "2022-Devil_77-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -2277,7 +2359,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768421849/berriblue/artworks/street/2022-Devil_77-Street-Azulejo-Porto-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Tv. de Cedofeita, Porto, 2022."
   },
   "2022-Devil_Jamie-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2305,7 +2388,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768398158/berriblue/artworks/street/2022-Devil_Jamie-Street-Azulejo-Lisboa-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Pr Príncipe Real, Lisboa, 2022."
   },
   "2022-Devil_Stairs-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2334,7 +2418,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768398170/berriblue/artworks/street/2022-Devil_Stairs-Street-Azulejo-Lisboa-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Calćado do Duque, Lisboa, 2022."
   },
   "2022-Devil_Top_Stairs-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2361,7 +2446,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768398180/berriblue/artworks/street/2022-Devil_Top_Stairs-Street-Azulejo-Lisboa-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Nova da Trindade, Lisboa, 2022."
   },
   "2022-Embrace-Studio-Azulejo": {
     "Category": "Studio",
@@ -2390,7 +2476,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768420866/2022-Embrace-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Embrace — artwork by BerriBlue. Azulejo, 90cm x 75cm, 2022."
   },
   "2022-Fish_III-Studio-Azulejo": {
     "Category": "Studio",
@@ -2417,7 +2504,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402369/berriblue/artworks/studio/2022-Fish_III-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Fish III — artwork by BerriBlue. Azulejo, 60 x 30cm, 2022."
   },
   "2022-Flesh_and_Bone-Studio-Azulejo": {
     "Category": "Studio",
@@ -2448,7 +2536,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466605/berriblue/artworks/studio/2022-Flesh_and_Bone-Studio-Azulejo-video_2.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466608/berriblue/artworks/studio/2022-Flesh_and_Bone-Studio-Azulejo-video_3.mp4"
       ]
-    }
+    },
+    "Meta Description": "Flesh and Bone — artwork by BerriBlue. Azulejo, 60 x 45cm, 2022."
   },
   "2022-Imitation-Studio-Azulejo": {
     "Category": "Studio",
@@ -2476,7 +2565,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402384/berriblue/artworks/studio/2022-Imitation-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Imitation — artwork by BerriBlue. Azulejo, 60cm x 45cm, 2022."
   },
   "2022-Jeleń-Studio-Azulejo": {
     "Category": "Studio",
@@ -2508,7 +2598,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402398/berriblue/artworks/studio/2022-Jele%C5%84-Studio-Azulejo-video_2.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402401/berriblue/artworks/studio/2022-Jele%C5%84-Studio-Azulejo-video_3.mp4"
       ]
-    }
+    },
+    "Meta Description": "Jeleń — artwork by BerriBlue. Azulejo, 60 x 45cm, 2022."
   },
   "2022-Kobieta-Studio-Azulejo": {
     "Category": "Studio",
@@ -2544,7 +2635,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466939/2022-Kobieta-Studio-Azulejo-video_1.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466937/2022-Kobieta-Studio-Azulejo-video_2.mp4"
       ]
-    }
+    },
+    "Meta Description": "Kobieta — artwork by BerriBlue. Azulejo, 195cm x 75cm, 2022."
   },
   "2022-Kot_lisboa-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2575,7 +2667,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768398186/berriblue/artworks/street/2022-Kot_lisboa-Street-Azulejo-Lisboa-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Dom Pedro V, Lisboa, 2022."
   },
   "2022-Krakowianka_Ginjinha-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2608,7 +2701,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768398205/berriblue/artworks/street/2022-Krakowianka_Ginjinha-Street-Azulejo-Lisboa-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Calç. do Carmo, Lisboa, 2022."
   },
   "2022-Krakowianka_Hands-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2638,7 +2732,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768398247/berriblue/artworks/street/2022-Krakowianka_Hands-Street-Azulejo-Lisboa-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Nova da Trindade, Lisboa, 2022."
   },
   "2022-Krakowianka_I-Studio-Azulejo": {
     "Category": "Studio",
@@ -2666,7 +2761,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402421/berriblue/artworks/studio/2022-Krakowianka_I-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Krakowianka I — artwork by BerriBlue. Azulejo, 60 x 30cm, 2022."
   },
   "2022-Krakowianka_PR-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2698,7 +2794,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768421620/berriblue/artworks/street/2022-Krakowianka_PR-Street-Azulejo-Lisboa-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Cecílio de Sousa, Lisboa, 2022."
   },
   "2022-Krakowianka_Stairs-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2727,7 +2824,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768398269/berriblue/artworks/street/2022-Krakowianka_Stairs-Street-Azulejo-Lisboa-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Oliveira ao Carmo, Lisboa, 2022."
   },
   "2022-Osty-Studio-Azulejo": {
     "Category": "Studio",
@@ -2760,7 +2858,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466561/berriblue/artworks/studio/2022-Osty-Studio-Azulejo-video_1.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466563/berriblue/artworks/studio/2022-Osty-Studio-Azulejo-video_2.mp4"
       ]
-    }
+    },
+    "Meta Description": "Osty — artwork by BerriBlue. Azulejo, 60 x 45cm, 2022."
   },
   "2022-Rua_das_Flores-Sister_Piece-Studio-Azulejo": {
     "Category": "Studio",
@@ -2788,7 +2887,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402431/berriblue/artworks/studio/2022-Rua_das_Flores-Sister_Piece-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Rua das Flores - Sister Piece — artwork by BerriBlue. Azulejo, 40cm x 95cm, 2022."
   },
   "2022-Santo_Antonio-Studio-Azulejo": {
     "Category": "Studio",
@@ -2816,7 +2916,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768420937/2022-Santo_Antonio-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Santo Antonio — artwork by BerriBlue. Azulejo, 105cm x 45cm, 2022."
   },
   "2022-Shoreditch_hand-Street-Azulejo-London": {
     "Category": "Street",
@@ -2844,7 +2945,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768421390/berriblue/artworks/street/2022-Shoreditch_hand-Street-Azulejo-London-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Shoreditch, London, 2022."
   },
   "2022-Skulls_and_Thistles-Street-Azulejo-Lisboa": {
     "Category": "Street",
@@ -2874,7 +2976,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464185/berriblue/artworks/street/2022-Skulls_and_Thistles-Street-Azulejo-Lisboa-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Lgo. Pinheiro, Lisboa, 2022."
   },
   "2022-Skulls-Street-Azulejo-Various": {
     "Category": "Street",
@@ -2926,7 +3029,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400576/berriblue/artworks/street/2022-Skulls-Street-Azulejo-Various-detail_28.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, various locations, Various, 2022."
   },
   "2022-The_Fish-Studio-Azulejo": {
     "Category": "Studio",
@@ -2953,7 +3057,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402452/berriblue/artworks/studio/2022-The_Fish-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "The Fish — artwork by BerriBlue. Azulejo, 60cm x 30cm, 2022."
   },
   "2022-Waiting-Studio-Azulejo": {
     "Category": "Studio",
@@ -2982,7 +3087,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768421007/2022-Waiting-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Waiting — artwork by BerriBlue. Azulejo, 60cm x 45cm, 2022."
   },
   "2023-Adored-Studio-Painting": {
     "Category": "Studio",
@@ -3010,7 +3116,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402476/berriblue/artworks/studio/2023-Adored-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Adored — artwork by BerriBlue. Paint & Pastel on Weathered Canvas, 2023."
   },
   "2023-Bat-Studio-Azulejo": {
     "Category": "Studio",
@@ -3037,7 +3144,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402486/berriblue/artworks/studio/2023-Bat-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Bat — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
   },
   "2023-Bite-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -3063,7 +3171,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400582/berriblue/artworks/street/2023-Bite-Street-Azulejo-Warszawa-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Oleandrów, Warszawa, 2023."
   },
   "2023-Brama-Studio-Azulejo": {
     "Category": "Studio",
@@ -3089,7 +3198,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402489/berriblue/artworks/studio/2023-Brama-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Brama — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
   },
   "2023-Burza-Studio-Azulejo": {
     "Category": "Studio",
@@ -3115,7 +3225,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402494/berriblue/artworks/studio/2023-Burza-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Burza — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
   },
   "2023-Caseta-Studio-Azulejo": {
     "Category": "Studio",
@@ -3142,7 +3253,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402499/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Caseta — artwork by BerriBlue. Azulejo, 45 x 45cm, 2023."
   },
   "2023-Cat_WWA-Street-Azulejo-Warsaw": {
     "Category": "Street",
@@ -3168,7 +3280,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400591/berriblue/artworks/street/2023-Cat_WWA-Street-Azulejo-Warsaw-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Śródmieście Południowe, Warsaw, 2023."
   },
   "2023-Devil_Athens_1-Street-Azulejo-Athens": {
     "Category": "Street",
@@ -3195,7 +3308,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400600/berriblue/artworks/street/2023-Devil_Athens_1-Street-Azulejo-Athens-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ρήγα Παλαμήδου, Athens, 2023."
   },
   "2023-Devil_Athens_2-Street-Azulejo-Athens": {
     "Category": "Street",
@@ -3222,7 +3336,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400606/berriblue/artworks/street/2023-Devil_Athens_2-Street-Azulejo-Athens-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Σαρρή, Athens, 2023."
   },
   "2023-Dicks_Bombarda-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -3247,7 +3362,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400620/berriblue/artworks/street/2023-Dicks_Bombarda-Street-Azulejo-Porto-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua Miguel Bombarda, Porto, 2023."
   },
   "2023-Dignity-Studio-Azulejo": {
     "Category": "Studio",
@@ -3276,7 +3392,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402507/berriblue/artworks/studio/2023-Dignity-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Dignity — artwork by BerriBlue. Azulejo, 45 x 30cm, 2023."
   },
   "2023-Dogs-Street-Azulejo-Warsaw": {
     "Category": "Street",
@@ -3306,7 +3423,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400638/berriblue/artworks/street/2023-Dogs-Street-Azulejo-Warsaw-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, various locations, Warsaw, 2023."
   },
   "2023-Face-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -3332,7 +3450,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400649/berriblue/artworks/street/2023-Face-Street-Azulejo-Warszawa-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Poznańska, Warszawa, 2023."
   },
   "2023-Faun-Studio-Azulejo": {
     "Category": "Studio",
@@ -3358,7 +3477,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402520/berriblue/artworks/studio/2023-Faun-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Faun — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
   },
   "2023-Feast-Studio-Azulejo": {
     "Category": "Studio",
@@ -3384,7 +3504,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402527/berriblue/artworks/studio/2023-Feast-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Feast — artwork by BerriBlue. Azulejo, 45 x 45cm, 2023."
   },
   "2023-Feather-Studio-Azulejo": {
     "Category": "Studio",
@@ -3407,7 +3528,8 @@
       "main": null,
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Feather — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
   },
   "2023-Fishbowl-Studio-Painting": {
     "Category": "Studio",
@@ -3435,7 +3557,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402537/berriblue/artworks/studio/2023-Fishbowl-Studio-Azulejo-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Fishbowl — artwork by BerriBlue. Paint, Pastel, and Nails on Plywood, 30 x 21 x 4cm, 2023."
   },
   "2023-Horse-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -3463,7 +3586,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400662/berriblue/artworks/street/2023-Horse-Street-Azulejo-Warszawa-detail_4.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Al. Armii Ludowej, Warszawa, 2023."
   },
   "2023-Horse-Studio-Azulejo": {
     "Category": "Studio",
@@ -3491,7 +3615,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768308028/berriblue/artworks/street/2023-Horse-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Horse — artwork by BerriBlue. Azulejo, 45 x 30cm, 2023."
   },
   "2023-Kot_II-Studio-Azulejo": {
     "Category": "Studio",
@@ -3520,7 +3645,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402548/berriblue/artworks/studio/2023-Kot_II-Studio-Azulejo-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Kot II — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
   },
   "2023-Lady_WWA-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -3547,7 +3673,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400671/berriblue/artworks/street/2023-Lady_WWA-Street-Azulejo-Warszawa-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Nowowiejska, Warszawa, 2023."
   },
   "2023-Leeds_Hand-Street-Azulejo-Leeds": {
     "Category": "Street",
@@ -3576,7 +3703,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400688/berriblue/artworks/street/2023-Leeds_Hand-Street-Azulejo-Leeds-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Trinity, Leeds, 2023."
   },
   "2023-Magpie-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -3608,7 +3736,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400710/berriblue/artworks/street/2023-Magpie-Street-Azulejo-Porto-detail_8.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, R de Conceição, Porto, 2023."
   },
   "2023-My_Pigeon_was_Killed_by_Cats-Studio-Azulejo": {
     "Category": "Studio",
@@ -3638,7 +3767,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402558/berriblue/artworks/studio/2023-My_Pigeon_was_Killed_by_Cats-Studio-Azulejo-video_1.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768402561/berriblue/artworks/studio/2023-My_Pigeon_was_Killed_by_Cats-Studio-Azulejo-video_2.mp4"
       ]
-    }
+    },
+    "Meta Description": "My Pigeon was Killed by Cats — artwork by BerriBlue. Azulejo, 45 x 45cm, 2023."
   },
   "2023-Neck-Studio-Azulejo": {
     "Category": "Studio",
@@ -3665,7 +3795,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402572/berriblue/artworks/studio/2023-Neck-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Neck — artwork by BerriBlue. Azulejo, 45 x 30cm, 2023."
   },
   "2023-Paris_Feather-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3691,7 +3822,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400716/berriblue/artworks/street/2023-Paris_Feather-Street-Azulejo-Paris-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue des Archives, Paris, 2023."
   },
   "2023-Paris_Gold-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3726,7 +3858,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1775648431/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue du Bourg Tibourg, Paris, 2023."
   },
   "2023-Paris_Gone-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3753,7 +3886,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400739/berriblue/artworks/street/2023-Paris_Gone-Street-Azulejo-Paris-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue de Moussy, Paris, 2023."
   },
   "2023-Paris_Hand-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3783,7 +3917,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400757/berriblue/artworks/street/2023-Paris_Hand-Street-Azulejo-Paris-detail_6.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue des Haudriettes, Paris, 2023."
   },
   "2023-Paris_Kot-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3812,7 +3947,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400787/berriblue/artworks/street/2023-Paris_Kot-Street-Azulejo-Paris-detail_5.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue du Temple, Paris, 2023."
   },
   "2023-Paris_Nosebleed-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3843,7 +3979,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1775644524/berriblue/artworks/street/2023-Paris_Nosebleed-Street-Azulejo-Paris-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Sq. Sainte-Croix de la Bretonnerie, Paris, 2023."
   },
   "2023-Paris_Sword-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -3870,7 +4007,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400817/berriblue/artworks/street/2023-Paris_Sword-Street-Azulejo-Paris-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue de Braque, Paris, 2023."
   },
   "2023-Pastel-Studio-Azulejo": {
     "Category": "Studio",
@@ -3896,7 +4034,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402578/berriblue/artworks/studio/2023-Pastel-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Pastel — artwork by BerriBlue. Azulejo, 75 x 45cm, 2023."
   },
   "2023-Peeper-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -3923,7 +4062,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400830/berriblue/artworks/street/2023-Peeper-Street-Azulejo-Porto-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua de Miguel Bombarda, Porto, 2023."
   },
   "2023-Pickled-Studio-Azulejo": {
     "Category": "Studio",
@@ -3949,7 +4089,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402582/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Pickled — artwork by BerriBlue. Azulejo, 52 x 30cm, 2023."
   },
   "2023-Poziomki-Street-Azulejo-Warsaw": {
     "Category": "Street",
@@ -3980,7 +4121,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768400846/berriblue/artworks/street/2023-Poziomki-Street-Azulejo-Warsaw-detail_7.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Plac Zbawiciela, Warsaw, 2023."
   },
   "2023-Rabarbar-Studio-Azulejo": {
     "Category": "Studio",
@@ -4006,7 +4148,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402586/berriblue/artworks/studio/2023-Rabarbar-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Rabarbar — artwork by BerriBlue. Azulejo, 60 x 45cm, 2023."
   },
   "2023-Self_Portrait_with_Teapot-Studio-Painting": {
     "Category": "Studio",
@@ -4032,7 +4175,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402590/berriblue/artworks/studio/2023-Self_Portrait_with_Teapot-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Self Portrait with Teapot — artwork by BerriBlue. Paint & Pastel on Plywood, 120 x 60cm, 2023."
   },
   "2023-Skulls-Studio-Azulejo": {
     "Category": "Studio",
@@ -4055,7 +4199,8 @@
       "main": null,
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Skulls — artwork by BerriBlue. Azulejo, 45 x 45cm, 2023."
   },
   "2023-Small_Kot_WWA-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4078,7 +4223,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1768400848/berriblue/artworks/street/2023-Small_Kot_WWA-Street-Azulejo-Warszawa-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Emila Zoli, Warszawa, 2023."
   },
   "2023-Sroka-Studio-Azulejo": {
     "Category": "Studio",
@@ -4105,7 +4251,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402608/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Sroka — artwork by BerriBlue. Azulejo, 45 x 45cm, 2023."
   },
   "2023-Upside_Down-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -4146,7 +4293,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768400873/berriblue/artworks/street/2023-Upside_Down-Street-Azulejo-Porto-video_2.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768400883/berriblue/artworks/street/2023-Upside_Down-Street-Azulejo-Porto-video_3.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua de Passos Manuel, Porto, 2023."
   },
   "2023-Vigil-Studio-Azulejo": {
     "Category": "Studio",
@@ -4172,7 +4320,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402611/berriblue/artworks/studio/2023-Vigil-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Vigil — artwork by BerriBlue. Azulejo, 45 x 45cm, 2023."
   },
   "2023-Wolves-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -4200,7 +4349,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464585/berriblue/artworks/street/2023-Wolves-Street-Azulejo-Porto-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rua das Virtudes, Porto, 2023."
   },
   "2024-Berlin_Devil-Street-Azulejo-Berlin": {
     "Category": "Street",
@@ -4225,7 +4375,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401415/berriblue/artworks/street/2024-Berlin_Devil-Street-Azulejo-Berlin-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Savignyplatz, Berlin, 2024."
   },
   "2024-Berlin_Hand-Street-Azulejo-Berlin": {
     "Category": "Street",
@@ -4250,7 +4401,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401420/berriblue/artworks/street/2024-Berlin_Hand-Street-Azulejo-Berlin-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Savignyplatz, Berlin, 2024."
   },
   "2024-Camden_Bats-Street-Azulejo-London": {
     "Category": "Street",
@@ -4277,7 +4429,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464899/berriblue/artworks/street/2024-Camden_Bats-Street-Azulejo-London-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Harmood St, Camden, London, 2024."
   },
   "2024-Camden_Corner-Street-Azulejo-London": {
     "Category": "Street",
@@ -4306,7 +4459,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768465049/2024-Camden_Corner-Street-Azulejo-London-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Mornington Terrace, Camden, London, 2024."
   },
   "2024-Dandelion_(azulejo)-Studio-Azulejo": {
     "Category": "Studio",
@@ -4332,7 +4486,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402616/berriblue/artworks/studio/2024-Dandelion_%28azulejo%29-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Dandelion (azulejo) — artwork by BerriBlue. Azulejo, 60 x 45cm, 2024."
   },
   "2024-Dandelion_(painting)-Studio-Painting": {
     "Category": "Studio",
@@ -4358,7 +4513,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402621/berriblue/artworks/studio/2024-Dandelion_%28painting%29-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Dandelion (painting) — artwork by BerriBlue. Paint and pastel on canvas, 70 x 55cm, 2024."
   },
   "2024-Dusk_(Zmierzch)-Studio-Azulejo": {
     "Category": "Studio",
@@ -4384,7 +4540,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402631/berriblue/artworks/studio/2024-Dusk_%28Zmierzch%29-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Dusk (Zmierzch) — artwork by BerriBlue. Azulejo, 112.5 x 60cm, 2024."
   },
   "2024-Foksal-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4409,7 +4566,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401438/berriblue/artworks/street/2024-Foksal-Street-Azulejo-Warszawa-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ul Foksal, Warszawa, 2024."
   },
   "2024-Gold_Faces-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4435,7 +4593,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401445/berriblue/artworks/street/2024-Gold_Faces-Street-Azulejo-Warszawa-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Schody Potiomkinowskie, Warszawa, 2024."
   },
   "2024-Jezioro-Studio-Azulejo": {
     "Category": "Studio",
@@ -4461,7 +4620,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402639/berriblue/artworks/studio/2024-Jezioro-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Jezioro — artwork by BerriBlue. Azulejo, 60 x 60cm, 2024."
   },
   "2024-Koszykowa-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4488,7 +4648,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401453/berriblue/artworks/street/2024-Koszykowa-Street-Azulejo-Warszawa-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ul Koszykowa, Warszawa, 2024."
   },
   "2024-Kot_3-Studio-Azulejo": {
     "Category": "Studio",
@@ -4515,7 +4676,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402648/berriblue/artworks/studio/2024-Kot_3-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Kot 3 — artwork by BerriBlue. Azulejo, 45 x 30cm, 2024."
   },
   "2024-Krakow_Boy-Street-Azulejo-Krakow": {
     "Category": "Street",
@@ -4541,7 +4703,8 @@
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464598/berriblue/artworks/street/2024-Krakow_Boy-Street-Azulejo-Krakow-video_1.mp4",
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464601/berriblue/artworks/street/2024-Krakow_Boy-Street-Azulejo-Krakow-video_2.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ul Targowa, Krakow, 2024."
   },
   "2024-Krakow_Corner_Small-Street-Azulejo-Krakow": {
     "Category": "Street",
@@ -4566,7 +4729,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464889/berriblue/artworks/street/2024-Krakow_Corner_Small-Street-Azulejo-Krakow-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ul Bochenska, Krakow, 2024."
   },
   "2024-Krakow_Corner-Street-Azulejo-Krakow": {
     "Category": "Street",
@@ -4592,7 +4756,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768464894/berriblue/artworks/street/2024-Krakow_Corner-Street-Azulejo-Krakow-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, ul Józefa, Krakow, 2024."
   },
   "2024-Ministerstwo_Kawy-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4618,7 +4783,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401471/berriblue/artworks/street/2024-Ministerstwo_Kawy-Street-Azulejo-Warszawa-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ul Marszałkowska, Warszawa, 2024."
   },
   "2024-Mollusc-Studio-Azulejo": {
     "Category": "Studio",
@@ -4644,7 +4810,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402653/berriblue/artworks/studio/2024-Mollusc-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Mollusc — artwork by BerriBlue. Azulejo, 90 x 60 cm, 2024."
   },
   "2024-Plac_Konstytucji-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4669,7 +4836,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768464593/berriblue/artworks/street/2024-Plac_Konstytucji-Street-Azulejo-Warszawa-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Plac Konstytucji, Warszawa, 2024."
   },
   "2024-Porto_TV5_Monde-Street-Azulejo-Porto": {
     "Category": "Street",
@@ -4696,7 +4864,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768464673/berriblue/artworks/street/2024-Porto_TV5_Monde-Street-Azulejo-Porto-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Largo da Ramadinha, Porto, 2024."
   },
   "2024-Przedświt-Studio-Azulejo": {
     "Category": "Studio",
@@ -4723,7 +4892,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402662/berriblue/artworks/studio/2024-Przeds%CC%81wit-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Przedświt — artwork by BerriBlue. Azulejo, 45 x 60cm, 2024."
   },
   "2024-Soft_Tissue-Studio-Azulejo": {
     "Category": "Studio",
@@ -4750,7 +4920,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402667/berriblue/artworks/studio/2024-Soft_Tissue-Studio-Azulejo-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Soft Tissue — artwork by BerriBlue. Azulejo, 45 x 15cm, 2024."
   },
   "2024-Wilcza-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4775,7 +4946,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401482/berriblue/artworks/street/2024-Wilcza-Street-Azulejo-Warszawa-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Ul Wilcza, Warszawa, 2024."
   },
   "2025-Banshee1-Studio-Azulejo": {
     "Category": "Studio",
@@ -4801,7 +4973,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402676/berriblue/artworks/studio/2025-Banshee1-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Banshee1 — artwork by BerriBlue. Azulejo, 60 x 60cm, 2025."
   },
   "2025-Budapest-Street-Azulejo-Budapest": {
     "Category": "Street",
@@ -4826,7 +4999,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401486/berriblue/artworks/street/2025-Budapest-Street-Azulejo-Budapest-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Dob u., Budapest, 2025."
   },
   "2025-Cialo-Studio-Azulejo": {
     "Category": "Studio",
@@ -4852,7 +5026,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402683/berriblue/artworks/studio/2025-Cialo-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Cialo — artwork by BerriBlue. Azulejo, 90 x 75cm, 2025."
   },
   "2025-Cut_Flowers-Studio-Azulejo": {
     "Category": "Studio",
@@ -4878,7 +5053,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402692/berriblue/artworks/studio/2025-Cut_Flowers-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Cut Flowers — artwork by BerriBlue. Azulejo, 45 x 15cm, 2025."
   },
   "2025-Figure-Studio-Azulejo": {
     "Category": "Studio",
@@ -4903,7 +5079,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402698/berriblue/artworks/studio/2025-Figure-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Figure — artwork by BerriBlue. Azulejo, 45 x 15cm, 2025."
   },
   "2025-Karma-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -4929,7 +5106,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401494/berriblue/artworks/street/2025-Karma-Street-Azulejo-Warszawa-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, al. 3 Maja, Warszawa, 2025."
   },
   "2025-Kot_1-Studio-Azulejo": {
     "Category": "Studio",
@@ -4955,7 +5133,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402705/berriblue/artworks/studio/2025-Kot_1-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Kot 1 — artwork by BerriBlue. Azulejo, 45 x 30cm, 2025."
   },
   "2025-Kot_2-Studio-Azulejo": {
     "Category": "Studio",
@@ -4981,7 +5160,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402713/berriblue/artworks/studio/2025-Kot_2-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Kot 2 — artwork by BerriBlue. Azulejo, 45 x 30cm, 2025."
   },
   "2025-Pierced-Studio-Azulejo": {
     "Category": "Studio",
@@ -5007,7 +5187,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402723/berriblue/artworks/studio/2025-Pierced-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Pierced — artwork by BerriBlue. Azulejo, 30 x 15cm, 2025."
   },
   "2025-Pies-Studio-Azulejo": {
     "Category": "Studio",
@@ -5032,7 +5213,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402726/berriblue/artworks/studio/2025-Pies-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Pies — artwork by BerriBlue. Azulejo, 40 x 25cm, 2025."
   },
   "2025-Skała-Studio-Azulejo": {
     "Category": "Studio",
@@ -5059,7 +5241,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1768466891/2025-Ska%C5%82a-Studio-Azulejo-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Skała — artwork by BerriBlue. Azulejo, 40 x 25cm, 2025."
   },
   "2025-Wazon_(Vase)-Studio-Azulejo": {
     "Category": "Studio",
@@ -5085,7 +5268,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768402741/berriblue/artworks/studio/2025-Wazon_%28Vase%29-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Wazon (Vase) — artwork by BerriBlue. Azulejo, 45 x 15cm, 2025."
   },
   "2025-Wrzenie_Swiata-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -5112,7 +5296,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1768401506/berriblue/artworks/street/2025-Wrzenie_Swiata-Street-Azulejo-Warszawa-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, ul Konstantego Ildefonsa Gałczyńskiego, Warszawa, 2025."
   },
   "2025-Figure_5-Studio-Azulejo": {
     "Category": "Studio",
@@ -5138,7 +5323,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1773219822/berriblue/artworks/studio/2025-Figure_5-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Figure 5 — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2025-Faces-Studio-Azulejo": {
     "Category": "Studio",
@@ -5163,7 +5349,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775558564/berriblue/artworks/studio/2025-Faces-Studio-Azulejo-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Faces — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2025-Dove-Studio-Azulejo": {
     "Category": "Studio",
@@ -5189,7 +5376,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775558688/berriblue/artworks/studio/2025-Dove-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Dove — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2025-Dog-Studio-Azulejo": {
     "Category": "Studio",
@@ -5215,7 +5403,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775558893/berriblue/artworks/studio/2025-Dog-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Dog — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2025-Figure_1-Studio-Azulejo": {
     "Category": "Studio",
@@ -5241,7 +5430,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775560143/berriblue/artworks/studio/2025-Figure_1-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Figure 1 — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2025-Figure_2-Studio-Azulejo": {
     "Category": "Studio",
@@ -5267,7 +5457,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775560233/berriblue/artworks/studio/2025-Figure_2-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Figure 2 — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2025-Figure_6-Studio-Azulejo": {
     "Category": "Studio",
@@ -5293,7 +5484,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775560345/berriblue/artworks/studio/2025-Figure_6-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Figure 6 — artwork by BerriBlue. Azulejo, 30x15cm, 2025."
   },
   "2024-Bloom-Studio-Azulejo": {
     "Category": "Studio",
@@ -5319,7 +5511,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775560493/berriblue/artworks/studio/2024-Bloom-Studio-Azulejo-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Bloom — artwork by BerriBlue. Azulejo, 45x30cm, 2024."
   },
   "2025-Sloncy-Street-Azulejo-Bydgoszcz": {
     "Category": "Street",
@@ -5342,7 +5535,8 @@
       "main": "https://res.cloudinary.com/dn56nm273/image/upload/v1775560647/berriblue/artworks/street/2025-Sloncy-Street-Azulejo-Bydgoszcz-main.jpg",
       "gallery": [],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, ul Długa, Bydgoszcz, 2025."
   },
   "2025-Zaloba-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -5368,7 +5562,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775561199/berriblue/artworks/street/2025-Zaloba-Street-Azulejo-Warszawa-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Schodki, Warszawa, 2025."
   },
   "2025-Pazdziernik-Street-Azulejo-Warszawa": {
     "Category": "Street",
@@ -5395,7 +5590,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775561379/berriblue/artworks/street/2025-Pazdziernik-Street-Azulejo-Warszawa-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Dolina Szwajcarska, Warszawa, 2025."
   },
   "2026-Figure_Paris-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5422,7 +5618,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1775644969/berriblue/artworks/street/2026-Figure_Paris-Street-Azulejo-Paris-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue Sainte-Croix de la Bretonnerie, Paris, 2026."
   },
   "2026-Green_Mask-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5454,7 +5651,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1775645179/berriblue/artworks/street/2026-Green_Mask-Street-Azulejo-Paris-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue du Temple, Paris, 2026."
   },
   "2026-Bats_and_Hand-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5481,7 +5679,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775645282/berriblue/artworks/street/2026-Bats_and_Hand-Street-Azulejo-Paris-detail_3.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue du Temple, Paris, 2026."
   },
   "2026-Ciete_Kwiaty-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5506,7 +5705,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775645364/berriblue/artworks/street/2026-Ciete_Kwiaty-Street-Azulejo-Paris-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Place des Vosges, Paris, 2026."
   },
   "2026-Corner_Bat-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5535,7 +5735,8 @@
       "videos": [
         "https://res.cloudinary.com/dn56nm273/video/upload/v1775645471/berriblue/artworks/street/2026-Corner_Bat-Street-Azulejo-Paris-video_1.mp4"
       ]
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue du Plâtre, Paris, 2026."
   },
   "2026-Dog-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5561,7 +5762,8 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775646056/berriblue/artworks/street/2026-Dog-Street-Azulejo-Paris-detail_2.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue de Poitou, Paris, 2026."
   },
   "2026-Red_Mask-Street-Azulejo-Paris": {
     "Category": "Street",
@@ -5587,6 +5789,7 @@
         "https://res.cloudinary.com/dn56nm273/image/upload/v1775646125/berriblue/artworks/street/2026-Red_Mask-Street-Azulejo-Paris-detail_1.jpg"
       ],
       "videos": []
-    }
+    },
+    "Meta Description": "Azulejo (ceramic tile) street art piece by BerriBlue, Rue de Montmorency, Paris, 2026."
   }
 }

@@ -14,6 +14,43 @@ permalink: "/work/{{ key }}/"
 {% if artwork.Category == "Street" %}{% set backUrl = "/work/street-art/" %}{% endif %}
 {% if artwork["Sub Category"] == "Painting" %}{% set backUrl = "/work/painting/" %}{% endif %}
 
+{# --- SEO --- #}
+{% set _isStreet = artwork.Category == "Street" %}
+{% set _isAzulejo = artwork["Sub Category"] == "Azulejo" %}
+{% set _isPainting = artwork["Sub Category"] == "Painting" %}
+
+{% if _isStreet %}
+  {% if _isAzulejo %}
+    {% set _mainAlt %}Azulejo (ceramic tile) street art piece by BerriBlue on {{ artwork.Street }} in {{ artwork.City }}{% endset %}
+  {% else %}
+    {% set _mainAlt %}Street art piece by BerriBlue on {{ artwork.Street }} in {{ artwork.City }}{% endset %}
+  {% endif %}
+  {% set _galleryAltBase %}BerriBlue street art piece, {{ artwork.Street }}, {{ artwork.City }}{% endset %}
+{% elif _isPainting %}
+  {% set _mainAlt %}{{ artwork["Display Name"] }} - painting by BerriBlue, {{ artwork.Year }}{% endset %}
+  {% set _galleryAltBase %}{{ artwork["Display Name"] }} - BerriBlue artwork{% endset %}
+{% else %}
+  {% set _mainAlt %}{{ artwork["Display Name"] }} - Azulejo (ceramic tile) artwork by BerriBlue, {{ artwork.Year }}{% endset %}
+  {% set _galleryAltBase %}{{ artwork["Display Name"] }} - BerriBlue artwork{% endset %}
+{% endif %}
+
+{% set _metaDesc = artwork["Meta Description"] if artwork["Meta Description"] else seo.site.default_description %}
+{% set _ogImage = artwork.Media.main | replace("/upload/", "/upload/w_1200,h_630,c_fill,g_center/") if artwork.Media.main else seo.site.default_og_image %}
+
+{% block head %}
+<meta name="description" content="{{ _metaDesc }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BerriBlue">
+<meta property="og:title" content="{{ artwork['Display Name'] }} — BerriBlue">
+<meta property="og:description" content="{{ _metaDesc }}">
+<meta property="og:url" content="{{ seo.site.site_url }}{{ page.url }}">
+<meta property="og:image" content="{{ _ogImage }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ artwork['Display Name'] }} — BerriBlue">
+<meta name="twitter:description" content="{{ _metaDesc }}">
+<meta name="twitter:image" content="{{ _ogImage }}">
+{% endblock %}
+
 <div class="section section--white">
   <div class="section-inner">
     <div class="artwork-detail">
@@ -77,6 +114,16 @@ permalink: "/work/{{ key }}/"
   const videos = {{ artwork.Media.videos | dump | safe }};
   const media = [mainImage, ...galleryImages, ...(videos || [])].filter(Boolean);
 
+  const mainAlt = {{ _mainAlt | trim | dump | safe }};
+  const galleryAltBase = {{ _galleryAltBase | trim | dump | safe }};
+
+  function getAlt(url) {
+    if (url === mainImage) return mainAlt;
+    const idx = galleryImages.indexOf(url);
+    if (idx !== -1) return galleryAltBase + ', detail ' + (idx + 1);
+    return '';
+  }
+
   let modalIndex = 0;
 
   function isVideo(url) {
@@ -94,7 +141,7 @@ permalink: "/work/{{ key }}/"
     } else {
       const img = document.createElement('img');
       img.src = url;
-      img.alt = '';
+      img.alt = getAlt(url);
       return img;
     }
   }
@@ -117,7 +164,7 @@ permalink: "/work/{{ key }}/"
     } else {
       el = document.createElement('img');
       el.src = url;
-      el.alt = '';
+      el.alt = getAlt(url);
       el.className = 'artwork-slideshow__item';
       el.addEventListener('click', () => openModal(i));
     }

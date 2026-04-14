@@ -2,6 +2,7 @@
   "site": {
     "site_url": "https://berriblue.com",
     "default_og_image": "https://res.cloudinary.com/dn56nm273/image/upload/v1775648232/berriblue/artworks/street/2023-Paris_Gold-Street-Azulejo-Paris-main.jpg",
+    "image_gravity": "center",
     "default_title_suffix": "— BerriBlue",
     "default_description": "BerriBlue is a Warsaw-based Polish/Irish painter and street artist, specialising in azulejo — glazed ceramic tile in the Portuguese tradition. Her work can be found on walls across Europe and in private collections internationally."
   },
@@ -18,7 +19,7 @@
       "title": "About BerriBlue",
       "description": "BerriBlue is a Polish/Irish painter and street artist based in Warsaw. Working in azulejo, paste-up and painting, her work explores identity, mortality, and the personal — placed on walls across Europe and held in private collections internationally.",
       "og_image": "https://res.cloudinary.com/dn56nm273/image/upload/v1768402654/berriblue/artworks/studio/2024-Przeds%CC%81wit-Studio-Azulejo-main.jpg",
-      "image_gravity": "center",
+      "image_gravity": "north",
       "og_description": null,
       "noindex": false
     },
@@ -66,7 +67,7 @@
       "title": "BerriBlue | Exhibitions",
       "description": "Exhibition history of artist BerriBlue — solo and group shows across Europe including the Florence Biennale, galleries in Porto, Warsaw, Paris, and Dublin, from 2012 to present.",
       "og_image": "https://res.cloudinary.com/dn56nm273/image/upload/v1775890656/Culminations_Exhibition.png",
-      "image_gravity": "center",
+      "image_gravity": "north",
       "og_description": null,
       "noindex": false
     },
