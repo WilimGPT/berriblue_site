@@ -74,7 +74,7 @@ permalink: "/work/{{ key }}/"
       {% elif artwork["For Sale"] == "TRUE" %}
         <div class="artwork-detail__purchase">
           {% if artwork.Price %}<span class="artwork-detail__price">€{{ artwork.Price }}</span>{% endif %}
-          <a href="{{ artwork['Buy link'] if artwork['Buy link'] else 'mailto:info@berriblue.com?subject=Enquiry%20about%20artwork%20-%20' + artwork['Display Name'] | urlencode }}" class="artwork-detail__buy-btn" Buy Now</a>
+          <a href="{{ artwork['Buy link'] if artwork['Buy link'] else 'mailto:info@berriblue.com?subject=Enquiry%20about%20artwork%20-%20' + artwork['Display Name'] | urlencode }}" class="artwork-detail__buy-btn">Buy Now</a>
         </div>
       {% endif %}
 
