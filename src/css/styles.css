@@ -149,6 +149,36 @@ img, video {
   }
 }
 
+@media (max-width: 768px) {
+  .triptych {
+    gap: clamp(0.5rem, 2vw, 1rem);
+    padding: 0 0.5rem;
+  }
+
+  .triptych__image {
+    flex: 0 1 40%;
+    min-width: 0;
+    padding: 0.75rem;
+  }
+
+  .triptych__image img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
+  }
+
+  .triptych__center {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .triptych__center .overlay-card {
+    max-width: 100%;
+    padding: 1rem 1.25rem;
+  }
+}
+
 
 /* OVERLAY CARD – reusable content panel */
 
@@ -268,7 +298,7 @@ img, video {
 }
 
 
-/* Mobile-only column order override */
+/* Mobile-only column order overrides */
 
 @media (max-width: 800px) {
   .section--stack-text-first .two-col {
@@ -280,6 +310,14 @@ img, video {
   }
 
   .section--stack-text-first .two-col .section-image {
+    order: 2;
+  }
+
+  .section--stack-image-first .two-col .section-image {
+    order: 1;
+  }
+
+  .section--stack-image-first .two-col .section-text {
     order: 2;
   }
 }
