@@ -152,7 +152,7 @@ title: BerriBlue | Fine Art
         {% for key in home_work_slideshow %}
           {% if artworks[key] %}
             <div class="work-slideshow__item">
-              <img src="{{ artworks[key].Media.main }}" alt="{{ artworks[key].Title }}" draggable="false">
+              <img src="{{ artworks[key].Media.main | replace('/upload/', '/upload/w_400,q_auto,f_auto/') }}" alt="{{ artworks[key].Title }}" draggable="false">
             </div>
           {% endif %}
         {% endfor %}

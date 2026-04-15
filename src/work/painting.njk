@@ -17,7 +17,7 @@ title: Work – Painting | BerriBlue
             {% if artworks[key] %}
               <div class="work-gallery__item">
                 <a href="/work/{{ key }}/">
-                  <img src="{{ artworks[key].Media.main | replace('/upload/', '/upload/w_800,q_auto,f_auto/') }}" alt="{{ artworks[key].Title }}" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}" fetchpriority="{{ 'high' if loop.index <= 2 else 'auto' }}" decoding="async">
+                  <img src="{{ artworks[key].Media.main | replace('/upload/', '/upload/w_400,q_auto,f_auto/') }}" alt="{{ artworks[key].Title }}" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}" fetchpriority="{{ 'high' if loop.index <= 2 else 'auto' }}" decoding="async">
                 </a>
                 {% if artworks[key].Sold == "TRUE" %}<div class="work-gallery__sold-dot"></div>{% endif %}
               </div>
