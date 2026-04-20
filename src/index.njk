@@ -61,7 +61,7 @@ title: BerriBlue | Fine Art
     <div class="triptych">
       <div class="triptych__image">
         <img
-          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767105828/main.jpg"
+          src="https://res.cloudinary.com/dn56nm273/image/upload/w_400,f_webp,q_auto/v1767105828/main.jpg"
           alt="Awake – artwork"
         >
       </div>
@@ -86,7 +86,7 @@ title: BerriBlue | Fine Art
 
       <div class="triptych__image triptych__image--right">
         <img
-          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767105828/main.jpg"
+          src="https://res.cloudinary.com/dn56nm273/image/upload/w_400,f_webp,q_auto/v1767105828/main.jpg"
           alt="Awake – artwork"
         >
       </div>
@@ -99,7 +99,7 @@ title: BerriBlue | Fine Art
 
       <div class="carousel-two-col__image">
         <img
-          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767785101/sur-les-murs_berriblue.png"
+          src="https://res.cloudinary.com/dn56nm273/image/upload/w_900,f_webp,q_auto/v1767785101/sur-les-murs_berriblue.png"
           alt="Sur Les Murs – BerriBlue"
         >
       </div>
@@ -108,7 +108,7 @@ title: BerriBlue | Fine Art
        <center>
         <img
           class="carousel-two-col__logo"
-          src="https://res.cloudinary.com/dn56nm273/image/upload/v1767785846/sur-les-murs_logo2.png"
+          src="https://res.cloudinary.com/dn56nm273/image/upload/w_500,f_webp,q_auto/v1767785846/sur-les-murs_logo2.png"
           alt="Sur Les Murs logo"
         >
         <br>
@@ -152,7 +152,7 @@ title: BerriBlue | Fine Art
         {% for key in home_work_slideshow %}
           {% if artworks[key] %}
             <div class="work-slideshow__item">
-              <img src="{{ artworks[key].Media.main | replace('/upload/', '/upload/w_400,q_auto,f_auto/') }}" alt="{{ artworks[key].Title }}" draggable="false">
+              <img src="{{ artworks[key].Media.main | replace('/upload/', '/upload/h_600,q_auto,f_auto/') }}" alt="{{ artworks[key].Title }}" draggable="false">
             </div>
           {% endif %}
         {% endfor %}
@@ -176,7 +176,7 @@ title: BerriBlue | Fine Art
     {% call twoColSection(
       bg="transparent",
       ratio="image-narrow",
-      image="https://res.cloudinary.com/dn56nm273/image/upload/v1766397035/soft-tissue-detail-1.jpg",
+      image="https://res.cloudinary.com/dn56nm273/image/upload/w_600,f_webp,q_auto/v1766397035/soft-tissue-detail-1.jpg",
       imageAlt="BerriBlue exhibition artwork detail",
       imageSide="left",
       imageStyle="shadow"
@@ -210,7 +210,7 @@ title: BerriBlue | Fine Art
     {% call twoColSection(
       bg="transparent",
       ratio="equal",
-      image="https://res.cloudinary.com/dn56nm273/image/upload/v1766397237/BerriBlue-in-studio.jpg",
+      image="https://res.cloudinary.com/dn56nm273/image/upload/w_900,f_webp,q_auto/v1766397237/BerriBlue-in-studio.jpg",
       imageAlt="BerriBlue - artist in studio",
       imageSide="right",
       imageStyle="shadow",
@@ -236,7 +236,7 @@ title: BerriBlue | Fine Art
 
     {% call twoColSection(
       bg="transparent",
-      image="https://res.cloudinary.com/dn56nm273/image/upload/v1766397303/Muszka-with-scarf.jpg",
+      image="https://res.cloudinary.com/dn56nm273/image/upload/w_850,f_webp,q_auto/v1766397303/Muszka-with-scarf.jpg",
       imageAlt="BerriBlue silk scarves",
       imageSide="left",
       imageStyle="shadow"
