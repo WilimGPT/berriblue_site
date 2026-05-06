@@ -2,3 +2,4 @@ node_modules/
 _site/
 ref/
 .DS_Store
+.env
