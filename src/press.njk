@@ -46,13 +46,14 @@ title: Press | BerriBlue
     <div class="press-grid">
       {% for item in press_list %}
         <div class="press-card">
+          {% set displayImage = item.thumb if item.thumb else item.image %}
           {% if item.link %}
             <a href="{{ item.link }}" target="_blank" rel="noopener" class="press-card__image-link">
-              <img src="{{ item.image }}" alt="{{ item.publication }}" class="press-card__image">
+              <img src="{{ displayImage }}" alt="{{ item.publication }}" class="press-card__image">
             </a>
           {% else %}
             <div class="press-card__image-link press-card__image-link--no-link">
-              <img src="{{ item.image }}" alt="{{ item.publication }}" class="press-card__image">
+              <img src="{{ displayImage }}" alt="{{ item.publication }}" class="press-card__image">
             </div>
           {% endif %}
 
