@@ -3359,6 +3359,8 @@
     "Media": {
       "main": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-main.jpg",
       "gallery": [
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-detail_4.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-detail_5.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-detail_1.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-detail_2.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-detail_3.jpg"
@@ -4390,6 +4392,7 @@
     "Media": {
       "main": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-main.jpg",
       "gallery": [
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-detail_4.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-detail_1.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-detail_2.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-detail_3.jpg"
@@ -6018,6 +6021,33 @@
       ],
       "videos": [],
       "main-thumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2026-Bathtime-Studio-Painting-main-thumb.jpg"
+    }
+  },
+  "2025-Retrograde-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Retrograde",
+    "Display Name": "Retrograde",
+    "Medium": "Azulejo",
+    "Size": "90x60cm",
+    "Street": null,
+    "City": null,
+    "Year": "2025",
+    "Description": null,
+    "For Sale": "TRUE",
+    "Buy link": "mailto:info@berriblue.com",
+    "Price": "4500",
+    "Sold": "FALSE",
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Meta Description": "Retrograde — artwork by BerriBlue. Azulejo, 90x60cm, 2025.",
+    "Media": {
+      "main": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Retrograde-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Retrograde-Studio-Azulejo-detail_1.jpg"
+      ],
+      "videos": [],
+      "main-thumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Retrograde-Studio-Azulejo-main-thumb.jpg"
     }
   }
 }
