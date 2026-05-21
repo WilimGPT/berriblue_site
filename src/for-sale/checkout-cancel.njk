@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+title: Payment Cancelled | BerriBlue
+permalink: /for-sale/checkout/cancel/
+---
+
+{% block head %}
+<style>
+  .checkout-result {
+    text-align: center;
+    padding: 5rem 1rem;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .checkout-result h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 0.75rem;
+  }
+  .checkout-result p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 0.5rem;
+  }
+  .checkout-result__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  .checkout-result__links a {
+    font-size: 0.85rem;
+    color: #5b9bd5;
+    text-decoration: none;
+  }
+  .checkout-result__links a:hover { text-decoration: underline; }
+</style>
+{% endblock %}
+
+<div class="section section--white">
+  <div class="section-inner">
+    <div class="checkout-result">
+      <h1>Payment cancelled</h1>
+      <p>No problem — your cart has been kept. You can return to checkout whenever you're ready.</p>
+      <div class="checkout-result__links">
+        <a href="/for-sale/checkout/">Return to checkout</a>
+        <a href="/for-sale/">Browse available works</a>
+      </div>
+    </div>
+  </div>
+</div>

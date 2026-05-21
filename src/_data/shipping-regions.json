@@ -1,0 +1,32 @@
+{
+  "PL": "pl",
+
+  "AT": "eu", "BE": "eu", "BG": "eu", "HR": "eu", "CY": "eu", "CZ": "eu",
+  "DK": "eu", "EE": "eu", "FI": "eu", "FR": "eu", "DE": "eu", "GR": "eu",
+  "HU": "eu", "IE": "eu", "IT": "eu", "LV": "eu", "LT": "eu", "LU": "eu",
+  "MT": "eu", "NL": "eu", "PT": "eu", "RO": "eu", "SK": "eu", "SI": "eu",
+  "ES": "eu", "SE": "eu",
+  "GB": "eu", "NO": "eu", "CH": "eu", "IS": "eu", "LI": "eu",
+  "AL": "eu", "BA": "eu", "ME": "eu", "MK": "eu", "RS": "eu",
+  "UA": "eu", "MD": "eu", "BY": "eu", "GE": "eu", "AM": "eu", "AZ": "eu",
+  "TR": "eu",
+
+  "US": "region1", "CA": "region1", "MX": "region1",
+  "AU": "region1", "NZ": "region1",
+  "JP": "region1", "KR": "region1", "SG": "region1", "HK": "region1", "TW": "region1",
+  "IL": "region1", "AE": "region1", "SA": "region1", "QA": "region1", "KW": "region1",
+  "ZA": "region1",
+
+  "CN": "region2", "IN": "region2", "BR": "region2", "AR": "region2", "CL": "region2",
+  "CO": "region2", "PE": "region2", "VE": "region2", "UY": "region2", "PY": "region2",
+  "BO": "region2", "EC": "region2",
+  "TH": "region2", "MY": "region2", "ID": "region2", "PH": "region2", "VN": "region2",
+  "BD": "region2", "PK": "region2", "LK": "region2", "NP": "region2",
+  "OM": "region2", "BH": "region2", "JO": "region2", "LB": "region2", "IQ": "region2",
+  "EG": "region2", "MA": "region2", "TN": "region2", "DZ": "region2", "LY": "region2",
+  "NG": "region2", "KE": "region2", "GH": "region2", "ET": "region2", "TZ": "region2",
+  "UG": "region2", "CI": "region2", "CM": "region2", "SN": "region2", "AO": "region2",
+  "MZ": "region2", "ZW": "region2", "ZM": "region2", "MG": "region2",
+  "KZ": "region2", "UZ": "region2", "TM": "region2", "KG": "region2", "TJ": "region2",
+  "RU": "region2", "KZ": "region2"
+}

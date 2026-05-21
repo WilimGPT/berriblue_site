@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+title: Order Confirmed | BerriBlue
+permalink: /for-sale/checkout/success/
+---
+
+{% block head %}
+<style>
+  .checkout-result {
+    text-align: center;
+    padding: 5rem 1rem;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .checkout-result__icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .checkout-result h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 0.75rem;
+  }
+  .checkout-result p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 0.5rem;
+  }
+  .checkout-result a {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #5b9bd5;
+    text-decoration: none;
+  }
+  .checkout-result a:hover { text-decoration: underline; }
+</style>
+{% endblock %}
+
+<div class="section section--white">
+  <div class="section-inner">
+    <div class="checkout-result">
+      <div class="checkout-result__icon">&#10003;</div>
+      <h1>Order confirmed</h1>
+      <p>Thank you for your purchase. You'll receive a confirmation email shortly.</p>
+      <a href="/for-sale/">Browse more available works</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Clear the cart on successful payment
+  localStorage.removeItem("bb_cart");
+  localStorage.removeItem("bb_cart_expires");
+</script>

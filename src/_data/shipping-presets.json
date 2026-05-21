@@ -1,0 +1,30 @@
+{
+    "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+        },
+    "dhl 64 38 15": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 25,
+        "region1": 200,
+        "region2": 225
+        },
+    "dhl 80 60 20": {
+        "name": "DHL",
+        "pl": 20,
+        "eu": 50,
+        "region1": 375,
+        "region2": 400
+        },
+    "dhl larger": {
+        "name": "DHL",
+        "pl": 100,
+        "eu": 200,
+        "region1": null,
+        "region2": null
+        }
+}

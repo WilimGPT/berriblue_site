@@ -1,0 +1,1955 @@
+{
+    "2023-Sroka-Studio-Azulejo": {
+        "DisplayName": "Sroka",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1500,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Sroka-Studio-Azulejo-main-thumb.jpg",
+        "Tags": [
+            "magpie",
+            "square",
+            "bird",
+            "bone",
+            "blue",
+            "red"
+        ]
+    },
+    "2018-A_Letter_to_my_Mother-Studio-Painting": {
+        "DisplayName": "A Letter to my Mother",
+        "DisplayMedium": "Paint, Pastel, & Charcoal on Plywood",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Charcoal",
+            "Wood",
+            "Plywood"
+        ],
+        "Framed": true,
+        "Width": 80,
+        "Height": 122,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 2450,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-A_Letter_to_my_Mother-Studio-Azulejo-main-thumb.jpg",
+        "Tags": [
+            "hand",
+            "gold",
+            "red",
+            "blue",
+            "body",
+            "flowers"
+        ]
+    },
+    "2018-Remains-Studio-Painting": {
+        "DisplayName": "Remains",
+        "DisplayMedium": "Paint, Pastel, & Charcoal on Plywood",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Charcoal",
+            "Wood",
+            "Plywood"
+        ],
+        "Framed": true,
+        "Width": 185,
+        "Height": 125,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 9500,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl larger": {
+                "name": "DHL",
+                "pl": 400,
+                "eu": 1000,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Remains-Studio-Azulejo-main-thumb.jpg",
+        "Tags": [
+            "bones",
+            "skull",
+            "flowers",
+            "body",
+            "red",
+            "blood",
+            "gold",
+            "flower",
+            "large"
+        ]
+    },
+    "2018-Retrospect-Studio-Painting": {
+        "DisplayName": "Retrospect",
+        "DisplayMedium": "Paint, Pastel, & Charcoal on Plywood",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Charcoal",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 40,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 1200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Retrospect-Studio-Azulejo-main-thumb.jpg",
+        "Tags": [
+            "gold",
+            "eye",
+            "bone",
+            "blood",
+            "red",
+            "flower"
+        ]
+    },
+    "2018-Scoliosis-Studio-Painting": {
+        "DisplayName": "Scoliosis",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 40,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 1200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Scoliosis-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-Self_Portrait_(Psychosis)-Studio-Painting": {
+        "DisplayName": "Self Portrait (Psychosis)",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 40,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 1200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Self_Portrait_(Psychosis)-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-Tension_1_of_3-Studio-Painting": {
+        "DisplayName": "Tension 1/3",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood",
+            "glitter"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 80,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 1250,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Tension_1_of_3-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-Tension_2_of_3-Studio-Painting": {
+        "DisplayName": "Tension 2/3",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 80,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 1250,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Tension_2_of_3-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-Tension_3_of_3-Studio-Painting": {
+        "DisplayName": "Tension 3/3",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 80,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 1250,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-Tension_3_of_3-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-You_and_Me-Studio-Painting": {
+        "DisplayName": "You and Me",
+        "DisplayMedium": "Mixed Media on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood",
+            "pastel",
+            "charcoal"
+        ],
+        "Framed": true,
+        "Width": 63,
+        "Height": 63,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 900,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 20,
+                "eu": 50,
+                "region1": 375,
+                "region2": 400
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-You_and_Me-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-You,_Me,_and_the_Dog-Studio-Painting": {
+        "DisplayName": "You, Me, and the Dog",
+        "DisplayMedium": "Mixed Media on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood",
+            "pastel",
+            "charcoal"
+        ],
+        "Framed": true,
+        "Width": 63,
+        "Height": 63,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 900,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 20,
+                "eu": 50,
+                "region1": 375,
+                "region2": 400
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-You,_Me,_and_the_Dog-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2018-You,_Me,_the_Dog,_and_the_Bird-Studio-Painting": {
+        "DisplayName": "You, Me, the Dog, and the Bird",
+        "DisplayMedium": "Mixed Media on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood",
+            "pastel",
+            "charcoal"
+        ],
+        "Framed": true,
+        "Width": 63,
+        "Height": 63,
+        "Depth": null,
+        "Year": "2018",
+        "Description": null,
+        "Price": 900,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 20,
+                "eu": 50,
+                "region1": 375,
+                "region2": 400
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2018-You,_Me,_the_Dog,_and_the_Bird-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2019-Flowerbed-Studio-Painting": {
+        "DisplayName": "Flowerbed",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 40,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2019",
+        "Description": null,
+        "Price": 1200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2019-Flowerbed-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2019-Gutted-Studio-Painting": {
+        "DisplayName": "Gutted",
+        "DisplayMedium": "Paint on Plywood",
+        "Medium": [
+            "Paint",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 40,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2019",
+        "Description": null,
+        "Price": 1200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2019-Gutted-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2021-Fish_II-Studio-Azulejo": {
+        "DisplayName": "Fish II",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2021",
+        "Description": null,
+        "Price": 1480,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2021-Fish_II-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2021-Heart-Studio-Azulejo": {
+        "DisplayName": "Heart",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2021",
+        "Description": null,
+        "Price": 1550,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2021-Heart-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Battle_Flag-Studio-Azulejo": {
+        "DisplayName": "Battle Flag",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 1500,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Battle_Flag-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Choices-Studio-Azulejo": {
+        "DisplayName": "Choices",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 1550,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Choices-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Details_of_a_Lifetime_(Shrine_to_Self)-Studio-Painting": {
+        "DisplayName": "Details of a Lifetime (Shrine to Self)",
+        "DisplayMedium": "paint & pastel on packing paper",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Paper"
+        ],
+        "Framed": true,
+        "Width": 260,
+        "Height": 370,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 3260,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Details_of_a_Lifetime_(Shrine_to_Self)-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Embrace-Studio-Azulejo": {
+        "DisplayName": "Embrace",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 75,
+        "Height": 90,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 5200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Embrace-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Fish_III-Studio-Azulejo": {
+        "DisplayName": "Fish III",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 1480,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Fish_III-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Flesh_and_Bone-Studio-Azulejo": {
+        "DisplayName": "Flesh & Bone",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 2550,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Flesh_and_Bone-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Imitation-Studio-Azulejo": {
+        "DisplayName": "Imitation",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 2650,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Imitation-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Jeleń-Studio-Azulejo": {
+        "DisplayName": "Jeleń",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 2850,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Jeleń-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Kobieta-Studio-Azulejo": {
+        "DisplayName": "Kobieta",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 75,
+        "Height": 195,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 11800,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Kobieta-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2022-Osty-Studio-Azulejo": {
+        "DisplayName": "Osty",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2022",
+        "Description": null,
+        "Price": 2850,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Osty-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Bat-Studio-Azulejo": {
+        "DisplayName": "Bat",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 500,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Bat-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Brama-Studio-Azulejo": {
+        "DisplayName": "Brama",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 740,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Brama-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Burza-Studio-Azulejo": {
+        "DisplayName": "Burza",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 650,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Burza-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Caseta-Studio-Azulejo": {
+        "DisplayName": "Caseta",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1450,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Caseta-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Dignity-Studio-Azulejo": {
+        "DisplayName": "Dignity",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1540,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Dignity-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Feast-Studio-Azulejo": {
+        "DisplayName": "Feast",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1450,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Feast-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Feather-Studio-Azulejo": {
+        "DisplayName": "Feather",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1100,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": null,
+        "Tags": []
+    },
+    "2023-Fishbowl-Studio-Painting": {
+        "DisplayName": "Fishbowl",
+        "DisplayMedium": "Paint, Pastel, and Nails on Plywood",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Plywood",
+            "Wood",
+            "Nails"
+        ],
+        "Framed": true,
+        "Width": 21,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 400,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Fishbowl-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Horse-Studio-Azulejo": {
+        "DisplayName": "Horse",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1100,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/street/2023-Horse-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-My_Pigeon_was_Killed_by_Cats-Studio-Azulejo": {
+        "DisplayName": "My Pigeon was Killed by Cats",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1700,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-My_Pigeon_was_Killed_by_Cats-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Pickled-Studio-Azulejo": {
+        "DisplayName": "Pickled",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 52,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Rabarbar-Studio-Azulejo": {
+        "DisplayName": "Rabarbar",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 2450,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Rabarbar-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Self_Portrait_with_Teapot-Studio-Painting": {
+        "DisplayName": "Self Portrait with Teapot",
+        "DisplayMedium": "Paint & Pastel on Plywood",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Plywood",
+            "wood"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 120,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 2000,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Self_Portrait_with_Teapot-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2023-Vigil-Studio-Azulejo": {
+        "DisplayName": "Vigil",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2023",
+        "Description": null,
+        "Price": 1450,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Vigil-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Dandelion_(azulejo)-Studio-Azulejo": {
+        "DisplayName": "Dandelion",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 45,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 2400,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Dandelion_(azulejo)-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Dandelion_(painting)-Studio-Painting": {
+        "DisplayName": "Dandelion",
+        "DisplayMedium": "Paint and pastel on canvas",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "canvas",
+            "beads"
+        ],
+        "Framed": true,
+        "Width": 55,
+        "Height": 70,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 2100,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 20,
+                "eu": 50,
+                "region1": 375,
+                "region2": 400
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Dandelion_(painting)-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Dusk_(Zmierzch)-Studio-Azulejo": {
+        "DisplayName": "Dusk (Zmierzch)",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 112.5,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 4000,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Dusk_(Zmierzch)-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Jezioro-Studio-Azulejo": {
+        "DisplayName": "Jezioro",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 1850,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Jezioro-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Kot_3-Studio-Azulejo": {
+        "DisplayName": "Kot III",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 1100,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Kot_3-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Przedświt-Studio-Azulejo": {
+        "DisplayName": "Przedświt",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 2450,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Przedświt-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2024-Soft_Tissue-Studio-Azulejo": {
+        "DisplayName": "Soft Tissue",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 15,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2024",
+        "Description": null,
+        "Price": 1550,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Soft_Tissue-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Banshee1-Studio-Azulejo": {
+        "DisplayName": "Banshee",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 60,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 1850,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Banshee1-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Cialo-Studio-Azulejo": {
+        "DisplayName": "Ciało",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 75,
+        "Height": 90,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 3200,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Cialo-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Cut_Flowers-Studio-Azulejo": {
+        "DisplayName": "Cięte Kwiaty (Cut Flowers)",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 15,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 550,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Cut_Flowers-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Figure-Studio-Azulejo": {
+        "DisplayName": "Figure",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 15,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 550,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Figure-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Kot_1-Studio-Azulejo": {
+        "DisplayName": "Kot I",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 1100,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Kot_1-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Kot_2-Studio-Azulejo": {
+        "DisplayName": "Kot II",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 30,
+        "Height": 45,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 1100,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Kot_2-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Pierced-Studio-Azulejo": {
+        "DisplayName": "Pierced",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 15,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 350,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Pierced-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Figure_2-Studio-Azulejo": {
+        "DisplayName": "Figure 2",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 15,
+        "Height": 30,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": null,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": true,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 15,
+                "region1": 90,
+                "region2": 100
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Figure_2-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    },
+    "2026-Bathtime-Studio-Painting": {
+        "DisplayName": "Bathtime",
+        "DisplayMedium": "Azulejo, Paint & Pastel on Plywood",
+        "Medium": [
+            "Paint",
+            "Pastel",
+            "Plywood",
+            "wood",
+            "azulejo",
+            "ceramic"
+        ],
+        "Framed": true,
+        "Width": 38,
+        "Height": 40,
+        "Depth": null,
+        "Year": "2026",
+        "Description": null,
+        "Price": 2000,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 0,
+                "eu": 25,
+                "region1": 200,
+                "region2": 225
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2026-Bathtime-Studio-Painting-main-thumb.jpg",
+        "Tags": []
+    },
+    "2025-Retrograde-Studio-Azulejo": {
+        "DisplayName": "Retrograde",
+        "DisplayMedium": "Azulejo",
+        "Medium": [
+            "azulejo",
+            "ceramic",
+            "azulejos",
+            "tiles",
+            "glaze"
+        ],
+        "Framed": true,
+        "Width": 60,
+        "Height": 90,
+        "Depth": null,
+        "Year": "2025",
+        "Description": null,
+        "Price": 4500,
+        "Edition": null,
+        "Options": null,
+        "StockLive": 1,
+        "Stock": 1,
+        "Available": false,
+        "Shipping": {
+            "dhl": {
+                "name": "DHL",
+                "pl": 100,
+                "eu": 200,
+                "region1": null,
+                "region2": null
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Retrograde-Studio-Azulejo-main-thumb.jpg",
+        "Tags": []
+    }
+}

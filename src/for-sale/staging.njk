@@ -1,0 +1,602 @@
+---
+layout: layouts/base.njk
+title: Available Work | BerriBlue
+permalink: /for-sale/
+---
+
+{% block head %}
+<style>
+  .staging-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .staging-card {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* padding-top % is relative to the element's own width,
+     so this reliably sets height = 1.2× width for the image area
+     without affecting grid column sizing */
+  .staging-card__img-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 120%;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .staging-card__img-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    display: block;
+    transition: transform 0.33s ease;
+    transform-origin: center center;
+  }
+
+  .staging-card:hover .staging-card__img-wrap img {
+    transform: scale(1.05);
+  }
+
+  .staging-card__info {
+    height: 3.5rem;
+    padding-top: 0.5rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .staging-card__name {
+    font-size: 0.9rem;
+    margin: 0 0 0.15rem;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .staging-card__price {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .staging-card__oos {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #cc0000;
+    margin: 0.2rem 0 0;
+    display: none;
+  }
+
+  @media (max-width: 1100px) {
+    .staging-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (max-width: 800px) {
+    .staging-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .staging-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .staging-sort-wrap,
+  .staging-filter-wrap {
+    position: relative;
+  }
+
+  .staging-sort-btn,
+  .staging-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.85rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .staging-sort-btn:hover,
+  .staging-filter-btn:hover {
+    background: #f5f5f5;
+  }
+
+  .staging-filter-btn.is-active {
+    background: #222;
+    color: #fff;
+    border-color: #222;
+  }
+
+  .staging-sort-menu {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 4px);
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    list-style: none;
+    margin: 0;
+    padding: 0.25rem 0;
+    min-width: 180px;
+    z-index: 100;
+  }
+
+  .staging-sort-option {
+    display: block;
+    width: 100%;
+    padding: 0.45rem 1rem;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .staging-sort-option:hover { background: #f5f5f5; }
+  .staging-sort-option.active { font-weight: 600; }
+
+  .staging-filter-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 4px);
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    padding: 1rem 1.1rem;
+    width: 270px;
+    z-index: 100;
+  }
+
+  .filter-section { margin-bottom: 1rem; }
+  .filter-section:last-child { margin-bottom: 0; }
+
+  .filter-section-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+
+  .filter-range-track {
+    position: relative;
+    height: 3px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    margin: 14px 0 6px;
+  }
+  .filter-range-fill {
+    position: absolute;
+    height: 100%;
+    background: #222;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .filter-range-input {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    height: 22px;
+  }
+  .filter-range-input::-webkit-slider-runnable-track { background: transparent; }
+  .filter-range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    pointer-events: all;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #222;
+    cursor: pointer;
+  }
+  .filter-range-input::-moz-range-track { background: transparent; }
+  .filter-range-input::-moz-range-thumb {
+    pointer-events: all;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #222;
+    cursor: pointer;
+    border: none;
+  }
+  .filter-range-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    color: #555;
+  }
+
+  .filter-checks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.8rem;
+  }
+  .filter-checks label {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .go-to-cart-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.85rem;
+    background: #5b9bd5;
+    color: #fff;
+    border: 1px solid #5b9bd5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .go-to-cart-btn:hover { background: #4a8ac5; border-color: #4a8ac5; }
+</style>
+{% endblock %}
+
+{% from "components/work-nav.njk" import workNav %}
+
+<div class="section section--white">
+  <div class="section-inner">
+    {{ workNav("for-sale") }}
+
+    <div class="staging-controls">
+      <a href="/for-sale/checkout/staging/" class="go-to-cart-btn" id="goToCartBtn" style="display:none">Go to Cart</a>
+
+      <div class="staging-filter-wrap">
+        <button class="staging-filter-btn" id="stagingFilterBtn" aria-expanded="false">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle">
+            <path d="M1 2.5h12M3.5 7h7M6 11h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Filter
+        </button>
+        <div class="staging-filter-panel" id="stagingFilterPanel" hidden>
+
+          <div class="filter-section">
+            <div class="filter-section-label">Price</div>
+            <div class="filter-range-track">
+              <div class="filter-range-fill" id="priceFill"></div>
+              <input class="filter-range-input" type="range" id="priceLo" min="0" max="10000" value="0" step="50">
+              <input class="filter-range-input" type="range" id="priceHi" min="0" max="10000" value="10000" step="50">
+            </div>
+            <div class="filter-range-labels">
+              <span id="priceLoLabel">€0</span>
+              <span id="priceHiLabel">€10 000</span>
+            </div>
+          </div>
+
+          <div class="filter-section">
+            <div class="filter-section-label">Size (cm)</div>
+            <div class="filter-range-track">
+              <div class="filter-range-fill" id="sizeFill"></div>
+              <input class="filter-range-input" type="range" id="sizeLo" min="0" max="200" value="0" step="15">
+              <input class="filter-range-input" type="range" id="sizeHi" min="0" max="210" value="210" step="15">
+            </div>
+            <div class="filter-range-labels">
+              <span id="sizeLoLabel">0 cm</span>
+              <span id="sizeHiLabel">200+</span>
+            </div>
+          </div>
+
+          <div class="filter-section">
+            <div class="filter-section-label">Frame</div>
+            <div class="filter-checks">
+              <label><input type="checkbox" id="fFramed" checked> Framed</label>
+              <label><input type="checkbox" id="fUnframed" checked> Unframed</label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="staging-sort-wrap">
+        <button class="staging-sort-btn" id="stagingSortBtn" aria-haspopup="true" aria-expanded="false">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle">
+            <path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Sort
+        </button>
+        <ul class="staging-sort-menu" id="stagingSortMenu" hidden>
+          <li><button class="staging-sort-option" data-sort="price-asc">Price: low → high</button></li>
+          <li><button class="staging-sort-option" data-sort="price-desc">Price: high → low</button></li>
+          <li><button class="staging-sort-option" data-sort="year-desc">Newest first</button></li>
+          <li><button class="staging-sort-option" data-sort="year-asc">Oldest first</button></li>
+          <li><button class="staging-sort-option" data-sort="az">A → Z</button></li>
+          <li><button class="staging-sort-option" data-sort="za">Z → A</button></li>
+          <li><button class="staging-sort-option" data-sort="default">Reset</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="staging-grid" id="stagingGrid">
+      {% for key, product in artworksForSale %}
+        {% if product.Available %}
+          {% set artwork = artworks[key] %}
+          <a class="staging-card"
+               href="/for-sale/{{ key | lower }}/"
+               data-product-id="{{ key }}"
+               data-name="{{ product.DisplayName }}"
+               data-price="{{ product.Price }}"
+               data-year="{{ product.Year }}"
+               data-width="{{ product.Width or 0 }}"
+               data-height="{{ product.Height or 0 }}"
+               data-depth="{{ product.Depth or 0 }}"
+               data-medium="{{ product.Medium | join(',') if product.Medium else '' }}"
+               data-framed="{{ 'true' if product.Framed else 'false' }}">
+            <div class="staging-card__img-wrap">
+              {% if artwork and artwork.Media["main-thumb"] %}
+                <img
+                  src="{{ artwork.Media['main-thumb'] }}"
+                  alt="{{ product.DisplayName }}"
+                  loading="lazy"
+                  draggable="false"
+                />
+              {% endif %}
+            </div>
+            <div class="staging-card__info">
+              <p class="staging-card__name">{{ product.DisplayName }}</p>
+              <p class="staging-card__price">{{ product.Price | euroPrice }}</p>
+              <p class="staging-card__oos">Out of stock</p>
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+<script>
+const DEFAULT_ORDER = {{ for_sale_default_order | dump | safe }};
+
+// Show "Go to Cart" button if cart has unexpired items
+(function() {
+  const expires = localStorage.getItem("bb_cart_expires");
+  if (expires && Date.now() > Number(expires)) {
+    localStorage.removeItem("bb_cart");
+    localStorage.removeItem("bb_cart_expires");
+    return;
+  }
+  const cart = JSON.parse(localStorage.getItem("bb_cart") || "[]");
+  if (cart.length) document.getElementById("goToCartBtn").style.display = "";
+})();
+
+// --- Stock check ---
+(async () => {
+  try {
+    const res = await fetch("https://berriblue-worker.berriblue-stock.workers.dev/stock");
+    if (!res.ok) return;
+    const stock = await res.json();
+
+    const stockMap = {};
+    for (const { product_id, stock_live } of stock) {
+      stockMap[product_id] = stock_live;
+    }
+
+    document.querySelectorAll(".staging-card[data-product-id]").forEach(card => {
+      const id = card.dataset.productId;
+      if (id in stockMap && stockMap[id] === 0) {
+        card.querySelector(".staging-card__oos").style.display = "block";
+      }
+    });
+  } catch (e) {
+    console.warn("Stock check failed:", e);
+  }
+})();
+
+// --- Sort ---
+const grid        = document.getElementById("stagingGrid");
+const sortBtn     = document.getElementById("stagingSortBtn");
+const sortMenu    = document.getElementById("stagingSortMenu");
+let activeSort    = "default";
+
+sortBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  const open = !sortMenu.hidden;
+  sortMenu.hidden = open;
+  sortBtn.setAttribute("aria-expanded", String(!open));
+});
+
+document.addEventListener("click", () => {
+  sortMenu.hidden = true;
+  sortBtn.setAttribute("aria-expanded", "false");
+});
+
+sortMenu.addEventListener("click", (e) => {
+  const btn = e.target.closest(".staging-sort-option");
+  if (!btn) return;
+  const mode = btn.dataset.sort;
+  applySort(mode);
+  sortMenu.querySelectorAll(".staging-sort-option").forEach(b => b.classList.toggle("active", b === btn));
+  sortMenu.hidden = true;
+  sortBtn.setAttribute("aria-expanded", "false");
+});
+
+// --- Filters ---
+const filterBtn   = document.getElementById("stagingFilterBtn");
+const filterPanel = document.getElementById("stagingFilterPanel");
+
+filterBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  const opening = filterPanel.hidden;
+  filterPanel.hidden = !opening;
+  filterBtn.setAttribute("aria-expanded", String(opening));
+  filterBtn.classList.toggle("is-active", opening);
+  if (opening) initFilters();
+});
+
+document.addEventListener("click", (e) => {
+  if (!filterPanel.contains(e.target) && e.target !== filterBtn) {
+    filterPanel.hidden = true;
+    filterBtn.setAttribute("aria-expanded", "false");
+    filterBtn.classList.remove("is-active");
+  }
+});
+
+filterPanel.addEventListener("click", (e) => e.stopPropagation());
+
+let filtersReady = false;
+
+function initFilters() {
+  if (filtersReady) return;
+  filtersReady = true;
+
+  const cards = Array.from(grid.querySelectorAll(".staging-card[data-product-id]"));
+
+  const maxPrice = Math.ceil(Math.max(...cards.map(c => Number(c.dataset.price || 0))) / 1000) * 1000;
+  document.getElementById("priceLo").max = maxPrice;
+  document.getElementById("priceHi").max = maxPrice;
+  document.getElementById("priceHi").value = maxPrice;
+
+  syncRange("price");
+  syncRange("size");
+}
+
+function syncRange(name) {
+  const lo    = document.getElementById(name + "Lo");
+  const hi    = document.getElementById(name + "Hi");
+  const fill  = document.getElementById(name + "Fill");
+  const loLbl = document.getElementById(name + "LoLabel");
+  const hiLbl = document.getElementById(name + "HiLabel");
+
+  let vLo = parseFloat(lo.value);
+  let vHi = parseFloat(hi.value);
+  const rMin = parseFloat(lo.min);
+  const rMax = parseFloat(lo.max);
+
+  if (vLo > vHi) { vLo = vHi; lo.value = vLo; }
+  if (vHi < vLo) { vHi = vLo; hi.value = vHi; }
+
+  const pLo = (vLo - rMin) / (rMax - rMin) * 100;
+  const pHi = (vHi - rMin) / (rMax - rMin) * 100;
+  fill.style.left  = pLo + "%";
+  fill.style.width = (pHi - pLo) + "%";
+
+  if (name === "price") {
+    loLbl.textContent = "€" + Math.round(vLo).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    hiLbl.textContent = "€" + Math.round(vHi).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  } else {
+    loLbl.textContent = Math.round(vLo) + " cm";
+    hiLbl.textContent = vHi >= rMax ? "200+" : Math.round(vHi) + " cm";
+  }
+}
+
+["priceLo", "priceHi", "sizeLo", "sizeHi"].forEach(id => {
+  document.getElementById(id).addEventListener("input", () => {
+    const name = id.startsWith("price") ? "price" : "size";
+    const lo = document.getElementById(name + "Lo");
+    const hi = document.getElementById(name + "Hi");
+    if (parseFloat(lo.value) > parseFloat(hi.value)) {
+      if (id.endsWith("Lo")) lo.value = hi.value;
+      else hi.value = lo.value;
+    }
+    syncRange(name);
+    applyFilters();
+  });
+});
+
+["fFramed", "fUnframed"].forEach(id => {
+  document.getElementById(id).addEventListener("change", applyFilters);
+});
+
+function cardSizeMax(card) {
+  const dims = [card.dataset.width, card.dataset.height, card.dataset.depth]
+    .map(Number).filter(v => v > 0);
+  return dims.length ? Math.max(...dims) : 0;
+}
+
+function cardSizeMin(card) {
+  const dims = [card.dataset.width, card.dataset.height, card.dataset.depth]
+    .map(Number).filter(v => v > 0);
+  return dims.length ? Math.min(...dims) : 0;
+}
+
+function applyFilters() {
+  const pLo = parseFloat(document.getElementById("priceLo").value);
+  const pHi = parseFloat(document.getElementById("priceHi").value);
+  const sLo = parseFloat(document.getElementById("sizeLo").value);
+  const sizeHiEl = document.getElementById("sizeHi");
+  const sHi = parseFloat(sizeHiEl.value) >= parseFloat(sizeHiEl.max) ? Infinity : parseFloat(sizeHiEl.value);
+  const showFramed   = document.getElementById("fFramed").checked;
+  const showUnframed = document.getElementById("fUnframed").checked;
+
+  grid.querySelectorAll(".staging-card[data-product-id]").forEach(card => {
+    const price  = Number(card.dataset.price || 0);
+    const sMax   = cardSizeMax(card);
+    const sMin   = cardSizeMin(card);
+    const framed = card.dataset.framed === "true";
+
+    const priceOk = price >= pLo && price <= pHi;
+    const sizeOk  = sMax <= sHi && sMin >= sLo;
+    const frameOk = (framed && showFramed) || (!framed && showUnframed);
+
+    card.style.display = (priceOk && sizeOk && frameOk) ? "" : "none";
+  });
+}
+
+function applySort(mode) {
+  activeSort = mode;
+  const cards = Array.from(grid.querySelectorAll(".staging-card[data-product-id]"));
+
+  if (mode === "default") {
+    if (DEFAULT_ORDER.length) {
+      const pos = {};
+      DEFAULT_ORDER.forEach((id, i) => { pos[id] = i; });
+      cards.sort((a, b) => {
+        const ia = pos[a.dataset.productId] ?? Infinity;
+        const ib = pos[b.dataset.productId] ?? Infinity;
+        return ia - ib;
+      });
+    }
+  } else if (mode === "az") {
+    cards.sort((a, b) => (a.dataset.name || "").localeCompare(b.dataset.name || ""));
+  } else if (mode === "za") {
+    cards.sort((a, b) => (b.dataset.name || "").localeCompare(a.dataset.name || ""));
+  } else if (mode === "price-asc") {
+    cards.sort((a, b) => Number(a.dataset.price || 0) - Number(b.dataset.price || 0));
+  } else if (mode === "price-desc") {
+    cards.sort((a, b) => Number(b.dataset.price || 0) - Number(a.dataset.price || 0));
+  } else if (mode === "year-desc") {
+    cards.sort((a, b) => Number(b.dataset.year || 0) - Number(a.dataset.year || 0));
+  } else if (mode === "year-asc") {
+    cards.sort((a, b) => Number(a.dataset.year || 0) - Number(b.dataset.year || 0));
+  }
+
+  cards.forEach(card => grid.appendChild(card));
+}
+
+applySort("default");
+</script>
