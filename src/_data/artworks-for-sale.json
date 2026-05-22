@@ -750,7 +750,7 @@
         "Options": null,
         "StockLive": 1,
         "Stock": 1,
-        "Available": true,
+        "Available": false,
         "Shipping": {
             "dhl": {
                 "name": "DHL",
@@ -761,40 +761,6 @@
             }
         },
         "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Flesh_and_Bone-Studio-Azulejo-main-thumb.jpg",
-        "Tags": []
-    },
-    "2022-Imitation-Studio-Azulejo": {
-        "DisplayName": "Imitation",
-        "DisplayMedium": "Azulejo",
-        "Medium": [
-            "azulejo",
-            "ceramic",
-            "azulejos",
-            "tiles",
-            "glaze"
-        ],
-        "Framed": true,
-        "Width": 45,
-        "Height": 60,
-        "Depth": null,
-        "Year": "2022",
-        "Description": null,
-        "Price": 2650,
-        "Edition": null,
-        "Options": null,
-        "StockLive": 1,
-        "Stock": 1,
-        "Available": true,
-        "Shipping": {
-            "dhl": {
-                "name": "DHL",
-                "pl": 0,
-                "eu": 25,
-                "region1": 200,
-                "region2": 225
-            }
-        },
-        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2022-Imitation-Studio-Azulejo-main-thumb.jpg",
         "Tags": []
     },
     "2022-Jeleń-Studio-Azulejo": {
@@ -846,7 +812,7 @@
         "Height": 195,
         "Depth": null,
         "Year": "2022",
-        "Description": null,
+        "Description": "This piece is on loan to a private collection in Portugal.\nContact me to discuss shipping options.",
         "Price": 11800,
         "Edition": null,
         "Options": null,
@@ -856,8 +822,8 @@
         "Shipping": {
             "dhl": {
                 "name": "DHL",
-                "pl": 100,
-                "eu": 200,
+                "pl": null,
+                "eu": null,
                 "region1": null,
                 "region2": null
             }
@@ -1050,7 +1016,7 @@
         "Height": 45,
         "Depth": null,
         "Year": "2023",
-        "Description": null,
+        "Description": "(This piece is on loan to a private collection in Portugal. Shipping times may be longer).",
         "Price": 1540,
         "Edition": null,
         "Options": null,
@@ -1060,7 +1026,7 @@
         "Shipping": {
             "dhl": {
                 "name": "DHL",
-                "pl": 0,
+                "pl": 25,
                 "eu": 25,
                 "region1": 200,
                 "region2": 225
