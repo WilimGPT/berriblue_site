@@ -1917,5 +1917,33 @@
         },
         "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Retrograde-Studio-Azulejo-main-thumb.jpg",
         "Tags": []
+    },
+    "2024-Miguel-Studio-Azulejo": {
+        "DisplayName": "Miguel",
+        "DisplayMedium": "Azulejo",
+        "Year": "2024",
+        "Description": null,
+        "Available": true,
+        "Price": 1450,
+        "Stock": 1,
+        "StockLive": 1,
+        "Width": 45,
+        "Height": 45,
+        "Depth": null,
+        "Framed": true,
+        "Shipping": {
+            "dhl 80 60 20": {
+                "name": "DHL",
+                "pl": 20,
+                "eu": 50,
+                "region1": 375,
+                "region2": 400
+            }
+        },
+        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-main-thumb.jpg",
+        "Tags": [],
+        "Medium": [
+            "Azulejo"
+        ]
     }
 }

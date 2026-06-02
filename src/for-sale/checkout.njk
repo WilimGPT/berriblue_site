@@ -233,11 +233,11 @@ permalink: /for-sale/checkout/
 
 <div class="section section--white">
   <div class="section-inner">
-    <a href="/for-sale/" class="checkout-back">&#8592; Continue browsing</a>
+    <a href="/for-sale/" class="checkout-back" id="continueBrowsingLink">&#8592; Continue browsing</a>
 
     <div id="emptyCart" class="empty-cart" hidden>
       <p>Your cart is empty.</p>
-      <p><a href="/for-sale/">Browse available works</a></p>
+      <p><a href="/for-sale/" id="emptyCartBrowseLink">Browse available works</a></p>
     </div>
 
     <div id="checkoutLayout" class="checkout-layout" hidden>
@@ -454,6 +454,15 @@ permalink: /for-sale/checkout/
 </div>
 
 <script>
+// Set "Continue browsing" destination based on where the user last came from
+(function() {
+  const BROWSE_URLS = { scarves: '/scarves/staging/', artworks: '/for-sale/' };
+  const last = localStorage.getItem('bb_last_browse');
+  const url  = BROWSE_URLS[last] || BROWSE_URLS.artworks;
+  document.getElementById('continueBrowsingLink').href = url;
+  document.getElementById('emptyCartBrowseLink').href  = url;
+})();
+
 const SHIPPING_REGIONS = {{ shippingRegions | dump | safe }};
 
 function fmtPrice(n) {

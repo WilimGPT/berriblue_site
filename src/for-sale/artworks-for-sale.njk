@@ -380,6 +380,7 @@ permalink: /for-sale/
 </div>
 
 <script>
+localStorage.setItem('bb_last_browse', 'artworks');
 const DEFAULT_ORDER = {{ for_sale_default_order | dump | safe }};
 
 // Show "Go to Cart" button if cart has unexpired items

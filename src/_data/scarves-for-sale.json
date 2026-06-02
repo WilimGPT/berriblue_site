@@ -1,0 +1,451 @@
+{
+  "bats_scarf": {
+    "DisplayName": "Bats",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Bats, bats, bats...\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 1,
+    "Stock": 1,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/bats_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/bats_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/bats_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/bats_scarf-gallery_1.jpg"
+    ],
+    "Tags": []
+  },
+  "blushing-blossoms_scarf": {
+    "DisplayName": "Blushing Blossoms",
+    "DisplayMedium": "100% Silk",
+    "Width": 80,
+    "Height": 80,
+    "Depth": null,
+    "Year": null,
+    "Description": "Blushing Blossoms features delicate, decorative, phallic iconography and is inspired by Berriblue's love for William Morris. The street art series 'Willies,' upon which this scarf was based, has proven very popular in Dublin, Porto, and beyond.\n\nThe limited-edition scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 125,
+    "StockLive": 1,
+    "Stock": 1,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_8.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_6.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/blushing-blossoms_scarf-gallery_3.jpg"
+    ],
+    "Tags": []
+  },
+  "chips-of-knowledge_scarf": {
+    "DisplayName": "Chips of Knowledge",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Chips of Knowledge is inspired by bold, gaudy 80's patterns. The eye of providence symbol is portrayed as a clichéed icon, repeated to the point of losing its meaning. Also, perhaps tortilla chips know something we don't.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 3,
+    "Stock": 3,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/chips-of-knowledge_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/chips-of-knowledge_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/chips-of-knowledge_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/chips-of-knowledge_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/chips-of-knowledge_scarf-gallery_2.jpg"
+    ],
+    "Tags": []
+  },
+  "coughdrops_scarf": {
+    "DisplayName": "Coughdrops",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Coughdrops features a very traditional combination of teeth, lilac blooms, and lemon slices in rich, vibrant colours, just like your grandmother would have worn.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 2,
+    "Stock": 2,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/coughdrops_scarf-gallery_6.jpg"
+    ],
+    "Tags": []
+  },
+  "dance_scarf": {
+    "DisplayName": "Dance",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Dance!\n\nThe scarf is printed on pure chiffon silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 2,
+    "Stock": 2,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/dance_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/dance_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/dance_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/dance_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/dance_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/dance_scarf-gallery_5.jpg"
+    ],
+    "Tags": []
+  },
+  "flutter_scarf": {
+    "DisplayName": "Flutter",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "\"...and there was a great fluttering of wings and the air was filled with love and feathers.\"\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 5,
+    "Stock": 5,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-gallery_6.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/flutter_scarf-gallery_5.jpg"
+    ],
+    "Tags": []
+  },
+  "go-fish_scarf": {
+    "DisplayName": "Go Fish",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Can you find them?\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 3,
+    "Stock": 3,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/go-fish_scarf-gallery_6.jpg"
+    ],
+    "Tags": []
+  },
+  "gossip_scarf": {
+    "DisplayName": "Gossip",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Gossip. Hurts doesn't it?\n\nI know because she said he told her you said he'd mentioned she knew you said you did. Bitch.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping and comes in its own lovely gift box.",
+    "Price": 55,
+    "StockLive": 2,
+    "Stock": 2,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/gossip_scarf-gallery_6.jpg"
+    ],
+    "Tags": []
+  },
+  "jasmin-and-bones_scarf": {
+    "DisplayName": "Jasmin & Bones",
+    "DisplayMedium": "100% Silk",
+    "Width": 90,
+    "Height": 90,
+    "Depth": null,
+    "Year": null,
+    "Description": "Jasmin & Bones is a unique limited edition illustrated silk scarf, based on several large murals painted by Berriblue in 2018. Snapshot illustrations are framed on a cluttered, erratic backdrop. The scarf features a bones and flowers motif. This design is limited to 100 copies.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 140,
+    "StockLive": 2,
+    "Stock": 2,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/jasmin-and-bones_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/jasmin-and-bones_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/jasmin-and-bones_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/jasmin-and-bones_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/jasmin-and-bones_scarf-gallery_3.jpg"
+    ],
+    "Tags": []
+  },
+  "my-body_scarf": {
+    "DisplayName": "My Body",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "This beautiful unisex scarf is printed on 100% habotai silk with hand rolled hems. It features a heart and womb motif and three slogans, 'My Body My Choice,' 'Her Body Her Choice,' and 'Pro Choice.' It can be worn different ways to show off the different slogans.\n\n--\n\n100% of the profits from each scarf will be donated to charities helping women to access affordable, safe, and legal abortions.",
+    "Price": 55,
+    "StockLive": 15,
+    "Stock": 15,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_12.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_13.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_11.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_6.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_7.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_8.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_9.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/my-body_scarf-gallery_10.jpg"
+    ],
+    "Tags": []
+  },
+  "really-into-boats_scarf": {
+    "DisplayName": "Really Into Boats",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "I'm really into boats at the moment\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 2,
+    "Stock": 2,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/really-into-boats_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/really-into-boats_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/really-into-boats_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/really-into-boats_scarf-gallery_1.jpg"
+    ],
+    "Tags": []
+  },
+  "satans-mascara_scarf": {
+    "DisplayName": "Satan's Mascara",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Satan's Mascara is a street art series inspired by drag culture and the contradictions in gender perception, exploring the dichotomy of powerfully masculine femininity.\n\nThe scarf is printed on pure chiffon silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping and comes in a hand-signed box.",
+    "Price": 55,
+    "StockLive": 3,
+    "Stock": 3,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_10.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_11.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_9.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_7.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_8.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_6.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/satans-mascara_scarf-gallery_2.jpg"
+    ],
+    "Tags": []
+  },
+  "synthetic_scarf": {
+    "DisplayName": "Synthetic",
+    "DisplayMedium": "100% Silk",
+    "Width": 80,
+    "Height": 80,
+    "Depth": null,
+    "Year": null,
+    "Description": "This limited edition silk scarf features artificial joy, set against a bubblegum pink backdrop.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 159,
+    "StockLive": 4,
+    "Stock": 4,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/synthetic_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/synthetic_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/synthetic_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/synthetic_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/synthetic_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/synthetic_scarf-gallery_3.jpg"
+    ],
+    "Tags": []
+  },
+  "tutti-frutti_scarf": {
+    "DisplayName": "Tutti Frutti",
+    "DisplayMedium": "100% Silk",
+    "Width": 60,
+    "Height": 60,
+    "Depth": null,
+    "Year": null,
+    "Description": "Mortal fruit.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
+    "Price": 55,
+    "StockLive": 2,
+    "Stock": 2,
+    "Available": true,
+    "Shipping": {
+      "dhl scarf": {
+        "name": "DHL",
+        "pl": 0,
+        "eu": 15,
+        "region1": 90,
+        "region2": 100
+      }
+    },
+    "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-sale-thumb.jpg",
+    "Gallery": [
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-gallery_1.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-gallery_4.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-gallery_5.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-gallery_2.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-gallery_3.jpg",
+      "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/scarves/tutti-frutti_scarf-gallery_6.jpg"
+    ],
+    "Tags": []
+  }
+}

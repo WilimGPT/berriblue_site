@@ -2,11 +2,11 @@
 layout: layouts/base.njk
 title: Product | BerriBlue
 pagination:
-  data: artworksForSale
+  data: scarvesForSale
   size: 1
   resolve: keys
   alias: productKey
-permalink: "/for-sale/{{ productKey | lower }}/"
+permalink: "/scarves/{{ productKey | lower }}/"
 ---
 
 {% block head %}
@@ -155,13 +155,12 @@ permalink: "/for-sale/{{ productKey | lower }}/"
 </style>
 {% endblock %}
 
-{% set product = artworksForSale[productKey] %}
-{% set artwork = artworks[productKey] %}
+{% set product = scarvesForSale[productKey] %}
 
 <div class="section section--white">
   <div class="section-inner">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem">
-      <a href="/for-sale/" class="product-back-link" style="margin-bottom:0">&#8592; All works</a>
+      <a href="/scarves/shop/" class="product-back-link" style="margin-bottom:0">&#8592; All scarves</a>
       <a href="/for-sale/checkout/" class="go-to-cart-btn" id="goToCartBtn" style="display:none">Go to Cart</a>
     </div>
 
@@ -188,7 +187,7 @@ permalink: "/for-sale/{{ productKey | lower }}/"
 
         <div class="product-info__details">
           <h3 class="product-info__details-heading">Product Details</h3>
-          <p>{{ product.DisplayMedium }}{% if product.Year %}, {{ product.Year }}{% endif %}</p>
+          {% if product.DisplayMedium %}<p>{{ product.DisplayMedium }}</p>{% endif %}
           {% if product.Width and product.Height %}
             <p>{{ product.Width }} x {{ product.Height }}{% if product.Depth %} x {{ product.Depth }}{% endif %} cm</p>
           {% endif %}
@@ -203,19 +202,19 @@ permalink: "/for-sale/{{ productKey | lower }}/"
 </div>
 
 <!-- Added to cart modal -->
-<div id="addedModal" style="display:none;position:fixed;inset:0;z-index:500;display:none;align-items:center;justify-content:center">
+<div id="addedModal" style="display:none;position:fixed;inset:0;z-index:500;align-items:center;justify-content:center">
   <div style="position:absolute;inset:0;background:rgba(0,0,0,0.45)" id="addedOverlay"></div>
   <div style="position:relative;background:#fff;border-radius:8px;padding:2rem 2rem 1.5rem;width:340px;max-width:90vw;text-align:center;z-index:1">
     <p style="font-size:1.1rem;font-weight:400;margin:0 0 0.35rem">Added to cart!</p>
     <p id="addedItemName" style="font-size:0.85rem;color:#666;margin:0 0 1.5rem"></p>
     <div style="display:flex;flex-direction:column;gap:0.6rem">
       <a href="/for-sale/checkout/" style="display:block;padding:0.75rem;background:#5b9bd5;color:#fff;border-radius:4px;text-decoration:none;font-size:0.95rem">Go to checkout</a>
-      <a href="/for-sale/" style="display:block;padding:0.75rem;background:none;border:1px solid #ccc;border-radius:4px;text-decoration:none;font-family:inherit;font-size:0.95rem;color:#333;text-align:center">Continue browsing</a>
+      <a href="/scarves/shop/" style="display:block;padding:0.75rem;background:none;border:1px solid #ccc;border-radius:4px;text-decoration:none;font-family:inherit;font-size:0.95rem;color:#333;text-align:center">Continue browsing</a>
     </div>
   </div>
 </div>
 
-<!-- Lightbox modal — reuses existing .artwork-modal CSS -->
+<!-- Lightbox modal -->
 <div class="artwork-modal" id="artwork-modal" hidden>
   <div class="artwork-modal__overlay" id="modal-overlay"></div>
   <button class="artwork-modal__close" id="modal-close" aria-label="Close">&#10005;</button>
@@ -226,41 +225,24 @@ permalink: "/for-sale/{{ productKey | lower }}/"
 </div>
 
 <script>
+localStorage.setItem('bb_last_browse', 'scarves');
 const PRODUCT_ID    = {{ productKey | dump | safe }};
-const mainImage     = {{ (artwork.Media.main if artwork and artwork.Media and artwork.Media.main else product.SaleThumb) | dump | safe }};
-const galleryImages = {{ (artwork.Media.gallery if artwork and artwork.Media and artwork.Media.gallery else []) | dump | safe }};
-const videoUrls     = {{ (artwork.Media.videos if artwork and artwork.Media and artwork.Media.videos else []) | dump | safe }};
-const media         = [mainImage, ...galleryImages, ...videoUrls].filter(Boolean);
+const saleThumb     = {{ product.SaleThumb | dump | safe }};
+const galleryImages = {{ (product.Gallery if product.Gallery else []) | dump | safe }};
+const media         = [saleThumb, ...galleryImages].filter(Boolean);
 
-// --- Gallery ---
 const mainWrap   = document.getElementById("mainImgWrap");
 const thumbStrip = document.getElementById("thumbsStrip");
 let currentIndex = 0;
 
-function isVideo(url) {
-  return /\.(mp4|webm|ogg)$/i.test(url);
-}
-
 function setMainMedia(url, idx) {
   currentIndex = idx;
   mainWrap.innerHTML = "";
-  if (isVideo(url)) {
-    const v = document.createElement("video");
-    v.src = url;
-    v.controls = true;
-    v.setAttribute("playsinline", "");
-    v.setAttribute("controlsList", "nodownload");
-    v.className = "product-gallery__main-media";
-    mainWrap.appendChild(v);
-  } else {
-    const img = document.createElement("img");
-    img.src = url;
-    img.alt = "";
-    img.className = "product-gallery__main-media";
-    img.draggable = false;
-    img.addEventListener("click", () => openModal(idx));
-    mainWrap.appendChild(img);
-  }
+  const img = document.createElement("img");
+  img.src = url; img.alt = ""; img.className = "product-gallery__main-media";
+  img.draggable = false;
+  img.addEventListener("click", () => openModal(idx));
+  mainWrap.appendChild(img);
   document.querySelectorAll(".product-gallery__thumb").forEach((t, i) => {
     t.classList.toggle("is-active", i === idx);
   });
@@ -268,8 +250,7 @@ function setMainMedia(url, idx) {
 
 media.forEach((url, i) => {
   const thumb = document.createElement("img");
-  thumb.src = isVideo(url) ? "" : url;
-  thumb.alt = "";
+  thumb.src = url; thumb.alt = "";
   thumb.className = "product-gallery__thumb" + (i === 0 ? " is-active" : "");
   thumb.draggable = false;
   thumb.addEventListener("click", () => setMainMedia(url, i));
@@ -280,7 +261,7 @@ media.forEach((url, i) => {
 if (media.length > 0) setMainMedia(media[0], 0);
 if (media.length <= 1) thumbStrip.hidden = true;
 
-// --- Lightbox ---
+// Lightbox
 const modal        = document.getElementById("artwork-modal");
 const modalStage   = document.getElementById("modal-stage");
 const modalCounter = document.getElementById("modal-counter");
@@ -290,31 +271,19 @@ let modalIndex = 0;
 
 function renderModal() {
   modalStage.innerHTML = "";
-  const url = media[modalIndex];
-  if (isVideo(url)) {
-    const v = document.createElement("video");
-    v.src = url; v.controls = true;
-    v.setAttribute("playsinline", "");
-    modalStage.appendChild(v);
-  } else {
-    const img = document.createElement("img");
-    img.src = url; img.alt = "";
-    modalStage.appendChild(img);
-  }
+  const img = document.createElement("img");
+  img.src = media[modalIndex]; img.alt = "";
+  modalStage.appendChild(img);
   modalCounter.textContent = media.length > 1 ? (modalIndex + 1) + " / " + media.length : "";
 }
 
 function openModal(index) {
-  modalIndex = index;
-  renderModal();
-  modal.hidden = false;
-  document.body.style.overflow = "hidden";
+  modalIndex = index; renderModal();
+  modal.hidden = false; document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
-  modal.hidden = true;
-  modalStage.innerHTML = "";
-  document.body.style.overflow = "";
+  modal.hidden = true; modalStage.innerHTML = ""; document.body.style.overflow = "";
 }
 
 modalPrev.addEventListener("click", () => { modalIndex = (modalIndex - 1 + media.length) % media.length; renderModal(); });
@@ -330,14 +299,12 @@ document.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") { modalIndex = (modalIndex + 1) % media.length; renderModal(); }
 });
 
-// --- Cart helpers (1-week expiry) ---
+// Cart
 const CART_TTL = 7 * 24 * 60 * 60 * 1000;
 function readCart() {
   const expires = localStorage.getItem("bb_cart_expires");
   if (expires && Date.now() > Number(expires)) {
-    localStorage.removeItem("bb_cart");
-    localStorage.removeItem("bb_cart_expires");
-    return [];
+    localStorage.removeItem("bb_cart"); localStorage.removeItem("bb_cart_expires"); return [];
   }
   return JSON.parse(localStorage.getItem("bb_cart") || "[]");
 }
@@ -346,20 +313,16 @@ function writeCart(cart) {
   localStorage.setItem("bb_cart_expires", Date.now() + CART_TTL);
 }
 
-// --- Add to cart ---
 const PRODUCT_DATA = {
-  id:            PRODUCT_ID,
-  displayName:   {{ product.DisplayName | dump | safe }},
-  displayMedium: {{ product.DisplayMedium | dump | safe }},
-  price:         {{ product.Price or 0 }},
-  saleThumb:     {{ product.SaleThumb | dump | safe }},
-  shipping:      {{ product.Shipping | dump | safe }}
+  id:          PRODUCT_ID,
+  displayName: {{ product.DisplayName | dump | safe }},
+  price:       {{ product.Price or 0 }},
+  saleThumb:   {{ product.SaleThumb | dump | safe }},
+  shipping:    {{ product.Shipping | dump | safe }}
 };
 
 const addedModal    = document.getElementById("addedModal");
 const addedItemName = document.getElementById("addedItemName");
-
-// Live stock from the worker (updated once fetch resolves)
 let liveStock = {{ product.StockLive or 0 }};
 
 function getCartQty() {
@@ -377,36 +340,28 @@ function refreshStockUI() {
   if (effective <= 0) {
     availEl.innerHTML = "Out of stock";
     availEl.className = "product-info__availability oos";
-    qtyRow.hidden = true;
-    addBtn.disabled = true;
+    qtyRow.hidden = true; addBtn.disabled = true;
   } else {
     availEl.innerHTML = `<span id="stockCount">${effective}</span> available`;
     availEl.className = "product-info__availability";
-    qtyRow.hidden = false;
-    addBtn.disabled = false;
+    qtyRow.hidden = false; addBtn.disabled = false;
     qtyIn.max = effective;
     if (parseInt(qtyIn.value) > effective) qtyIn.value = effective;
   }
 }
 
-// Apply cart-adjusted stock immediately on page load
 refreshStockUI();
 
-// Show "Go to Cart" button if cart already has items
 (function() {
   if (readCart().length) document.getElementById("goToCartBtn").style.display = "";
 })();
 
 document.getElementById("addToBagBtn").addEventListener("click", () => {
-  const qtyIn = document.getElementById("qtyInput");
-  const qty = Math.max(1, parseInt(qtyIn.value) || 1);
+  const qty = Math.max(1, parseInt(document.getElementById("qtyInput").value) || 1);
   const cart = readCart();
   const existing = cart.find(i => i.id === PRODUCT_DATA.id);
-  if (existing) {
-    existing.quantity += qty;
-  } else {
-    cart.push({ ...PRODUCT_DATA, quantity: qty });
-  }
+  if (existing) existing.quantity += qty;
+  else cart.push({ ...PRODUCT_DATA, quantity: qty });
   writeCart(cart);
   refreshStockUI();
   document.getElementById("goToCartBtn").style.display = "";
@@ -418,7 +373,6 @@ document.getElementById("addedOverlay").addEventListener("click", () => {
   addedModal.style.display = "none";
 });
 
-// --- Live stock (refines the build-time value) ---
 (async () => {
   try {
     const res = await fetch("https://berriblue-worker.berriblue-stock.workers.dev/stock/" + encodeURIComponent(PRODUCT_ID));

@@ -11,7 +11,7 @@ permalink: "/work/{{ key }}/"
 
 {% set artwork = artworks[key] %}
 {% set backUrl = "/work/" %}
-{% if artwork.Category == "Street" %}{% set backUrl = "/work/street-art/" %}{% endif %}
+{% if artwork.Category == "Street" %}{% set backUrl = "/work/street/" %}{% endif %}
 {% if artwork["Sub Category"] == "Painting" %}{% set backUrl = "/work/painting/" %}{% endif %}
 
 {# --- SEO --- #}

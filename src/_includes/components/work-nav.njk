@@ -10,10 +10,10 @@
         {% endif %}
       </li>
       <li>
-        {% if current == "street-art" %}
-          <span class="work-subnav__active">Street Art</span>
+        {% if current == "street" %}
+          <span class="work-subnav__active">Public Art</span>
         {% else %}
-          <a href="/work/street-art/">Street Art</a>
+          <a href="/work/street/">Public Art</a>
         {% endif %}
       </li>
       <li>
@@ -32,8 +32,8 @@
       </li>
     </ul>
   </nav>
-  {% if current == "street-art" %}
-    <p class="work-commission">You can find locations of BerriBlue street art pieces on <a href="/map/">this map</a>.</p>
+  {% if current == "street" %}
+    <p class="work-commission">You can find locations of BerriBlue urban art pieces on <a href="/map/">this map</a>.</p>
   {% endif %}
   <p class="work-commission">
     For enquiries about commissions, please <a href="mailto:info@berriblue.com">contact me</a> – info@berriblue.com

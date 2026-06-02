@@ -3803,8 +3803,12 @@
     "Media": {
       "main": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-main.jpg",
       "gallery": [
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_2.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_6.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_3.jpg",
         "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_1.jpg",
-        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_2.jpg"
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_4.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-detail_5.jpg"
       ],
       "videos": [],
       "main-thumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Pickled-Studio-Azulejo-main-thumb.jpg"
@@ -5432,6 +5436,33 @@
       ],
       "videos": [],
       "main-thumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Retrograde-Studio-Azulejo-main-thumb.jpg"
+    }
+  },
+  "2024-Miguel-Studio-Azulejo": {
+    "Category": "Studio",
+    "Sub Category": "Azulejo",
+    "Title": "Miguel",
+    "Display Name": "Miguel",
+    "Medium": "Azulejo",
+    "Size": "45x45cm",
+    "Street": null,
+    "City": null,
+    "Year": "2024",
+    "Description": null,
+    "Sold": false,
+    "Pricelog-Private": null,
+    "Private Notes": null,
+    "Meta Description": "Miguel — artwork by BerriBlue. Azulejo, 45x45cm, 2024.",
+    "Media": {
+      "main": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-main.jpg",
+      "gallery": [
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-detail_4.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-detail_1.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-detail_2.jpg",
+        "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-detail_3.jpg"
+      ],
+      "videos": [],
+      "main-thumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2024-Miguel-Studio-Azulejo-main-thumb.jpg"
     }
   }
 }

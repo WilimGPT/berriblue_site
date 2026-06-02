@@ -25,6 +25,16 @@ module.exports = function (eleventyConfig) {
     JSON.parse(require("fs").readFileSync("./src/_data/for_sale_default_order.json", "utf8"))
   );
 
+  // scarves-for-sale.json has a hyphen which Nunjucks can't reference directly
+  eleventyConfig.addGlobalData("scarvesForSale", () =>
+    JSON.parse(require("fs").readFileSync("./src/_data/scarves-for-sale.json", "utf8"))
+  );
+
+  // scarves_default_order.json — expose for scarves shop sort
+  eleventyConfig.addGlobalData("scarves_default_order", () =>
+    JSON.parse(require("fs").readFileSync("./src/_data/scarves_default_order.json", "utf8"))
+  );
+
   // shipping-regions.json — expose for checkout page
   eleventyConfig.addGlobalData("shippingRegions", () =>
     JSON.parse(require("fs").readFileSync("./src/_data/shipping-regions.json", "utf8"))
