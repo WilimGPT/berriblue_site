@@ -1,12 +1,10 @@
 ---
 layout: layouts/base.njk
 title: Scarves | BerriBlue
-permalink: /scarves/staging/
-eleventyExcludeFromCollections: true
+permalink: /scarves/
 ---
 
 {% block head %}
-<meta name="robots" content="noindex">
 <style>
   .staging-grid {
     display: grid;
@@ -37,7 +35,7 @@ eleventyExcludeFromCollections: true
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
     display: block;
     transition: transform 0.33s ease;
@@ -275,11 +273,11 @@ eleventyExcludeFromCollections: true
             <div class="filter-section-label">Price</div>
             <div class="filter-range-track">
               <div class="filter-range-fill" id="priceFill"></div>
-              <input class="filter-range-input" type="range" id="priceLo" min="0" max="500" value="0" step="10">
-              <input class="filter-range-input" type="range" id="priceHi" min="0" max="500" value="500" step="10">
+              <input class="filter-range-input" type="range" id="priceLo" min="50" max="500" value="50" step="10">
+              <input class="filter-range-input" type="range" id="priceHi" min="50" max="500" value="500" step="10">
             </div>
             <div class="filter-range-labels">
-              <span id="priceLoLabel">€0</span>
+              <span id="priceLoLabel">€50</span>
               <span id="priceHiLabel">€500</span>
             </div>
           </div>
@@ -288,11 +286,11 @@ eleventyExcludeFromCollections: true
             <div class="filter-section-label">Size (cm)</div>
             <div class="filter-range-track">
               <div class="filter-range-fill" id="sizeFill"></div>
-              <input class="filter-range-input" type="range" id="sizeLo" min="0" max="90" value="0" step="10">
-              <input class="filter-range-input" type="range" id="sizeHi" min="0" max="90" value="90" step="10">
+              <input class="filter-range-input" type="range" id="sizeLo" min="60" max="90" value="60" step="10">
+              <input class="filter-range-input" type="range" id="sizeHi" min="60" max="90" value="90" step="10">
             </div>
             <div class="filter-range-labels">
-              <span id="sizeLoLabel">0 cm</span>
+              <span id="sizeLoLabel">60 cm</span>
               <span id="sizeHiLabel">90 cm</span>
             </div>
           </div>
@@ -440,6 +438,7 @@ function initFilters() {
   const maxPrice = Math.ceil(Math.max(...cards.map(c => Number(c.dataset.price || 0))) / 10) * 10;
   document.getElementById("priceLo").max = maxPrice;
   document.getElementById("priceHi").max = maxPrice;
+  document.getElementById("priceHi").min = "50";
   document.getElementById("priceHi").value = maxPrice;
   syncRange("price");
   syncRange("size");
@@ -518,4 +517,5 @@ function applySort(mode) {
 }
 
 applySort("default");
+applyFilters();
 </script>

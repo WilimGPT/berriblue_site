@@ -456,7 +456,7 @@ permalink: /for-sale/checkout/
 <script>
 // Set "Continue browsing" destination based on where the user last came from
 (function() {
-  const BROWSE_URLS = { scarves: '/scarves/staging/', artworks: '/for-sale/' };
+  const BROWSE_URLS = { scarves: '/scarves/', artworks: '/for-sale/' };
   const last = localStorage.getItem('bb_last_browse');
   const url  = BROWSE_URLS[last] || BROWSE_URLS.artworks;
   document.getElementById('continueBrowsingLink').href = url;
