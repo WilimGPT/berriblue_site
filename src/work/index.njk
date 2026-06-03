@@ -19,7 +19,7 @@ title: Work – Azulejos | BerriBlue
                 <a href="/work/{{ key }}/">
                   <img src="{{ artworks[key].Media['main-thumb'] }}" alt="{{ artworks[key].Title }}" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}" fetchpriority="{{ 'high' if loop.index <= 2 else 'auto' }}" decoding="async">
                 </a>
-                {% if artworks[key].Sold == "TRUE" %}<div class="work-gallery__sold-dot"></div>{% endif %}
+                {% if artworks[key].Sold %}<div class="work-gallery__sold-dot"></div>{% endif %}
               </div>
             {% endif %}
           {% endfor %}
