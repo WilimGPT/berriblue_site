@@ -4,3 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/work/street-art/"
+  to   = "/work/street/"
+  status = 301
