@@ -1713,40 +1713,6 @@
         "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Figure-Studio-Azulejo-main-thumb.jpg",
         "Tags": []
     },
-    "2025-Kot_1-Studio-Azulejo": {
-        "DisplayName": "Kot I",
-        "DisplayMedium": "Azulejo",
-        "Medium": [
-            "azulejo",
-            "ceramic",
-            "azulejos",
-            "tiles",
-            "glaze"
-        ],
-        "Framed": true,
-        "Width": 30,
-        "Height": 45,
-        "Depth": null,
-        "Year": "2025",
-        "Description": null,
-        "Price": 1100,
-        "Edition": null,
-        "Options": null,
-        "StockLive": 1,
-        "Stock": 1,
-        "Available": true,
-        "Shipping": {
-            "dhl": {
-                "name": "DHL",
-                "pl": 0,
-                "eu": 25,
-                "region1": 200,
-                "region2": 225
-            }
-        },
-        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Kot_1-Studio-Azulejo-main-thumb.jpg",
-        "Tags": []
-    },
     "2025-Kot_2-Studio-Azulejo": {
         "DisplayName": "Kot II",
         "DisplayMedium": "Azulejo",
