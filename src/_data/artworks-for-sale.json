@@ -1797,7 +1797,7 @@
         "Depth": null,
         "Year": "2025",
         "Description": null,
-        "Price": null,
+        "Price": 300,
         "Edition": null,
         "Options": null,
         "StockLive": 1,
