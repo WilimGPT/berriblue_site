@@ -530,6 +530,7 @@ function renderCart() {
     const info = document.createElement("div");
     info.className = "cart-item__info";
     info.innerHTML = `<p class="cart-item__name">${item.displayName}</p>
+      ${item.option ? `<p class="cart-item__meta">Option: ${item.option}</p>` : ''}
       <p class="cart-item__meta">Qty: ${item.quantity}</p>`;
 
     const price = document.createElement("span");
@@ -681,7 +682,7 @@ document.getElementById("payBtn").addEventListener("click", () => {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          cart: cart.map(i => ({ id: i.id, quantity: i.quantity, displayName: i.displayName })),
+          cart: cart.map(i => ({ id: i.id, quantity: i.quantity, displayName: i.displayName, ...(i.option && { option: i.option }) })),
           country: contact.country,
           contact,
           marketingConsent,
@@ -700,7 +701,7 @@ document.getElementById("payBtn").addEventListener("click", () => {
           orderId: data.orderID,
           cart: cart.map(i => ({ id: i.id, quantity: i.quantity })),
           contact,
-          lineItems: cart.map(i => ({ id: i.id, displayName: i.displayName, quantity: i.quantity, price: i.price })),
+          lineItems: cart.map(i => ({ id: i.id, displayName: i.displayName, quantity: i.quantity, price: i.price, ...(i.option && { option: i.option }) })),
           shipping: currentShipping,
         }),
       });

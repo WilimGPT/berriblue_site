@@ -149,6 +149,31 @@ permalink: "/for-sale/{{ productKey | lower }}/"
   }
   .go-to-cart-btn:hover { background: #4a8ac5; border-color: #4a8ac5; }
 
+  .product-info__options {
+    margin-bottom: 1rem;
+  }
+  .product-info__options label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.35rem;
+  }
+  .product-info__options select {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    background: #fff;
+  }
+  .product-info__options select:focus { outline: none; border-color: #5b9bd5; }
+  .product-info__options select.is-error { border-color: #cc0000; }
+  .product-info__option-error {
+    font-size: 0.8rem;
+    color: #cc0000;
+    margin: 0.3rem 0 0;
+  }
+
   @media (max-width: 840px) {
     .product-page { grid-template-columns: 1fr; gap: 2rem; }
   }
@@ -177,6 +202,14 @@ permalink: "/for-sale/{{ productKey | lower }}/"
         <div class="product-info__price">{{ product.Price | euroPrice }}</div>
         <div class="product-info__availability" id="availabilityLine">
           <span id="stockCount">{{ product.StockLive }}</span> available
+        </div>
+
+        <div class="product-info__options" id="optionsRow" hidden>
+          <label for="optionSelect">Option:</label>
+          <select id="optionSelect">
+            <option value="">— Choose option —</option>
+          </select>
+          <p class="product-info__option-error" id="optionError" hidden>Please choose an option before adding to cart.</p>
         </div>
 
         <div class="product-info__qty-row" id="qtyRow">
@@ -357,6 +390,27 @@ const PRODUCT_DATA = {
   shipping:      {{ product.Shipping | dump | safe }}
 };
 
+const PRODUCT_OPTIONS = {{ (product.Options or null) | dump | safe }};
+const optionKeys = PRODUCT_OPTIONS
+  ? Object.keys(PRODUCT_OPTIONS).filter(k => k !== 'default').sort()
+  : [];
+
+if (optionKeys.length) {
+  const optionsRow = document.getElementById("optionsRow");
+  const sel = document.getElementById("optionSelect");
+  optionKeys.forEach(k => {
+    const opt = document.createElement("option");
+    opt.value = k;
+    opt.textContent = k;
+    sel.appendChild(opt);
+  });
+  optionsRow.hidden = false;
+  sel.addEventListener("change", () => {
+    sel.classList.remove("is-error");
+    document.getElementById("optionError").hidden = true;
+  });
+}
+
 const addedModal    = document.getElementById("addedModal");
 const addedItemName = document.getElementById("addedItemName");
 
@@ -399,19 +453,34 @@ refreshStockUI();
 })();
 
 document.getElementById("addToBagBtn").addEventListener("click", () => {
+  let selectedOption = null;
+  if (optionKeys.length) {
+    const sel = document.getElementById("optionSelect");
+    selectedOption = sel.value;
+    if (!selectedOption) {
+      sel.classList.add("is-error");
+      document.getElementById("optionError").hidden = false;
+      sel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      return;
+    }
+  }
+
   const qtyIn = document.getElementById("qtyInput");
   const qty = Math.max(1, parseInt(qtyIn.value) || 1);
+  const cartItem = { ...PRODUCT_DATA, quantity: qty };
+  if (selectedOption) cartItem.option = selectedOption;
+
   const cart = readCart();
-  const existing = cart.find(i => i.id === PRODUCT_DATA.id);
+  const existing = cart.find(i => i.id === PRODUCT_DATA.id && i.option === (selectedOption || undefined));
   if (existing) {
     existing.quantity += qty;
   } else {
-    cart.push({ ...PRODUCT_DATA, quantity: qty });
+    cart.push(cartItem);
   }
   writeCart(cart);
   refreshStockUI();
   document.getElementById("goToCartBtn").style.display = "";
-  addedItemName.textContent = PRODUCT_DATA.displayName;
+  addedItemName.textContent = PRODUCT_DATA.displayName + (selectedOption ? ` — Option ${selectedOption}` : "");
   addedModal.style.display = "flex";
 });
 
