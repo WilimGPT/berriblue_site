@@ -1781,40 +1781,6 @@
         "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Pierced-Studio-Azulejo-main-thumb.jpg",
         "Tags": []
     },
-    "2025-Figure_2-Studio-Azulejo": {
-        "DisplayName": "Figure 2",
-        "DisplayMedium": "Azulejo",
-        "Medium": [
-            "azulejo",
-            "ceramic",
-            "azulejos",
-            "tiles",
-            "glaze"
-        ],
-        "Framed": true,
-        "Width": 15,
-        "Height": 30,
-        "Depth": null,
-        "Year": "2025",
-        "Description": null,
-        "Price": 300,
-        "Edition": null,
-        "Options": null,
-        "StockLive": 1,
-        "Stock": 1,
-        "Available": true,
-        "Shipping": {
-            "dhl": {
-                "name": "DHL",
-                "pl": 0,
-                "eu": 15,
-                "region1": 90,
-                "region2": 100
-            }
-        },
-        "SaleThumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2025-Figure_2-Studio-Azulejo-main-thumb.jpg",
-        "Tags": []
-    },
     "2026-Bathtime-Studio-Painting": {
         "DisplayName": "Bathtime",
         "DisplayMedium": "Azulejo, Paint & Pastel on Plywood",
