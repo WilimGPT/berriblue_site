@@ -920,7 +920,7 @@
         "Options": null,
         "StockLive": 1,
         "Stock": 1,
-        "Available": true,
+        "Available": false,
         "Shipping": {
             "dhl": {
                 "name": "DHL",
@@ -954,7 +954,7 @@
         "Options": null,
         "StockLive": 1,
         "Stock": 1,
-        "Available": true,
+        "Available": false,
         "Shipping": {
             "dhl": {
                 "name": "DHL",

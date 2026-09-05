@@ -2967,9 +2967,10 @@
     "City": null,
     "Year": "2023",
     "Description": null,
-    "Sold": false,
+    "Sold": true,
     "Pricelog-Private": null,
     "Private Notes": null,
+    "Meta Description": "Brama — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023.",
     "Media": {
       "main": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Brama-Studio-Azulejo-main.jpg",
       "gallery": [
@@ -2978,8 +2979,7 @@
       ],
       "videos": [],
       "main-thumb": "https://pub-2b0c94f937bb44c498f35bf59b37ff14.r2.dev/berriblue/artworks/studio/2023-Brama-Studio-Azulejo-main-thumb.jpg"
-    },
-    "Meta Description": "Brama — artwork by BerriBlue. Azulejo, 30 x 30cm, 2023."
+    }
   },
   "2023-Burza-Studio-Azulejo": {
     "Category": "Studio",
