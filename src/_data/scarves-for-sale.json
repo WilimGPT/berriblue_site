@@ -8,9 +8,9 @@
     "Year": null,
     "Description": "Bats, bats, bats...\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
     "Price": 55,
-    "StockLive": 1,
-    "Stock": 1,
-    "Available": true,
+    "StockLive": 0,
+    "Stock": 0,
+    "Available": false,
     "Shipping": {
       "dhl scarf": {
         "name": "DHL",
@@ -392,8 +392,8 @@
     "Year": null,
     "Description": "This limited edition silk scarf features artificial joy, set against a bubblegum pink backdrop.\n\nThe scarf is printed on pure habotai silk with hand-rolled hems. It's designed to show off the illustrations whatever way it's worn. Each scarf is inspected and packed by the artist before shipping.",
     "Price": 159,
-    "StockLive": 4,
-    "Stock": 4,
+    "StockLive": 3,
+    "Stock": 3,
     "Available": true,
     "Shipping": {
       "dhl scarf": {
