@@ -1885,8 +1885,8 @@
         "Description": "There are many different versions in this series.\nPlease reach out by email to let me know which one you would like to choose.",
         "Available": true,
         "Price": 200,
-        "Stock": 15,
-        "StockLive": 15,
+        "Stock": 14,
+        "StockLive": 14,
         "Width": 30,
         "Height": 15,
         "Depth": null,
@@ -1914,7 +1914,6 @@
             "default": "01",
             "03": 200,
             "04": 200,
-            "05": 200,
             "07": 200
         }
     }
